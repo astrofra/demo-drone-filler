@@ -49,37 +49,6 @@
 		}
 	},
 	"key_values": null,
-	"lights": [
-		{
-			"diffuse": [
-				255,
-				255,
-				255,
-				255
-			],
-			"diffuse_intensity": 5.0,
-			"inner_angle": 0.5235987901687622,
-			"outer_angle": 0.7853981852531433,
-			"priority": 0.0,
-			"pssm_split": [
-				10.0,
-				50.0,
-				100.0,
-				200.0
-			],
-			"radius": 0.0,
-			"shadow_bias": 9.999999747378752e-05,
-			"shadow_type": "map",
-			"specular": [
-				255,
-				255,
-				255,
-				255
-			],
-			"specular_intensity": 5.0,
-			"type": "linear"
-		}
-	],
 	"nodes": [
 		{
 			"components": [
@@ -91,7 +60,7 @@
 			],
 			"disabled": false,
 			"idx": 0,
-			"name": "temple_gate_000_0"
+			"name": "temple_walls_000_0"
 		},
 		{
 			"components": [
@@ -103,7 +72,7 @@
 			],
 			"disabled": false,
 			"idx": 1,
-			"name": "temple_gate_000_2"
+			"name": "temple_walls_000_2"
 		},
 		{
 			"components": [
@@ -115,19 +84,7 @@
 			],
 			"disabled": false,
 			"idx": 2,
-			"name": "temple_gate_000_1"
-		},
-		{
-			"components": [
-				3,
-				4294967295,
-				4294967295,
-				0,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 3,
-			"name": "Light"
+			"name": "temple_walls_000_1"
 		}
 	],
 	"objects": [
@@ -135,7 +92,7 @@
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_gate_000"
+					"name": "temple_walls_000"
 				}
 			],
 			"materials": [
@@ -200,13 +157,13 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_gate_000/temple_gate_000_0_45.geo"
+			"name": "props/temple_walls_000/temple_walls_000_0_43.geo"
 		},
 		{
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_gate_000"
+					"name": "temple_walls_000"
 				}
 			],
 			"materials": [
@@ -271,13 +228,13 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_gate_000/temple_gate_000_2_46.geo"
+			"name": "props/temple_walls_000/temple_walls_000_2_44.geo"
 		},
 		{
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_gate_000"
+					"name": "temple_walls_000"
 				}
 			],
 			"materials": [
@@ -342,14 +299,14 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_gate_000/temple_gate_000_1_47.geo"
+			"name": "props/temple_walls_000/temple_walls_000_1_45.geo"
 		}
 	],
 	"scene_anims": [
 		{
 			"anim": 4294967295,
 			"frame_duration": 50000000,
-			"name": "temple_gate_000",
+			"name": "temple_walls_000",
 			"node_anims": null,
 			"t_end": 3333000000,
 			"t_start": 0
@@ -359,12 +316,12 @@
 		{
 			"parent": null,
 			"pos": [
-				0.0,
+				-15.0,
 				0.0,
 				0.0
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				-7.016708279672639e-15,
 				0.0,
 				0.0
 			],
@@ -377,30 +334,12 @@
 		{
 			"parent": null,
 			"pos": [
-				-20.0,
+				15.0,
 				0.0,
 				0.0
 			],
 			"rot": [
-				-7.0167078561561656e-15,
-				0.0,
-				0.0
-			],
-			"scl": [
-				1.0,
-				1.0,
-				1.0
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				20.0,
-				0.0,
-				0.0
-			],
-			"rot": [
-				-7.0167078561561656e-15,
+				-7.016708279672639e-15,
 				0.0,
 				0.0
 			],
@@ -418,8 +357,8 @@
 				0.0
 			],
 			"rot": [
-				54.999996185302734,
-				74.99999237060547,
+				-7.016708279672639e-15,
+				0.0,
 				0.0
 			],
 			"scl": [
