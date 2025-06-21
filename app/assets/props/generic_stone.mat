@@ -16,6 +16,11 @@
 			"stage": 2
 		},
 		{
+			"name": "uOcclusionRoughnessMetalnessMap",
+			"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+			"stage": 1
+		},
+		{
 			"name": "uSelfMap",
 			"stage": 4
 		}

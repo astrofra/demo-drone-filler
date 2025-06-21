@@ -157,6 +157,11 @@
 							"stage": 2
 						},
 						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
 							"name": "uSelfMap",
 							"stage": 4
 						}
@@ -228,6 +233,11 @@
 							"stage": 2
 						},
 						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
 							"name": "uSelfMap",
 							"stage": 4
 						}
@@ -297,6 +307,11 @@
 							"name": "uNormalMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_normal.png",
 							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
 						},
 						{
 							"name": "uSelfMap",
@@ -418,8 +433,8 @@
 				0.0
 			],
 			"rot": [
-				54.999996185302734,
-				74.99999237060547,
+				54.99999237060547,
+				74.99998474121094,
 				0.0
 			],
 			"scl": [
