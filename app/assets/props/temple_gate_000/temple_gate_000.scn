@@ -147,6 +147,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_gate_000/temple_gate_000_0_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -167,6 +172,16 @@
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								2.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -223,6 +238,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_gate_000/temple_gate_000_2_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -243,6 +263,16 @@
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								2.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -299,6 +329,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_gate_000/temple_gate_000_1_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -319,6 +354,16 @@
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
+								1.0,
+								2.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -433,8 +478,8 @@
 				0.0
 			],
 			"rot": [
-				54.99999237060547,
-				74.99998474121094,
+				54.9999885559082,
+				74.9999771118164,
 				0.0
 			],
 			"scl": [

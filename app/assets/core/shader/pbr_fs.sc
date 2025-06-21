@@ -7,12 +7,18 @@ $input vWorldPos, vNormal, vTangent, vBinormal, vTexCoord0, vTexCoord1, vLinearS
 uniform vec4 uBaseOpacityColor;
 uniform vec4 uOcclusionRoughnessMetalnessColor;
 uniform vec4 uSelfColor;
+uniform vec4 uAmbient; // x, y: min, max / z : pow
 
 // Texture slots
 SAMPLER2D(uBaseOpacityMap, 0);
 SAMPLER2D(uOcclusionRoughnessMetalnessMap, 1);
 SAMPLER2D(uNormalMap, 2);
 SAMPLER2D(uSelfMap, 4);
+SAMPLER2D(uAmbientMap, 6);
+
+float map(float value, float min1, float max1, float min2, float max2) {
+  return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
+}
 
 //
 float LightAttenuation(vec3 L, vec3 D, float dist, float attn, float inner_rim, float outer_rim) {
@@ -137,6 +143,16 @@ void main() {
 #else // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
 	vec4 occ_rough_metal = uOcclusionRoughnessMetalnessColor;
 #endif // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
+
+// Optional secondary occlusion, always needing a second set of UV (UV1)
+#if USE_AMBIENT_MAP
+	float occ_2 = texture2D(uAmbientMap, vTexCoord0).x;
+	// Compress the range
+	occ_2 = map(occ_2, uAmbient.x, uAmbient.y, 0.0, 1.0);
+	occ_2 = clamp(occ_2, 0.0, 1.0);
+	occ_2 = pow(occ_2, uAmbient.z);
+	occ_rough_metal.x *= occ_2;
+#endif
 
 	//
 #if USE_SELF_MAP
