@@ -128,6 +128,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_stairs_000/temple_stairs_000_1_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -138,11 +143,26 @@
 							"stage": 2
 						},
 						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
 							"name": "uSelfMap",
 							"stage": 4
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.5,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -199,6 +219,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_stairs_000/temple_stairs_000_4_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -209,11 +234,26 @@
 							"stage": 2
 						},
 						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
 							"name": "uSelfMap",
 							"stage": 4
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.5,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -270,6 +310,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_stairs_000/temple_stairs_000_0_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -280,11 +325,26 @@
 							"stage": 2
 						},
 						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
 							"name": "uSelfMap",
 							"stage": 4
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								2.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -341,6 +401,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_stairs_000/temple_stairs_000_2_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -351,11 +416,26 @@
 							"stage": 2
 						},
 						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
 							"name": "uSelfMap",
 							"stage": 4
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								2.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -412,6 +492,11 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
+							"name": "uAmbientMap",
+							"path": "props/temple_stairs_000/temple_stairs_000_3_ao.png",
+							"stage": 6
+						},
+						{
 							"name": "uBaseOpacityMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
 							"stage": 0
@@ -422,11 +507,26 @@
 							"stage": 2
 						},
 						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
 							"name": "uSelfMap",
 							"stage": 4
 						}
 					],
 					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								2.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -487,7 +587,7 @@
 				0.0
 			],
 			"rot": [
-				-7.016708279672639e-15,
+				-7.0167078561561656e-15,
 				0.0,
 				0.0
 			],
@@ -505,7 +605,7 @@
 				0.0
 			],
 			"rot": [
-				-7.016708279672639e-15,
+				-7.0167078561561656e-15,
 				0.0,
 				0.0
 			],
@@ -523,7 +623,7 @@
 				0.0
 			],
 			"rot": [
-				-7.016708279672639e-15,
+				-7.0167078561561656e-15,
 				0.0,
 				0.0
 			],
@@ -541,7 +641,7 @@
 				0.0
 			],
 			"rot": [
-				-7.016708279672639e-15,
+				-7.0167078561561656e-15,
 				0.0,
 				0.0
 			],
@@ -559,7 +659,7 @@
 				0.0
 			],
 			"rot": [
-				-7.016708279672639e-15,
+				-7.0167078561561656e-15,
 				0.0,
 				0.0
 			],
