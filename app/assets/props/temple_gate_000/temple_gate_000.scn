@@ -119,6 +119,18 @@
 		},
 		{
 			"components": [
+				4,
+				4294967295,
+				3,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 4,
+			"name": "plane"
+		},
+		{
+			"components": [
 				3,
 				4294967295,
 				4294967295,
@@ -126,7 +138,7 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 3,
+			"idx": 5,
 			"name": "Light"
 		}
 	],
@@ -403,6 +415,81 @@
 				}
 			],
 			"name": "props/temple_gate_000/temple_gate_000_1_47.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.025316476821899414,
+								0.025316476821899414,
+								0.025316476821899414,
+								1.0
+							]
+						},
+						{
+							"name": "uDiffuseColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.9459999799728394,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSpecularColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								0.03124999813735485
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/plane.geo"
 		}
 	],
 	"scene_anims": [
@@ -479,13 +566,31 @@
 			],
 			"rot": [
 				54.9999885559082,
-				74.9999771118164,
+				134.96556091308594,
 				0.0
 			],
 			"scl": [
 				1.0,
-				1.0,
+				0.9999999403953552,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				100.0,
+				100.0,
+				100.0
 			]
 		}
 	]

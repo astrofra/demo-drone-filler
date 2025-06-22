@@ -13,7 +13,9 @@
 					0,
 					1,
 					2,
-					3
+					3,
+					4,
+					5
 				]
 			},
 			"node_sort_method": "custom",
@@ -35,7 +37,7 @@
 			"turbo": 1.0
 		},
 		"transform_gizmo_plugin": {
-			"mode": "local",
+			"mode": "global",
 			"snap": "none",
 			"snap_rotation": 5.0,
 			"snap_rotation_fine": 1.0,
@@ -43,7 +45,7 @@
 			"snap_scale_fine": 1.0,
 			"snap_translation": 1.0,
 			"snap_translation_fine": 0.10000000149011612,
-			"tool": "move"
+			"tool": "rotation"
 		},
 		"view_plugin": {
 			"show_cameras": true,
@@ -123,15 +125,15 @@
 				0.8118932247161865,
 				0.19700725376605988,
 				0.5495673418045044,
-				-8.652955055236816,
+				-24.873682022094727,
 				0.0,
 				0.9413473010063171,
 				-0.3374503552913666,
-				10.563210487365723,
+				6.6682024002075195,
 				-0.5838109254837036,
 				0.2739730775356293,
 				0.7642741799354553,
-				-18.958707809448242
+				-9.0145902633667
 			],
 			"perspective_fov": 0.6361724734306335,
 			"perspective_zrange": {

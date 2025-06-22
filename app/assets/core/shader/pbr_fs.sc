@@ -144,7 +144,7 @@ void main() {
 	vec4 occ_rough_metal = uOcclusionRoughnessMetalnessColor;
 #endif // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
 
-// Optional secondary occlusion, always needing a second set of UV (UV1)
+// Optional secondary occlusion, not needing a second set of UV (UV1)
 #if USE_AMBIENT_MAP
 	float occ_2 = texture2D(uAmbientMap, vTexCoord0).x;
 	// Compress the range
