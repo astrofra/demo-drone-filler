@@ -27,14 +27,14 @@
 		"fog_far": 0.0,
 		"fog_near": 0.0,
 		"probe": {
-			"irradiance_map": "core/pbr/probe.hdr.irradiance",
+			"irradiance_map": "probes/belfast_sunset_puresky_2k.hdr.irradiance",
 			"parallax": 0.0,
 			"pos": [
 				0.0,
 				0.0,
 				0.0
 			],
-			"radiance_map": "core/pbr/probe.hdr.radiance",
+			"radiance_map": "probes/belfast_sunset_puresky_2k.hdr.radiance",
 			"rot": [
 				0.0,
 				0.0,
@@ -53,8 +53,8 @@
 		{
 			"diffuse": [
 				255,
-				255,
-				255,
+				234,
+				158,
 				255
 			],
 			"diffuse_intensity": 5.0,
@@ -72,8 +72,8 @@
 			"shadow_type": "map",
 			"specular": [
 				255,
-				255,
-				255,
+				234,
+				158,
 				255
 			],
 			"specular_intensity": 5.0,
@@ -126,7 +126,7 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 4,
+			"idx": 3,
 			"name": "plane"
 		},
 		{
@@ -138,8 +138,20 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 5,
+			"idx": 4,
 			"name": "Light"
+		},
+		{
+			"components": [
+				5,
+				4294967295,
+				4,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 5,
+			"name": "sphere"
 		}
 	],
 	"objects": [
@@ -490,6 +502,81 @@
 				}
 			],
 			"name": "common/primitives/plane.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.16877639293670654,
+								0.16877470910549164,
+								0.16877470910549164,
+								1.0
+							]
+						},
+						{
+							"name": "uDiffuseColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSpecularColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								0.03124999813735485
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/sphere.geo"
 		}
 	],
 	"scene_anims": [
@@ -560,19 +647,19 @@
 		{
 			"parent": null,
 			"pos": [
+				19.903785705566406,
 				0.0,
-				0.0,
-				0.0
+				-3.7915899753570557
 			],
 			"rot": [
-				54.9999885559082,
-				134.96556091308594,
-				0.0
+				27.41480255126953,
+				-105.12366485595703,
+				12.78408432006836
 			],
 			"scl": [
-				1.0,
-				0.9999999403953552,
-				1.0
+				0.9999996423721313,
+				0.9999997019767761,
+				0.9999998807907104
 			]
 		},
 		{
@@ -591,6 +678,24 @@
 				100.0,
 				100.0,
 				100.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				19.330781936645508,
+				0.5018763542175293,
+				-3.6441383361816406
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
 			]
 		}
 	]
