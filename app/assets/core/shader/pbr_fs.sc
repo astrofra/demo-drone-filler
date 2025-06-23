@@ -8,6 +8,7 @@ uniform vec4 uBaseOpacityColor;
 uniform vec4 uOcclusionRoughnessMetalnessColor;
 uniform vec4 uSelfColor;
 uniform vec4 uAmbient; // x, y: min, max / z : pow
+uniform vec4 uParallax;
 
 // Texture slots
 SAMPLER2D(uBaseOpacityMap, 0);
@@ -15,6 +16,7 @@ SAMPLER2D(uOcclusionRoughnessMetalnessMap, 1);
 SAMPLER2D(uNormalMap, 2);
 SAMPLER2D(uSelfMap, 4);
 SAMPLER2D(uAmbientMap, 6);
+SAMPLER2D(uReflectionMap, 7);
 
 float map(float value, float min1, float max1, float min2, float max2) {
   return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
@@ -151,11 +153,17 @@ void main() {
 	vec3 V_tangent = normalize(mul(V, TBN));
 
 	// Sample height from normal map alpha channel
-	float height = texture2D(uBaseOpacityMap, vTexCoord0).x;
+	float height = 0.0;
+#if USE_REFLECTION_MAP
+	height = texture2D(uReflectionMap, vTexCoord0).x;
+#else
+	vec3 height3 = texture2D(uBaseOpacityMap, vTexCoord0).xyz;
+	height = (height3.x + height3.y + height3.z) * 0.3333333;
+#endif
 
 	// Height is inverted for parallax mapping (0 = high, 1 = low)
-	float height_scale = 0.015; // uParam.w; // New param: parallax scale, typically ~0.04
-	float parallax_offset = (height - 0.5) * height_scale;
+	float height_scale = uParallax.x; // New param: parallax scale, typically ~0.04
+	float parallax_offset = (height - uParallax.y) * height_scale;
 
 // Offset UVs in tangent space, ignore vertical component
 	vec2 offset_uv = vTexCoord0 + parallax_offset * V_tangent.xy;
