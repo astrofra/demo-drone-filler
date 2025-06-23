@@ -1,0 +1,96 @@
+{
+	"blend_mode": "opaque",
+	"depth_test": "less",
+	"face_culling": "cw",
+	"flags": [],
+	"program": "core/shader/prlxpbr.hps",
+	"textures": [
+		{
+			"name": "uBaseOpacityMap",
+			"path": "common/maps/Ground048_4K-PNG_Color.png",
+			"stage": 0
+		},
+		{
+			"name": "uNormalMap",
+			"path": "common/maps/Ground048_4K-PNG_NormalDX.png",
+			"stage": 2
+		},
+		{
+			"name": "uOcclusionRoughnessMetalnessMap",
+			"path": "common/maps/Ground048_4K-PNG_orm.png",
+			"stage": 1
+		},
+		{
+			"name": "uReflectionMap",
+			"path": "common/maps/Ground048_4K-PNG_Displacement.png",
+			"stage": 7
+		}
+	],
+	"values": [
+		{
+			"name": "uBaseOpacityColor",
+			"type": "vec4",
+			"value": [
+				0.025316476821899414,
+				0.025316476821899414,
+				0.025316476821899414,
+				1.0
+			]
+		},
+		{
+			"name": "uORMg",
+			"type": "vec4",
+			"value": [
+				0.0,
+				0.800000011920929,
+				0.4000000059604645,
+				0.0
+			]
+		},
+		{
+			"name": "uORMr",
+			"type": "vec4",
+			"value": [
+				0.20000000298023224,
+				1.0,
+				1.0,
+				0.0
+			]
+		},
+		{
+			"name": "uOcclusionRoughnessMetalnessColor",
+			"type": "vec4",
+			"value": [
+				1.0,
+				1.0,
+				0.0,
+				1.0
+			]
+		},
+		{
+			"name": "uParallax",
+			"type": "vec4",
+			"value": [
+				0.014999999664723873,
+				0.5,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"name": "uSelfColor",
+			"type": "vec4",
+			"value": [
+				0.0,
+				0.0,
+				0.0,
+				-1.0
+			]
+		}
+	],
+	"write_a": true,
+	"write_b": true,
+	"write_g": true,
+	"write_r": true,
+	"write_z": true
+}

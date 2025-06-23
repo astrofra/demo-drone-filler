@@ -1,0 +1,95 @@
+{
+	"blend_mode": "opaque",
+	"depth_test": "less",
+	"face_culling": "cw",
+	"flags": [],
+	"program": "core/shader/prlxpbr.hps",
+	"textures": [
+		{
+			"name": "uAmbientMap",
+			"path": "props/temple_gate_000/temple_gate_000_2_ao.png",
+			"stage": 6
+		},
+		{
+			"name": "uBaseOpacityMap",
+			"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
+			"stage": 0
+		},
+		{
+			"name": "uNormalMap",
+			"path": "props/maps/KB3D_SOL_StoneStructureA_normal.png",
+			"stage": 2
+		},
+		{
+			"name": "uOcclusionRoughnessMetalnessMap",
+			"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+			"stage": 1
+		},
+		{
+			"name": "uReflectionMap",
+			"path": "props/maps/KB3D_SOL_StoneStructureA_height.png",
+			"stage": 7
+		},
+		{
+			"name": "uSelfMap",
+			"stage": 4
+		}
+	],
+	"values": [
+		{
+			"name": "uAmbient",
+			"type": "vec4",
+			"value": [
+				0.20000000298023224,
+				1.0,
+				2.0,
+				0.0
+			]
+		},
+		{
+			"name": "uBaseOpacityColor",
+			"type": "vec4",
+			"value": [
+				0.5,
+				0.5,
+				0.5,
+				1.0
+			]
+		},
+		{
+			"name": "uOcclusionRoughnessMetalnessColor",
+			"type": "vec4",
+			"value": [
+				1.0,
+				0.5,
+				0.25,
+				0.0
+			]
+		},
+		{
+			"name": "uParallax",
+			"type": "vec4",
+			"value": [
+				0.05000000074505806,
+				0.5,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"name": "uSelfColor",
+			"type": "vec4",
+			"value": [
+				0.0,
+				0.0,
+				0.0,
+				-1.0
+			]
+		}
+	],
+	"write_a": true,
+	"write_b": true,
+	"write_g": true,
+	"write_r": true,
+	"write_z": true
+}

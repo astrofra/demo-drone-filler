@@ -7,6 +7,9 @@ $input vWorldPos, vNormal, vTangent, vBinormal, vTexCoord0, vTexCoord1, vLinearS
 uniform vec4 uBaseOpacityColor;
 uniform vec4 uOcclusionRoughnessMetalnessColor;
 uniform vec4 uSelfColor;
+uniform vec4 uORMr; // x, y: min, max / z : pow
+uniform vec4 uORMg; // x, y: min, max / z : pow
+uniform vec4 uORMb; // x, y: min, max / z : pow
 uniform vec4 uAmbient; // x, y: min, max / z : pow
 uniform vec4 uParallax;
 
@@ -184,6 +187,22 @@ void main() {
 #else // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
 	vec4 occ_rough_metal = uOcclusionRoughnessMetalnessColor;
 #endif // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
+
+// Compress the ORM ranges
+// - Occlusion
+occ_rough_metal.x = map(occ_rough_metal.x, uORMr.x, uORMr.y, 0.0, 1.0);
+occ_rough_metal.x = clamp(occ_rough_metal.x, 0.0, 1.0);
+occ_rough_metal.x = pow(occ_rough_metal.x, uORMr.z);
+
+// - Roughness
+occ_rough_metal.y = map(occ_rough_metal.y, uORMg.x, uORMg.y, 0.0, 1.0);
+occ_rough_metal.y = clamp(occ_rough_metal.y, 0.0, 1.0);
+occ_rough_metal.y = pow(occ_rough_metal.y, uORMg.z);
+
+// - Metalness
+occ_rough_metal.z = map(occ_rough_metal.z, uORMb.x, uORMb.y, 0.0, 1.0);
+occ_rough_metal.z = clamp(occ_rough_metal.z, 0.0, 1.0);
+occ_rough_metal.z = pow(occ_rough_metal.z, uORMb.z);
 
 // Optional secondary occlusion, not needing a second set of UV (UV1)
 #if USE_AMBIENT_MAP

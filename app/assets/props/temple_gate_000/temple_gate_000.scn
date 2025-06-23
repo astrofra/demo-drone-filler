@@ -3,9 +3,9 @@
 		"clear_color": true,
 		"clear_z": true,
 		"color": [
-			0,
-			0,
-			0,
+			45,
+			45,
+			45,
 			255
 		]
 	},
@@ -48,6 +48,32 @@
 			"type": "sphere"
 		}
 	},
+	"instances": [
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		}
+	],
 	"key_values": null,
 	"lights": [
 		{
@@ -152,6 +178,170 @@
 			"disabled": false,
 			"idx": 5,
 			"name": "sphere"
+		},
+		{
+			"components": [
+				6,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 6,
+			"instance": 0,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				7,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 7,
+			"instance": 1,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				8,
+				4294967295,
+				5,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 8,
+			"name": "plane"
+		},
+		{
+			"components": [
+				9,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 9,
+			"instance": 2,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				10,
+				4294967295,
+				6,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 10,
+			"name": "plane"
+		},
+		{
+			"components": [
+				11,
+				4294967295,
+				7,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 11,
+			"name": "plane"
+		},
+		{
+			"components": [
+				12,
+				4294967295,
+				8,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 12,
+			"name": "plane"
+		},
+		{
+			"components": [
+				13,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 13,
+			"instance": 3,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				14,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 14,
+			"instance": 4,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				15,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 15,
+			"instance": 5,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				16,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 22,
+			"instance": 7,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				17,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 24,
+			"instance": 6,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				18,
+				4294967295,
+				9,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 26,
+			"name": "plane"
 		}
 	],
 	"objects": [
@@ -168,7 +358,7 @@
 					"depth_test": "less",
 					"face_culling": "cw",
 					"flags": [],
-					"program": "core/shader/pbr.hps",
+					"program": "core/shader/prlxpbr.hps",
 					"textures": [
 						{
 							"name": "uAmbientMap",
@@ -189,6 +379,11 @@
 							"name": "uOcclusionRoughnessMetalnessMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
 							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_height.png",
+							"stage": 7
 						},
 						{
 							"name": "uSelfMap",
@@ -223,6 +418,16 @@
 								1.0,
 								0.5,
 								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.014999999664723873,
+								0.5,
+								0.0,
 								0.0
 							]
 						},
@@ -259,7 +464,7 @@
 					"depth_test": "less",
 					"face_culling": "cw",
 					"flags": [],
-					"program": "core/shader/pbr.hps",
+					"program": "core/shader/prlxpbr.hps",
 					"textures": [
 						{
 							"name": "uAmbientMap",
@@ -280,6 +485,11 @@
 							"name": "uOcclusionRoughnessMetalnessMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
 							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_height.png",
+							"stage": 7
 						},
 						{
 							"name": "uSelfMap",
@@ -318,6 +528,16 @@
 							]
 						},
 						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.05000000074505806,
+								0.5,
+								0.0,
+								0.0
+							]
+						},
+						{
 							"name": "uSelfColor",
 							"type": "vec4",
 							"value": [
@@ -350,7 +570,7 @@
 					"depth_test": "less",
 					"face_culling": "cw",
 					"flags": [],
-					"program": "core/shader/pbr.hps",
+					"program": "core/shader/prlxpbr.hps",
 					"textures": [
 						{
 							"name": "uAmbientMap",
@@ -371,6 +591,11 @@
 							"name": "uOcclusionRoughnessMetalnessMap",
 							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
 							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_height.png",
+							"stage": 7
 						},
 						{
 							"name": "uSelfMap",
@@ -399,12 +624,32 @@
 							]
 						},
 						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.925000011920929,
+								0.75,
+								0.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
 								0.5,
 								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.05000000074505806,
+								0.5,
+								0.0,
 								0.0
 							]
 						},
@@ -441,7 +686,29 @@
 					"depth_test": "less",
 					"face_culling": "cw",
 					"flags": [],
-					"program": "core/shader/pbr.hps",
+					"program": "core/shader/prlxpbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "common/maps/Ground048_4K-PNG_Color.png",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "common/maps/Ground048_4K-PNG_NormalDX.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "common/maps/Ground048_4K-PNG_orm.png",
+							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "common/maps/Ground048_4K-PNG_Displacement.png",
+							"stage": 7
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -454,13 +721,23 @@
 							]
 						},
 						{
-							"name": "uDiffuseColor",
+							"name": "uORMg",
 							"type": "vec4",
 							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
+								0.0,
+								0.800000011920929,
+								0.4000000059604645,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.0,
+								0.0
 							]
 						},
 						{
@@ -468,9 +745,19 @@
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.9459999799728394,
+								1.0,
 								0.0,
 								1.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.014999999664723873,
+								0.5,
+								0.0,
+								0.0
 							]
 						},
 						{
@@ -481,16 +768,6 @@
 								0.0,
 								0.0,
 								-1.0
-							]
-						},
-						{
-							"name": "uSpecularColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								0.03124999813735485
 							]
 						}
 					],
@@ -577,6 +854,541 @@
 				}
 			],
 			"name": "common/primitives/sphere.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/prlxpbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "common/maps/Ground048_4K-PNG_Color.png",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "common/maps/Ground048_4K-PNG_NormalDX.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "common/maps/Ground048_4K-PNG_orm.png",
+							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "common/maps/Ground048_4K-PNG_Displacement.png",
+							"stage": 7
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.025316476821899414,
+								0.025316476821899414,
+								0.025316476821899414,
+								1.0
+							]
+						},
+						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.800000011920929,
+								0.4000000059604645,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.0,
+								0.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.014999999664723873,
+								0.5,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/plane.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/prlxpbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "common/maps/Ground048_4K-PNG_Color.png",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "common/maps/Ground048_4K-PNG_NormalDX.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "common/maps/Ground048_4K-PNG_orm.png",
+							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "common/maps/Ground048_4K-PNG_Displacement.png",
+							"stage": 7
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.025316476821899414,
+								0.025316476821899414,
+								0.025316476821899414,
+								1.0
+							]
+						},
+						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.800000011920929,
+								0.4000000059604645,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.0,
+								0.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.014999999664723873,
+								0.5,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/plane.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/prlxpbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "common/maps/Ground048_4K-PNG_Color.png",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "common/maps/Ground048_4K-PNG_NormalDX.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "common/maps/Ground048_4K-PNG_orm.png",
+							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "common/maps/Ground048_4K-PNG_Displacement.png",
+							"stage": 7
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.025316476821899414,
+								0.025316476821899414,
+								0.025316476821899414,
+								1.0
+							]
+						},
+						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.800000011920929,
+								0.4000000059604645,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.0,
+								0.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.014999999664723873,
+								0.5,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/plane.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/prlxpbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "common/maps/Ground048_4K-PNG_Color.png",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "common/maps/Ground048_4K-PNG_NormalDX.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "common/maps/Ground048_4K-PNG_orm.png",
+							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "common/maps/Ground048_4K-PNG_Displacement.png",
+							"stage": 7
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.025316476821899414,
+								0.025316476821899414,
+								0.025316476821899414,
+								1.0
+							]
+						},
+						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.800000011920929,
+								0.4000000059604645,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.0,
+								0.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.014999999664723873,
+								0.5,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/plane.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/prlxpbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "common/maps/Ground048_4K-PNG_Color.png",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "common/maps/Ground048_4K-PNG_NormalDX.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "common/maps/Ground048_4K-PNG_orm.png",
+							"stage": 1
+						},
+						{
+							"name": "uReflectionMap",
+							"path": "common/maps/Ground048_4K-PNG_Displacement.png",
+							"stage": 7
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.025316476821899414,
+								0.025316476821899414,
+								0.025316476821899414,
+								1.0
+							]
+						},
+						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.800000011920929,
+								0.4000000059604645,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								1.0,
+								0.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.014999999664723873,
+								0.5,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/plane.geo"
 		}
 	],
 	"scene_anims": [
@@ -652,9 +1464,9 @@
 				-3.7915899753570557
 			],
 			"rot": [
-				27.41480255126953,
+				27.414794921875,
 				-105.12366485595703,
-				12.78408432006836
+				12.784080505371094
 			],
 			"scl": [
 				0.9999996423721313,
@@ -675,9 +1487,9 @@
 				0.0
 			],
 			"scl": [
-				100.0,
-				100.0,
-				100.0
+				10.0,
+				10.0,
+				10.0
 			]
 		},
 		{
@@ -696,6 +1508,240 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				-1.3723526000976563,
+				0.009999999776482582,
+				-0.025726601481437683
+			],
+			"rot": [
+				7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.5,
+				2.0,
+				2.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				1.3652076721191406,
+				0.009999999776482582,
+				-0.025726601481437683
+			],
+			"rot": [
+				7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.5,
+				2.0,
+				2.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				10.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				10.0,
+				10.0,
+				10.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.009999999776482582,
+				1.2246465837514688e-18
+			],
+			"rot": [
+				7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				4.0,
+				1.0,
+				3.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				20.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				10.0,
+				10.0,
+				10.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-10.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				10.0,
+				10.0,
+				10.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-20.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				10.0,
+				10.0,
+				10.0
+			]
+		},
+		{
+			"parent": 1,
+			"pos": [
+				0.0,
+				0.009999999776482582,
+				0.0
+			],
+			"rot": [
+				1.4033415712312331e-14,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.527120590209961,
+				4.0,
+				8.646334648132324
+			]
+		},
+		{
+			"parent": 1,
+			"pos": [
+				0.0,
+				0.009999999776482582,
+				1.2246465837514688e-18
+			],
+			"rot": [
+				7.016708279672639e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				8.245741844177246,
+				1.0,
+				10.211877822875977
+			]
+		},
+		{
+			"parent": 1,
+			"pos": [
+				0.0,
+				0.009999999776482582,
+				-1.7575808763504028
+			],
+			"rot": [
+				1.4033412324180542e-14,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.527120590209961,
+				4.0,
+				4.133642196655273
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.009999999776482582,
+				0.0
+			],
+			"rot": [
+				7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				9.86923599243164,
+				2.0,
+				1.7103242874145508
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				-3.490213394165039,
+				0.009999999776482582,
+				0.2564290761947632
+			],
+			"rot": [
+				7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.2966396808624268,
+				2.0,
+				2.2886674404144287
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				20.0,
+				0.0,
+				-10.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				10.0,
+				10.0,
+				10.0
 			]
 		}
 	]
