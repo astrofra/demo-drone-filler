@@ -1,8 +1,7 @@
 {
-	"features": ["OptionalBaseColorOpacityMap", "OptionalOcclusionRoughnessMetalnessMap", "OptionalNormalMap", "OptionalSelfMap", "OptionalAlphaCut", "OptionalAmbientMap", "OptionalSkinning", "OptionalReflectionMap"],
+	"features": ["OptionalBaseColorOpacityMap", "OptionalOcclusionRoughnessMetalnessMap", "OptionalNormalMap", "OptionalSelfMap", "OptionalAlphaCut", "OptionalAmbientMap", "OptionalSkinning"],
 	"uniforms": [
-		{"name": "uAmbient", "type": "Vec4", "value": [0.0, 1.0, 1.0, 0.0]},
-		{"name": "uParallax", "type": "Vec4", "value": [0.015, 0.5, 0.0, 0.0]}
+		{"name": "uAmbient", "type": "Vec4", "value": [0.0, 1.0, 1.0, 0.0]}
 	]
 
 }

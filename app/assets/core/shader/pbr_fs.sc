@@ -8,7 +8,6 @@ uniform vec4 uBaseOpacityColor;
 uniform vec4 uOcclusionRoughnessMetalnessColor;
 uniform vec4 uSelfColor;
 uniform vec4 uAmbient; // x, y: min, max / z : pow
-uniform vec4 uParallax;
 
 // Texture slots
 SAMPLER2D(uBaseOpacityMap, 0);
@@ -16,7 +15,6 @@ SAMPLER2D(uOcclusionRoughnessMetalnessMap, 1);
 SAMPLER2D(uNormalMap, 2);
 SAMPLER2D(uSelfMap, 4);
 SAMPLER2D(uAmbientMap, 6);
-SAMPLER2D(uReflectionMap, 7);
 
 float map(float value, float min1, float max1, float min2, float max2) {
   return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
@@ -132,47 +130,8 @@ vec3 DistanceFog(vec3 pos, vec3 color) {
 // Entry point of the forward pipeline default uber shader (Phong and PBR)
 void main() {
 	//
-
-	vec3 view = mul(u_view, vec4(vWorldPos, 1.0)).xyz;
-	vec3 P = vWorldPos; // fragment world pos
-	vec3 V = normalize(GetT(u_invView) - P); // world space view vector
-	vec3 N = sign(dot(V, vNormal)) * normalize(vNormal); // geometry normal
-	vec3 T;
-	vec3 B;
-	mat3 TBN;
-
-#if USE_NORMAL_MAP
-	// Compute tangent space view vector
-	T = normalize(vTangent);
-	B = normalize(vBinormal);
-	// TBN = mtxFromRows(T, B, normalize(vNormal));
-	// vec3 V_tangent = normalize(mul(V, TBN));
-	// TBN = transpose(mat3(T, B, N));
-	TBN = mat3(T, B, N);
-	// vec3 V_tangent = normalize(mul(TBN, V));
-	vec3 V_tangent = normalize(mul(V, TBN));
-
-	// Sample height from normal map alpha channel
-	float height = 0.0;
-#if USE_REFLECTION_MAP
-	height = texture2D(uReflectionMap, vTexCoord0).x;
-#else
-	vec3 height3 = texture2D(uBaseOpacityMap, vTexCoord0).xyz;
-	height = (height3.x + height3.y + height3.z) * 0.3333333;
-#endif
-
-	// Height is inverted for parallax mapping (0 = high, 1 = low)
-	float height_scale = uParallax.x; // New param: parallax scale, typically ~0.04
-	float parallax_offset = (height - uParallax.y) * height_scale;
-
-// Offset UVs in tangent space, ignore vertical component
-	vec2 offset_uv = vTexCoord0 + parallax_offset * V_tangent.xy;
-#else
-	vec2 offset_uv = vTexCoord0;
-#endif
-
 #if USE_BASE_COLOR_OPACITY_MAP
-	vec4 base_opacity = texture2D(uBaseOpacityMap, offset_uv);
+	vec4 base_opacity = texture2D(uBaseOpacityMap, vTexCoord0);
 	base_opacity.xyz = sRGB2linear(base_opacity.xyz);
 #else // USE_BASE_COLOR_OPACITY_MAP
 	vec4 base_opacity = uBaseOpacityColor;
@@ -180,14 +139,14 @@ void main() {
 
 #if DEPTH_ONLY != 1
 #if USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
-	vec4 occ_rough_metal = texture2D(uOcclusionRoughnessMetalnessMap, offset_uv);
+	vec4 occ_rough_metal = texture2D(uOcclusionRoughnessMetalnessMap, vTexCoord0);
 #else // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
 	vec4 occ_rough_metal = uOcclusionRoughnessMetalnessColor;
 #endif // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
 
 // Optional secondary occlusion, not needing a second set of UV (UV1)
 #if USE_AMBIENT_MAP
-	float occ_2 = texture2D(uAmbientMap, offset_uv).x;
+	float occ_2 = texture2D(uAmbientMap, vTexCoord0).x;
 	// Compress the range
 	occ_2 = map(occ_2, uAmbient.x, uAmbient.y, 0.0, 1.0);
 	occ_2 = clamp(occ_2, 0.0, 1.0);
@@ -197,18 +156,24 @@ void main() {
 
 	//
 #if USE_SELF_MAP
-	vec4 self = texture2D(uSelfMap, offset_uv);
+	vec4 self = texture2D(uSelfMap, vTexCoord0);
 #else // USE_SELF_MAP
 	vec4 self = uSelfColor;
 #endif // USE_SELF_MAP
 
+	//
+	vec3 view = mul(u_view, vec4(vWorldPos, 1.0)).xyz;
+	vec3 P = vWorldPos; // fragment world pos
+	vec3 V = normalize(GetT(u_invView) - P); // world space view vector
+	vec3 N = sign(dot(V, vNormal)) * normalize(vNormal); // geometry normal
+
 #if USE_NORMAL_MAP
-	T = normalize(vTangent);
-	B = normalize(vBinormal);
+	vec3 T = normalize(vTangent);
+	vec3 B = normalize(vBinormal);
 
-	TBN = mtxFromRows(T, B, N);
+	mat3 TBN = mtxFromRows(T, B, N);
 
-	N.xy = texture2D(uNormalMap, offset_uv).xy * 2.0 - 1.0;
+	N.xy = texture2D(uNormalMap, vTexCoord0).xy * 2.0 - 1.0;
 	N.z = sqrt(1.0 - dot(N.xy, N.xy));
 	N = normalize(mul(N, TBN));
 #endif // USE_NORMAL_MAP
