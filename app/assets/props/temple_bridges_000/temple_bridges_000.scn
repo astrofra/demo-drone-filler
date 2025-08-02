@@ -91,7 +91,7 @@
 			],
 			"disabled": false,
 			"idx": 0,
-			"name": "temple_columns_000_3"
+			"name": "temple_bridges_000_3"
 		},
 		{
 			"components": [
@@ -103,7 +103,7 @@
 			],
 			"disabled": false,
 			"idx": 1,
-			"name": "temple_columns_000_1"
+			"name": "temple_bridges_000_5"
 		},
 		{
 			"components": [
@@ -115,7 +115,7 @@
 			],
 			"disabled": false,
 			"idx": 2,
-			"name": "temple_columns_000_2"
+			"name": "temple_bridges_000_4"
 		},
 		{
 			"components": [
@@ -127,7 +127,7 @@
 			],
 			"disabled": false,
 			"idx": 3,
-			"name": "temple_columns_000_0"
+			"name": "temple_bridges_000_2"
 		},
 		{
 			"components": [
@@ -139,7 +139,7 @@
 			],
 			"disabled": false,
 			"idx": 4,
-			"name": "temple_columns_000_4"
+			"name": "temple_bridges_000_1"
 		},
 		{
 			"components": [
@@ -150,12 +150,24 @@
 				4294967295
 			],
 			"disabled": false,
+			"idx": 5,
+			"name": "temple_bridges_000_0"
+		},
+		{
+			"components": [
+				6,
+				4294967295,
+				6,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
 			"idx": 6,
 			"name": "plane"
 		},
 		{
 			"components": [
-				6,
+				7,
 				4294967295,
 				4294967295,
 				0,
@@ -171,7 +183,7 @@
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_columns_000"
+					"name": "temple_bridges_000"
 				}
 			],
 			"materials": [
@@ -184,7 +196,7 @@
 					"textures": [
 						{
 							"name": "uAmbientMap",
-							"path": "props/temple_columns_000/temple_columns_000_3_ao.png",
+							"path": "props/temple_bridges_000/temple_bridges_000_3.png",
 							"stage": 6
 						},
 						{
@@ -256,13 +268,13 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_columns_000/temple_columns_000_3_43.geo"
+			"name": "props/temple_bridges_000/temple_bridges_000_3_43.geo"
 		},
 		{
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_columns_000"
+					"name": "temple_bridges_000"
 				}
 			],
 			"materials": [
@@ -275,7 +287,7 @@
 					"textures": [
 						{
 							"name": "uAmbientMap",
-							"path": "props/temple_columns_000/temple_columns_000_1_ao.png",
+							"path": "props/temple_bridges_000/temple_bridges_000_5.png",
 							"stage": 6
 						},
 						{
@@ -347,13 +359,13 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_columns_000/temple_columns_000_1_44.geo"
+			"name": "props/temple_bridges_000/temple_bridges_000_5_44.geo"
 		},
 		{
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_columns_000"
+					"name": "temple_bridges_000"
 				}
 			],
 			"materials": [
@@ -366,7 +378,7 @@
 					"textures": [
 						{
 							"name": "uAmbientMap",
-							"path": "props/temple_columns_000/temple_columns_000_2_ao.png",
+							"path": "props/temple_bridges_000/temple_bridges_000_4.png",
 							"stage": 6
 						},
 						{
@@ -438,13 +450,13 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_columns_000/temple_columns_000_2_45.geo"
+			"name": "props/temple_bridges_000/temple_bridges_000_4_45.geo"
 		},
 		{
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_columns_000"
+					"name": "temple_bridges_000"
 				}
 			],
 			"materials": [
@@ -457,7 +469,7 @@
 					"textures": [
 						{
 							"name": "uAmbientMap",
-							"path": "props/temple_columns_000/temple_columns_000_0_ao.png",
+							"path": "props/temple_bridges_000/temple_bridges_000_2.png",
 							"stage": 6
 						},
 						{
@@ -529,13 +541,13 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_columns_000/temple_columns_000_0_46.geo"
+			"name": "props/temple_bridges_000/temple_bridges_000_2_46.geo"
 		},
 		{
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_columns_000"
+					"name": "temple_bridges_000"
 				}
 			],
 			"materials": [
@@ -548,7 +560,7 @@
 					"textures": [
 						{
 							"name": "uAmbientMap",
-							"path": "props/temple_columns_000/temple_columns_000_4_ao.png",
+							"path": "props/temple_bridges_000/temple_bridges_000_1.png",
 							"stage": 6
 						},
 						{
@@ -620,7 +632,98 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_columns_000/temple_columns_000_4_47.geo"
+			"name": "props/temple_bridges_000/temple_bridges_000_1_47.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "temple_bridges_000"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uAmbientMap",
+							"path": "props/temple_bridges_000/temple_bridges_000_0.png",
+							"stage": 6
+						},
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_normal.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"stage": 1
+						},
+						{
+							"name": "uSelfMap",
+							"stage": 4
+						}
+					],
+					"values": [
+						{
+							"name": "uAmbient",
+							"type": "vec4",
+							"value": [
+								0.20000000298023224,
+								1.0,
+								2.0,
+								0.0
+							]
+						},
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5,
+								0.5,
+								0.5,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "props/temple_bridges_000/temple_bridges_000_0_48.geo"
 		},
 		{
 			"bones": [],
@@ -702,7 +805,7 @@
 		{
 			"anim": 4294967295,
 			"frame_duration": 50000000,
-			"name": "temple_columns_000",
+			"name": "temple_bridges_000",
 			"node_anims": null,
 			"t_end": 3333000000,
 			"t_start": 0
@@ -712,12 +815,12 @@
 		{
 			"parent": null,
 			"pos": [
-				5.0,
+				55.0,
 				0.0,
-				-5.0
+				7.62939453125e-06
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				90.0,
 				0.0,
 				0.0
 			],
@@ -730,12 +833,12 @@
 		{
 			"parent": null,
 			"pos": [
-				-5.0,
+				80.0,
 				0.0,
-				5.0
+				7.62939453125e-06
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				90.0,
 				0.0,
 				0.0
 			],
@@ -748,12 +851,12 @@
 		{
 			"parent": null,
 			"pos": [
-				0.0,
+				70.0,
 				0.0,
 				0.0
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				90.0,
 				0.0,
 				0.0
 			],
@@ -766,12 +869,12 @@
 		{
 			"parent": null,
 			"pos": [
-				-10.0,
+				35.0,
 				0.0,
-				10.0
+				0.0
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				90.0,
 				0.0,
 				0.0
 			],
@@ -784,12 +887,12 @@
 		{
 			"parent": null,
 			"pos": [
-				10.0,
+				15.0,
 				0.0,
-				-10.0
+				1.52587890625e-05
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				90.0,
 				0.0,
 				0.0
 			],
@@ -802,7 +905,25 @@
 		{
 			"parent": null,
 			"pos": [
+				0.1827983856201172,
 				0.0,
+				0.0
+			],
+			"rot": [
+				90.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				40.0,
 				0.0,
 				0.0
 			],
@@ -812,9 +933,9 @@
 				0.0
 			],
 			"scl": [
-				100.0,
-				100.0,
-				100.0
+				200.0,
+				200.0,
+				200.0
 			]
 		},
 		{
