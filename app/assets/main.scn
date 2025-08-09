@@ -1,4 +1,15 @@
 {
+	"cameras": [
+		{
+			"fov": 0.6981317400932312,
+			"ortho": false,
+			"size": 1.0,
+			"zrange": {
+				"zfar": 1000.0,
+				"znear": 0.009999999776482582
+			}
+		}
+	],
 	"canvas": {
 		"clear_color": true,
 		"clear_z": true,
@@ -17,7 +28,7 @@
 			0
 		],
 		"brdf_map": "core/pbr/brdf.dds",
-		"current_camera": null,
+		"current_camera": 385,
 		"fog_color": [
 			16,
 			16,
@@ -27,14 +38,14 @@
 		"fog_far": 50.0,
 		"fog_near": 20.0,
 		"probe": {
-			"irradiance_map": "probes/autoshop_01_2k.hdr.irradiance",
+			"irradiance_map": ".irradiance",
 			"parallax": 0.0,
 			"pos": [
 				0.0,
 				0.0,
 				0.0
 			],
-			"radiance_map": "probes/autoshop_01_2k.hdr.radiance",
+			"radiance_map": ".radiance",
 			"rot": [
 				0.0,
 				0.0,
@@ -50,277 +61,79 @@
 	},
 	"instances": [
 		{
-			"name": "props/tv_vintage/tv_vintage.scn"
-		},
-		{
-			"name": "props/monitor/monitor.scn"
-		},
-		{
-			"name": "props/monitor_cctv/monitor_cctv.scn"
-		},
-		{
-			"name": "props/tv_medium_size/tv_medium_size.scn"
-		},
-		{
-			"name": "props/instances/column_block_15.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_4.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_1.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
-			"name": "props/instances/column_block_16.scn"
-		},
-		{
-			"name": "props/instances/gate_block_2.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_16/mt_rock_dark_16.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_1.scn"
-		},
-		{
-			"name": "props/instances/column_block_00.scn"
-		},
-		{
-			"name": "props/instances/column_block_01.scn"
+			"name": "props/instances/wall_25m.scn"
 		},
 		{
 			"name": "props/instances/column_block_02.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/column_block_04.scn"
-		},
-		{
-			"name": "props/instances/column_block_12.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
 		},
 		{
 			"name": "props/instances/wall_50m.scn"
 		},
 		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_02/mt_rock_dark_02.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_13/mt_rock_dark_13.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_15/mt_rock_15.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_14/mt_rock_14.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_13/mt_rock_13.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_11/mt_rock_11.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_10/mt_rock_10.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_08/mt_rock_08.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_06/mt_rock_06.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_04/mt_rock_04.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_03/mt_rock_03.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_01/mt_rock_01.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
-		},
-		{
-			"name": "props/instances/gate_block_1.scn"
-		},
-		{
-			"name": "props/instances/gate_block_2.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_0.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_0.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_1.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_3.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_4.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
+			"name": "props/instances/column_block_01.scn"
 		},
 		{
 			"name": "props/instances/column_block_00.scn"
 		},
 		{
-			"name": "props/instances/column_block_01.scn"
+			"name": "props/instances/stairs_block_1.scn"
 		},
 		{
-			"name": "props/instances/column_block_02.scn"
+			"name": "props/instances/bridge_block_5.scn"
 		},
 		{
-			"name": "props/instances/column_block_03.scn"
+			"name": "props/rocks/mt_rock_16/mt_rock_dark_16.scn"
 		},
 		{
-			"name": "props/instances/column_block_04.scn"
+			"name": "props/instances/wall_block_3.scn"
 		},
 		{
-			"name": "props/instances/column_block_05.scn"
+			"name": "props/instances/wall_block_3.scn"
 		},
 		{
-			"name": "props/instances/column_block_06.scn"
+			"name": "props/instances/gate_block_2.scn"
 		},
 		{
-			"name": "props/instances/column_block_07.scn"
+			"name": "props/instances/wall_block_5.scn"
 		},
 		{
-			"name": "props/instances/column_block_08.scn"
+			"name": "props/instances/wall_block_6.scn"
 		},
 		{
-			"name": "props/instances/column_block_09.scn"
+			"name": "props/instances/wall_block_7.scn"
 		},
 		{
-			"name": "props/instances/column_block_10.scn"
+			"name": "props/instances/wall_block_8.scn"
 		},
 		{
-			"name": "props/instances/column_block_11.scn"
+			"name": "props/instances/wall_block_9.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
 		},
 		{
 			"name": "props/instances/column_block_12.scn"
 		},
 		{
-			"name": "props/instances/column_block_13.scn"
+			"name": "props/instances/column_block_04.scn"
 		},
 		{
-			"name": "props/instances/column_block_14.scn"
+			"name": "props/instances/column_block_11.scn"
 		},
 		{
-			"name": "props/instances/column_block_15.scn"
+			"name": "props/instances/column_block_03.scn"
 		},
 		{
 			"name": "props/instances/column_block_16.scn"
@@ -329,43 +142,241 @@
 			"name": "props/instances/gate_block_0.scn"
 		},
 		{
-			"name": "props/instances/wall_block_9.scn"
+			"name": "props/instances/column_block_16.scn"
 		},
 		{
-			"name": "props/instances/wall_block_8.scn"
+			"name": "props/instances/column_block_15.scn"
 		},
 		{
-			"name": "props/instances/wall_block_7.scn"
+			"name": "props/instances/column_block_14.scn"
 		},
 		{
-			"name": "props/instances/wall_block_6.scn"
+			"name": "props/instances/column_block_13.scn"
 		},
 		{
-			"name": "props/instances/wall_block_5.scn"
+			"name": "props/instances/column_block_12.scn"
 		},
 		{
-			"name": "props/instances/wall_block_4.scn"
+			"name": "props/instances/column_block_11.scn"
 		},
 		{
-			"name": "props/instances/wall_block_3.scn"
+			"name": "props/instances/bridge_block_5.scn"
 		},
 		{
-			"name": "props/instances/wall_block_2.scn"
+			"name": "props/instances/stairs_block_1.scn"
 		},
 		{
-			"name": "props/instances/wall_block_1.scn"
-		},
-		{
-			"name": "props/instances/wall_block_0.scn"
+			"name": "props/instances/bridge_block_2.scn"
 		},
 		{
 			"name": "props/instances/stairs_block_4.scn"
 		},
 		{
-			"name": "props/instances/stairs_block_2.scn"
+			"name": "props/instances/column_block_15.scn"
+		},
+		{
+			"name": "props/tv_medium_size/tv_medium_size.scn"
+		},
+		{
+			"name": "props/monitor_cctv/monitor_cctv.scn"
+		},
+		{
+			"name": "props/monitor/monitor.scn"
+		},
+		{
+			"name": "props/tv_vintage/tv_vintage.scn"
 		},
 		{
 			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_2.scn"
+		},
+		{
+			"name": "props/instances/wall_block_0.scn"
+		},
+		{
+			"name": "props/instances/wall_block_1.scn"
+		},
+		{
+			"name": "props/instances/wall_block_2.scn"
+		},
+		{
+			"name": "props/instances/wall_block_3.scn"
+		},
+		{
+			"name": "props/instances/wall_block_4.scn"
+		},
+		{
+			"name": "props/instances/column_block_10.scn"
+		},
+		{
+			"name": "props/instances/column_block_09.scn"
+		},
+		{
+			"name": "props/instances/column_block_08.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_06.scn"
+		},
+		{
+			"name": "props/instances/column_block_05.scn"
+		},
+		{
+			"name": "props/instances/column_block_04.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/instances/column_block_02.scn"
+		},
+		{
+			"name": "props/instances/column_block_01.scn"
+		},
+		{
+			"name": "props/instances/column_block_00.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_5.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_4.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_3.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_1.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_0.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_4.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/instances/column_block_11.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_0.scn"
+		},
+		{
+			"name": "props/instances/gate_block_2.scn"
+		},
+		{
+			"name": "props/instances/gate_block_1.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_01/mt_rock_01.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_03/mt_rock_03.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_04/mt_rock_04.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_06/mt_rock_06.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_08/mt_rock_08.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_10/mt_rock_10.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_11/mt_rock_11.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_13/mt_rock_13.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_14/mt_rock_14.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_15/mt_rock_15.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_13/mt_rock_dark_13.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_dark_02.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
 		}
 	],
 	"key_values": null,
@@ -398,6 +409,35 @@
 			],
 			"specular_intensity": 2.0,
 			"type": "linear"
+		},
+		{
+			"diffuse": [
+				138,
+				42,
+				0,
+				255
+			],
+			"diffuse_intensity": 100.0,
+			"inner_angle": 9.999999747378752e-05,
+			"outer_angle": 0.3822183609008789,
+			"priority": 1.0,
+			"pssm_split": [
+				10.0,
+				50.0,
+				100.0,
+				200.0
+			],
+			"radius": 15.0,
+			"shadow_bias": 9.999999747378752e-05,
+			"shadow_type": "map",
+			"specular": [
+				122,
+				37,
+				0,
+				255
+			],
+			"specular_intensity": 100.0,
+			"type": "spot"
 		}
 	],
 	"nodes": [
@@ -435,7 +475,7 @@
 			],
 			"disabled": false,
 			"idx": 2,
-			"instance": 69,
+			"instance": 65,
 			"name": "bridge_block_0"
 		},
 		{
@@ -448,7 +488,7 @@
 			],
 			"disabled": false,
 			"idx": 3,
-			"instance": 70,
+			"instance": 64,
 			"name": "bridge_block_1"
 		},
 		{
@@ -461,7 +501,7 @@
 			],
 			"disabled": false,
 			"idx": 4,
-			"instance": 71,
+			"instance": 63,
 			"name": "bridge_block_2"
 		},
 		{
@@ -474,7 +514,7 @@
 			],
 			"disabled": false,
 			"idx": 5,
-			"instance": 72,
+			"instance": 62,
 			"name": "bridge_block_3"
 		},
 		{
@@ -487,7 +527,7 @@
 			],
 			"disabled": false,
 			"idx": 6,
-			"instance": 73,
+			"instance": 61,
 			"name": "bridge_block_4"
 		},
 		{
@@ -500,7 +540,7 @@
 			],
 			"disabled": false,
 			"idx": 7,
-			"instance": 74,
+			"instance": 60,
 			"name": "bridge_block_5"
 		},
 		{
@@ -513,7 +553,7 @@
 			],
 			"disabled": false,
 			"idx": 8,
-			"instance": 75,
+			"instance": 59,
 			"name": "column_block_00"
 		},
 		{
@@ -526,7 +566,7 @@
 			],
 			"disabled": false,
 			"idx": 9,
-			"instance": 76,
+			"instance": 58,
 			"name": "column_block_01"
 		},
 		{
@@ -539,7 +579,7 @@
 			],
 			"disabled": false,
 			"idx": 10,
-			"instance": 77,
+			"instance": 57,
 			"name": "column_block_02"
 		},
 		{
@@ -552,7 +592,7 @@
 			],
 			"disabled": false,
 			"idx": 11,
-			"instance": 78,
+			"instance": 56,
 			"name": "column_block_03"
 		},
 		{
@@ -565,7 +605,7 @@
 			],
 			"disabled": false,
 			"idx": 12,
-			"instance": 79,
+			"instance": 55,
 			"name": "column_block_04"
 		},
 		{
@@ -578,7 +618,7 @@
 			],
 			"disabled": false,
 			"idx": 13,
-			"instance": 80,
+			"instance": 54,
 			"name": "column_block_05"
 		},
 		{
@@ -591,7 +631,7 @@
 			],
 			"disabled": false,
 			"idx": 14,
-			"instance": 81,
+			"instance": 53,
 			"name": "column_block_06"
 		},
 		{
@@ -604,7 +644,7 @@
 			],
 			"disabled": false,
 			"idx": 15,
-			"instance": 82,
+			"instance": 52,
 			"name": "column_block_07"
 		},
 		{
@@ -617,7 +657,7 @@
 			],
 			"disabled": false,
 			"idx": 16,
-			"instance": 83,
+			"instance": 51,
 			"name": "column_block_08"
 		},
 		{
@@ -630,7 +670,7 @@
 			],
 			"disabled": false,
 			"idx": 17,
-			"instance": 84,
+			"instance": 50,
 			"name": "column_block_09"
 		},
 		{
@@ -643,7 +683,7 @@
 			],
 			"disabled": false,
 			"idx": 18,
-			"instance": 85,
+			"instance": 49,
 			"name": "column_block_10"
 		},
 		{
@@ -656,7 +696,7 @@
 			],
 			"disabled": false,
 			"idx": 19,
-			"instance": 86,
+			"instance": 32,
 			"name": "column_block_11"
 		},
 		{
@@ -669,7 +709,7 @@
 			],
 			"disabled": false,
 			"idx": 20,
-			"instance": 87,
+			"instance": 31,
 			"name": "column_block_12"
 		},
 		{
@@ -682,7 +722,7 @@
 			],
 			"disabled": false,
 			"idx": 21,
-			"instance": 88,
+			"instance": 30,
 			"name": "column_block_13"
 		},
 		{
@@ -695,7 +735,7 @@
 			],
 			"disabled": false,
 			"idx": 22,
-			"instance": 89,
+			"instance": 29,
 			"name": "column_block_14"
 		},
 		{
@@ -708,7 +748,7 @@
 			],
 			"disabled": false,
 			"idx": 23,
-			"instance": 90,
+			"instance": 28,
 			"name": "column_block_15"
 		},
 		{
@@ -721,7 +761,7 @@
 			],
 			"disabled": false,
 			"idx": 24,
-			"instance": 91,
+			"instance": 27,
 			"name": "column_block_16"
 		},
 		{
@@ -734,7 +774,7 @@
 			],
 			"disabled": false,
 			"idx": 25,
-			"instance": 92,
+			"instance": 26,
 			"name": "gate_block_0"
 		},
 		{
@@ -747,7 +787,7 @@
 			],
 			"disabled": false,
 			"idx": 26,
-			"instance": 64,
+			"instance": 71,
 			"name": "gate_block_1"
 		},
 		{
@@ -760,7 +800,7 @@
 			],
 			"disabled": false,
 			"idx": 27,
-			"instance": 65,
+			"instance": 70,
 			"name": "gate_block_2"
 		},
 		{
@@ -773,7 +813,7 @@
 			],
 			"disabled": false,
 			"idx": 28,
-			"instance": 66,
+			"instance": 69,
 			"name": "stairs_block_0"
 		},
 		{
@@ -786,7 +826,7 @@
 			],
 			"disabled": false,
 			"idx": 29,
-			"instance": 105,
+			"instance": 42,
 			"name": "stairs_block_1"
 		},
 		{
@@ -799,7 +839,7 @@
 			],
 			"disabled": false,
 			"idx": 30,
-			"instance": 104,
+			"instance": 43,
 			"name": "stairs_block_2"
 		},
 		{
@@ -812,7 +852,7 @@
 			],
 			"disabled": false,
 			"idx": 31,
-			"instance": 103,
+			"instance": 66,
 			"name": "stairs_block_4"
 		},
 		{
@@ -825,7 +865,7 @@
 			],
 			"disabled": false,
 			"idx": 32,
-			"instance": 102,
+			"instance": 44,
 			"name": "wall_block_0"
 		},
 		{
@@ -838,7 +878,7 @@
 			],
 			"disabled": false,
 			"idx": 33,
-			"instance": 101,
+			"instance": 45,
 			"name": "wall_block_1"
 		},
 		{
@@ -851,7 +891,7 @@
 			],
 			"disabled": false,
 			"idx": 34,
-			"instance": 100,
+			"instance": 46,
 			"name": "wall_block_2"
 		},
 		{
@@ -864,7 +904,7 @@
 			],
 			"disabled": false,
 			"idx": 35,
-			"instance": 99,
+			"instance": 47,
 			"name": "wall_block_3"
 		},
 		{
@@ -877,7 +917,7 @@
 			],
 			"disabled": false,
 			"idx": 36,
-			"instance": 98,
+			"instance": 48,
 			"name": "wall_block_4"
 		},
 		{
@@ -890,7 +930,7 @@
 			],
 			"disabled": false,
 			"idx": 37,
-			"instance": 97,
+			"instance": 11,
 			"name": "wall_block_5"
 		},
 		{
@@ -903,7 +943,7 @@
 			],
 			"disabled": false,
 			"idx": 38,
-			"instance": 96,
+			"instance": 12,
 			"name": "wall_block_6"
 		},
 		{
@@ -916,7 +956,7 @@
 			],
 			"disabled": false,
 			"idx": 39,
-			"instance": 95,
+			"instance": 13,
 			"name": "wall_block_7"
 		},
 		{
@@ -929,7 +969,7 @@
 			],
 			"disabled": false,
 			"idx": 40,
-			"instance": 94,
+			"instance": 14,
 			"name": "wall_block_8"
 		},
 		{
@@ -942,7 +982,7 @@
 			],
 			"disabled": false,
 			"idx": 41,
-			"instance": 93,
+			"instance": 15,
 			"name": "wall_block_9"
 		},
 		{
@@ -955,7 +995,7 @@
 			],
 			"disabled": false,
 			"idx": 42,
-			"instance": 63,
+			"instance": 72,
 			"name": "mt_rock_02"
 		},
 		{
@@ -968,7 +1008,7 @@
 			],
 			"disabled": false,
 			"idx": 43,
-			"instance": 62,
+			"instance": 73,
 			"name": "mt_rock_01"
 		},
 		{
@@ -981,7 +1021,7 @@
 			],
 			"disabled": false,
 			"idx": 44,
-			"instance": 61,
+			"instance": 74,
 			"name": "mt_rock_03"
 		},
 		{
@@ -994,7 +1034,7 @@
 			],
 			"disabled": false,
 			"idx": 45,
-			"instance": 60,
+			"instance": 75,
 			"name": "mt_rock_04"
 		},
 		{
@@ -1007,7 +1047,7 @@
 			],
 			"disabled": false,
 			"idx": 46,
-			"instance": 59,
+			"instance": 76,
 			"name": "mt_rock_05"
 		},
 		{
@@ -1020,7 +1060,7 @@
 			],
 			"disabled": false,
 			"idx": 47,
-			"instance": 58,
+			"instance": 77,
 			"name": "mt_rock_06"
 		},
 		{
@@ -1033,7 +1073,7 @@
 			],
 			"disabled": false,
 			"idx": 48,
-			"instance": 57,
+			"instance": 78,
 			"name": "mt_rock_07"
 		},
 		{
@@ -1046,7 +1086,7 @@
 			],
 			"disabled": false,
 			"idx": 49,
-			"instance": 56,
+			"instance": 79,
 			"name": "mt_rock_08"
 		},
 		{
@@ -1059,7 +1099,7 @@
 			],
 			"disabled": false,
 			"idx": 50,
-			"instance": 55,
+			"instance": 80,
 			"name": "mt_rock_09"
 		},
 		{
@@ -1072,7 +1112,7 @@
 			],
 			"disabled": false,
 			"idx": 51,
-			"instance": 54,
+			"instance": 81,
 			"name": "mt_rock_10"
 		},
 		{
@@ -1085,7 +1125,7 @@
 			],
 			"disabled": false,
 			"idx": 52,
-			"instance": 53,
+			"instance": 82,
 			"name": "mt_rock_11"
 		},
 		{
@@ -1098,7 +1138,7 @@
 			],
 			"disabled": false,
 			"idx": 53,
-			"instance": 52,
+			"instance": 83,
 			"name": "mt_rock_12"
 		},
 		{
@@ -1111,7 +1151,7 @@
 			],
 			"disabled": false,
 			"idx": 54,
-			"instance": 51,
+			"instance": 84,
 			"name": "mt_rock_13"
 		},
 		{
@@ -1124,7 +1164,7 @@
 			],
 			"disabled": false,
 			"idx": 55,
-			"instance": 50,
+			"instance": 85,
 			"name": "mt_rock_14"
 		},
 		{
@@ -1137,7 +1177,7 @@
 			],
 			"disabled": false,
 			"idx": 56,
-			"instance": 49,
+			"instance": 86,
 			"name": "mt_rock_15"
 		},
 		{
@@ -1150,7 +1190,7 @@
 			],
 			"disabled": false,
 			"idx": 57,
-			"instance": 48,
+			"instance": 87,
 			"name": "mt_rock_01"
 		},
 		{
@@ -1163,7 +1203,7 @@
 			],
 			"disabled": false,
 			"idx": 58,
-			"instance": 47,
+			"instance": 88,
 			"name": "mt_rock_13"
 		},
 		{
@@ -1176,7 +1216,7 @@
 			],
 			"disabled": false,
 			"idx": 59,
-			"instance": 46,
+			"instance": 89,
 			"name": "mt_rock_02"
 		},
 		{
@@ -1189,7 +1229,7 @@
 			],
 			"disabled": false,
 			"idx": 60,
-			"instance": 45,
+			"instance": 90,
 			"name": "mt_rock_16"
 		},
 		{
@@ -1202,7 +1242,7 @@
 			],
 			"disabled": false,
 			"idx": 61,
-			"instance": 44,
+			"instance": 91,
 			"name": "cube_50m"
 		},
 		{
@@ -1215,7 +1255,7 @@
 			],
 			"disabled": false,
 			"idx": 62,
-			"instance": 43,
+			"instance": 92,
 			"name": "cube_50m"
 		},
 		{
@@ -1228,7 +1268,7 @@
 			],
 			"disabled": false,
 			"idx": 63,
-			"instance": 42,
+			"instance": 93,
 			"name": "cube_50m"
 		},
 		{
@@ -1241,7 +1281,7 @@
 			],
 			"disabled": false,
 			"idx": 64,
-			"instance": 41,
+			"instance": 94,
 			"name": "cube_50m"
 		},
 		{
@@ -1254,7 +1294,7 @@
 			],
 			"disabled": false,
 			"idx": 65,
-			"instance": 40,
+			"instance": 95,
 			"name": "cube_50m"
 		},
 		{
@@ -1267,7 +1307,7 @@
 			],
 			"disabled": false,
 			"idx": 66,
-			"instance": 39,
+			"instance": 96,
 			"name": "cube_50m"
 		},
 		{
@@ -1280,7 +1320,7 @@
 			],
 			"disabled": false,
 			"idx": 67,
-			"instance": 38,
+			"instance": 97,
 			"name": "cube_25m"
 		},
 		{
@@ -1293,7 +1333,7 @@
 			],
 			"disabled": false,
 			"idx": 68,
-			"instance": 37,
+			"instance": 98,
 			"name": "cube_25m"
 		},
 		{
@@ -1306,7 +1346,7 @@
 			],
 			"disabled": false,
 			"idx": 69,
-			"instance": 36,
+			"instance": 99,
 			"name": "cube_25m"
 		},
 		{
@@ -1319,7 +1359,7 @@
 			],
 			"disabled": false,
 			"idx": 70,
-			"instance": 35,
+			"instance": 100,
 			"name": "cube_25m"
 		},
 		{
@@ -1332,7 +1372,7 @@
 			],
 			"disabled": false,
 			"idx": 71,
-			"instance": 34,
+			"instance": 101,
 			"name": "cube_25m"
 		},
 		{
@@ -1345,7 +1385,7 @@
 			],
 			"disabled": false,
 			"idx": 72,
-			"instance": 33,
+			"instance": 102,
 			"name": "cube_50m"
 		},
 		{
@@ -1358,7 +1398,7 @@
 			],
 			"disabled": false,
 			"idx": 73,
-			"instance": 32,
+			"instance": 103,
 			"name": "cube_50m"
 		},
 		{
@@ -1371,7 +1411,7 @@
 			],
 			"disabled": false,
 			"idx": 74,
-			"instance": 31,
+			"instance": 104,
 			"name": "wall_25m"
 		},
 		{
@@ -1384,7 +1424,7 @@
 			],
 			"disabled": false,
 			"idx": 75,
-			"instance": 30,
+			"instance": 105,
 			"name": "wall_25m"
 		},
 		{
@@ -1397,7 +1437,7 @@
 			],
 			"disabled": false,
 			"idx": 76,
-			"instance": 29,
+			"instance": 16,
 			"name": "wall_25m"
 		},
 		{
@@ -1410,7 +1450,7 @@
 			],
 			"disabled": false,
 			"idx": 77,
-			"instance": 28,
+			"instance": 17,
 			"name": "wall_25m"
 		},
 		{
@@ -1423,7 +1463,7 @@
 			],
 			"disabled": false,
 			"idx": 78,
-			"instance": 27,
+			"instance": 2,
 			"name": "wall_50m"
 		},
 		{
@@ -1436,7 +1476,7 @@
 			],
 			"disabled": false,
 			"idx": 79,
-			"instance": 26,
+			"instance": 0,
 			"name": "wall_25m"
 		},
 		{
@@ -1449,7 +1489,7 @@
 			],
 			"disabled": false,
 			"idx": 80,
-			"instance": 25,
+			"instance": 18,
 			"name": "wall_25m"
 		},
 		{
@@ -1462,7 +1502,7 @@
 			],
 			"disabled": false,
 			"idx": 81,
-			"instance": 24,
+			"instance": 19,
 			"name": "wall_25m"
 		},
 		{
@@ -1475,7 +1515,7 @@
 			],
 			"disabled": false,
 			"idx": 82,
-			"instance": 23,
+			"instance": 20,
 			"name": "wall_25m"
 		},
 		{
@@ -1488,7 +1528,7 @@
 			],
 			"disabled": false,
 			"idx": 83,
-			"instance": 0,
+			"instance": 41,
 			"name": "tv_vintage"
 		},
 		{
@@ -1501,7 +1541,7 @@
 			],
 			"disabled": false,
 			"idx": 84,
-			"instance": 1,
+			"instance": 40,
 			"name": "monitor"
 		},
 		{
@@ -1514,7 +1554,7 @@
 			],
 			"disabled": false,
 			"idx": 85,
-			"instance": 4,
+			"instance": 37,
 			"name": "column_block_15"
 		},
 		{
@@ -1527,7 +1567,7 @@
 			],
 			"disabled": false,
 			"idx": 86,
-			"instance": 2,
+			"instance": 39,
 			"name": "monitor_cctv"
 		},
 		{
@@ -1540,7 +1580,7 @@
 			],
 			"disabled": false,
 			"idx": 87,
-			"instance": 3,
+			"instance": 38,
 			"name": "tv_medium_size"
 		},
 		{
@@ -1553,7 +1593,7 @@
 			],
 			"disabled": false,
 			"idx": 88,
-			"instance": 5,
+			"instance": 36,
 			"name": "stairs_block_4"
 		},
 		{
@@ -1566,7 +1606,7 @@
 			],
 			"disabled": false,
 			"idx": 89,
-			"instance": 6,
+			"instance": 35,
 			"name": "bridge_block_2"
 		},
 		{
@@ -1579,7 +1619,7 @@
 			],
 			"disabled": false,
 			"idx": 90,
-			"instance": 7,
+			"instance": 34,
 			"name": "stairs_block_1"
 		},
 		{
@@ -1592,7 +1632,7 @@
 			],
 			"disabled": false,
 			"idx": 91,
-			"instance": 8,
+			"instance": 33,
 			"name": "bridge_block_5"
 		},
 		{
@@ -1605,7 +1645,7 @@
 			],
 			"disabled": false,
 			"idx": 92,
-			"instance": 14,
+			"instance": 6,
 			"name": "bridge_block_5"
 		},
 		{
@@ -1618,7 +1658,7 @@
 			],
 			"disabled": false,
 			"idx": 93,
-			"instance": 15,
+			"instance": 5,
 			"name": "stairs_block_1"
 		},
 		{
@@ -1631,7 +1671,7 @@
 			],
 			"disabled": false,
 			"idx": 94,
-			"instance": 20,
+			"instance": 23,
 			"name": "column_block_11"
 		},
 		{
@@ -1644,7 +1684,7 @@
 			],
 			"disabled": false,
 			"idx": 95,
-			"instance": 19,
+			"instance": 24,
 			"name": "column_block_03"
 		},
 		{
@@ -1657,7 +1697,7 @@
 			],
 			"disabled": false,
 			"idx": 96,
-			"instance": 18,
+			"instance": 1,
 			"name": "column_block_02"
 		},
 		{
@@ -1670,7 +1710,7 @@
 			],
 			"disabled": false,
 			"idx": 97,
-			"instance": 17,
+			"instance": 3,
 			"name": "column_block_01"
 		},
 		{
@@ -1683,7 +1723,7 @@
 			],
 			"disabled": false,
 			"idx": 98,
-			"instance": 16,
+			"instance": 4,
 			"name": "column_block_00"
 		},
 		{
@@ -1696,7 +1736,7 @@
 			],
 			"disabled": false,
 			"idx": 99,
-			"instance": 22,
+			"instance": 21,
 			"name": "column_block_12"
 		},
 		{
@@ -1709,7 +1749,7 @@
 			],
 			"disabled": false,
 			"idx": 100,
-			"instance": 67,
+			"instance": 68,
 			"name": "column_block_11"
 		},
 		{
@@ -1722,7 +1762,7 @@
 			],
 			"disabled": false,
 			"idx": 101,
-			"instance": 68,
+			"instance": 67,
 			"name": "column_block_03"
 		},
 		{
@@ -1735,7 +1775,7 @@
 			],
 			"disabled": false,
 			"idx": 102,
-			"instance": 9,
+			"instance": 25,
 			"name": "column_block_16"
 		},
 		{
@@ -1761,7 +1801,7 @@
 			],
 			"disabled": false,
 			"idx": 104,
-			"instance": 11,
+			"instance": 9,
 			"name": "wall_block_3"
 		},
 		{
@@ -1774,7 +1814,7 @@
 			],
 			"disabled": false,
 			"idx": 105,
-			"instance": 12,
+			"instance": 8,
 			"name": "wall_block_3"
 		},
 		{
@@ -1787,7 +1827,7 @@
 			],
 			"disabled": false,
 			"idx": 106,
-			"instance": 13,
+			"instance": 7,
 			"name": "mt_rock_dark_16"
 		},
 		{
@@ -1800,8 +1840,32 @@
 			],
 			"disabled": false,
 			"idx": 107,
-			"instance": 21,
+			"instance": 22,
 			"name": "column_block_04"
+		},
+		{
+			"components": [
+				108,
+				4294967295,
+				4294967295,
+				1,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 384,
+			"name": "Light"
+		},
+		{
+			"components": [
+				109,
+				0,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 385,
+			"name": "Camera"
 		}
 	],
 	"objects": [
@@ -1890,9 +1954,9 @@
 				0.0
 			],
 			"rot": [
-				30.935054779052734,
-				138.4736328125,
-				-5.85370397567749
+				30.9350528717041,
+				138.47361755371094,
+				-5.853703498840332
 			],
 			"scl": [
 				0.9999997019767761,
@@ -3007,7 +3071,7 @@
 			],
 			"rot": [
 				-0.0,
-				4.999999046325684,
+				4.999998569488525,
 				0.0
 			],
 			"scl": [
@@ -3025,7 +3089,7 @@
 			],
 			"rot": [
 				-0.0,
-				-9.999998092651367,
+				-9.99999713897705,
 				0.0
 			],
 			"scl": [
@@ -3044,7 +3108,7 @@
 			"rot": [
 				-0.0,
 				0.0,
-				-2.500000238418579
+				-2.5
 			],
 			"scl": [
 				0.9999996423721313,
@@ -3062,7 +3126,7 @@
 			"rot": [
 				-0.0,
 				0.0,
-				2.5
+				2.499999761581421
 			],
 			"scl": [
 				0.9999997615814209,
@@ -3097,7 +3161,7 @@
 			],
 			"rot": [
 				-0.0,
-				4.999999046325684,
+				4.999998569488525,
 				0.0
 			],
 			"scl": [
@@ -3115,7 +3179,7 @@
 			],
 			"rot": [
 				-0.0,
-				-4.999998569488525,
+				-4.999998092651367,
 				0.0
 			],
 			"scl": [
@@ -3187,7 +3251,7 @@
 			],
 			"rot": [
 				-0.0,
-				9.999998092651367,
+				9.99999713897705,
 				0.0
 			],
 			"scl": [
@@ -3222,7 +3286,7 @@
 				43.0
 			],
 			"rot": [
-				-4.999999046325684,
+				-4.999998569488525,
 				0.0,
 				4.999998092651367
 			],
@@ -3241,7 +3305,7 @@
 			],
 			"rot": [
 				-6.653842926025391,
-				-9.913994789123535,
+				-9.913993835449219,
 				-8.990898132324219
 			],
 			"scl": [
@@ -3259,8 +3323,8 @@
 			],
 			"rot": [
 				8.537738267477835e-07,
-				-3.2550377682127873e-07,
-				84.9999771118164
+				-3.255037483995693e-07,
+				84.99996948242188
 			],
 			"scl": [
 				1.0000001192092896,
@@ -3276,9 +3340,9 @@
 				170.0
 			],
 			"rot": [
-				8.537738835912023e-07,
+				8.537738267477835e-07,
 				-3.2550389050811646e-07,
-				84.9999771118164
+				84.99996948242188
 			],
 			"scl": [
 				1.0,
@@ -3295,7 +3359,7 @@
 			],
 			"rot": [
 				-10.144255638122559,
-				1.755392074584961,
+				1.7553919553756714,
 				94.54181671142578
 			],
 			"scl": [
@@ -3312,7 +3376,7 @@
 				-11.0
 			],
 			"rot": [
-				-4.999999046325684,
+				-4.999998569488525,
 				0.0,
 				4.999997615814209
 			],
@@ -3330,9 +3394,9 @@
 				135.0
 			],
 			"rot": [
-				-44.19526290893555,
+				-44.19525909423828,
 				-9.410199165344238,
-				13.989080429077148
+				13.989079475402832
 			],
 			"scl": [
 				0.9999995231628418,
@@ -3349,8 +3413,8 @@
 			],
 			"rot": [
 				-44.03986358642578,
-				10.278552055358887,
-				-14.005058288574219
+				10.27855110168457,
+				-14.005057334899902
 			],
 			"scl": [
 				0.9999990463256836,
@@ -3367,8 +3431,8 @@
 			],
 			"rot": [
 				-59.56539535522461,
-				9.033528327941895,
-				-9.944886207580566
+				9.033527374267578,
+				-9.94488525390625
 			],
 			"scl": [
 				0.9999994039535522,
@@ -3709,7 +3773,7 @@
 			],
 			"rot": [
 				-0.0,
-				84.99999237060547,
+				84.99998474121094,
 				0.0
 			],
 			"scl": [
@@ -3799,7 +3863,7 @@
 			],
 			"rot": [
 				-0.0,
-				-179.99998474121094,
+				-179.99996948242188,
 				0.0
 			],
 			"scl": [
@@ -3824,6 +3888,42 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				1.2038860321044922,
+				-15.034953117370605
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-0.005044571124017239,
+				1.1905872821807861,
+				-14.532990455627441
+			],
+			"rot": [
+				0.4297229051589966,
+				-1.1459271907806396,
+				0.0
+			],
+			"scl": [
+				0.9999847412109375,
+				0.999963641166687,
+				0.9999592304229736
 			]
 		}
 	]
