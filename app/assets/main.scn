@@ -213,6 +213,15 @@
 		},
 		{
 			"name": "props/rocks/mt_rock_15/mt_rock_15.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_13/mt_rock_dark_13.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_dark_02.scn"
 		}
 	],
 	"key_values": null,
@@ -986,6 +995,45 @@
 			"idx": 56,
 			"instance": 54,
 			"name": "mt_rock_15"
+		},
+		{
+			"components": [
+				58,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 112,
+			"instance": 55,
+			"name": "mt_rock_01"
+		},
+		{
+			"components": [
+				59,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 114,
+			"instance": 56,
+			"name": "mt_rock_13"
+		},
+		{
+			"components": [
+				57,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 116,
+			"instance": 57,
+			"name": "mt_rock_02"
 		}
 	],
 	"objects": [
@@ -2080,6 +2128,60 @@
 				75.0,
 				1.0,
 				50.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-20.0,
+				2.0,
+				60.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-40.0,
+				2.0,
+				50.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				65.0,
+				2.0,
+				60.0
 			],
 			"rot": [
 				-0.0,
