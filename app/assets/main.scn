@@ -27,14 +27,14 @@
 		"fog_far": 0.0,
 		"fog_near": 0.0,
 		"probe": {
-			"irradiance_map": "core/pbr/probe.hdr.irradiance",
+			"irradiance_map": "probes/autoshop_01_2k.hdr.irradiance",
 			"parallax": 0.0,
 			"pos": [
 				0.0,
 				0.0,
 				0.0
 			],
-			"radiance_map": "core/pbr/probe.hdr.radiance",
+			"radiance_map": "probes/autoshop_01_2k.hdr.radiance",
 			"rot": [
 				0.0,
 				0.0,
@@ -225,6 +225,72 @@
 		},
 		{
 			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_50m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
 		}
 	],
 	"key_values": null,
@@ -255,7 +321,7 @@
 				255,
 				255
 			],
-			"specular_intensity": 5.0,
+			"specular_intensity": 2.0,
 			"type": "linear"
 		}
 	],
@@ -1050,6 +1116,316 @@
 			"idx": 60,
 			"instance": 58,
 			"name": "mt_rock_16"
+		},
+		{
+			"components": [
+				61,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 61,
+			"instance": 59,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				62,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 62,
+			"instance": 60,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				63,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 63,
+			"instance": 61,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				64,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 64,
+			"instance": 62,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				65,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 65,
+			"instance": 63,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				66,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 66,
+			"instance": 64,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				67,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 67,
+			"instance": 65,
+			"name": "cube_25m"
+		},
+		{
+			"components": [
+				68,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 68,
+			"instance": 66,
+			"name": "cube_25m"
+		},
+		{
+			"components": [
+				69,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 69,
+			"instance": 67,
+			"name": "cube_25m"
+		},
+		{
+			"components": [
+				70,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 70,
+			"instance": 68,
+			"name": "cube_25m"
+		},
+		{
+			"components": [
+				71,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 71,
+			"instance": 69,
+			"name": "cube_25m"
+		},
+		{
+			"components": [
+				72,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 72,
+			"instance": 70,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				73,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 73,
+			"instance": 71,
+			"name": "cube_50m"
+		},
+		{
+			"components": [
+				74,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 74,
+			"instance": 72,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				75,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 75,
+			"instance": 73,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				76,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 76,
+			"instance": 74,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				77,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 77,
+			"instance": 75,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				78,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 78,
+			"instance": 76,
+			"name": "wall_50m"
+		},
+		{
+			"components": [
+				79,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 79,
+			"instance": 77,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				80,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 80,
+			"instance": 78,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				81,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 81,
+			"instance": 79,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				82,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 82,
+			"instance": 80,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				83,
+				4294967295,
+				1,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 83,
+			"name": "sphere"
+		},
+		{
+			"components": [
+				84,
+				4294967295,
+				2,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 165,
+			"name": "sphere"
 		}
 	],
 	"objects": [
@@ -1127,6 +1503,156 @@
 				}
 			],
 			"name": "common/primitives/plane.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.16877639293670654,
+								0.16877470910549164,
+								0.16877470910549164,
+								1.0
+							]
+						},
+						{
+							"name": "uDiffuseColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSpecularColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								0.03124999813735485
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/sphere.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.16877639293670654,
+								0.16877470910549164,
+								0.16877470910549164,
+								1.0
+							]
+						},
+						{
+							"name": "uDiffuseColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.6579999923706055,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSpecularColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								0.03124999813735485
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "common/primitives/sphere.geo"
 		}
 	],
 	"transforms": [
@@ -1138,14 +1664,14 @@
 				0.0
 			],
 			"rot": [
-				54.99998092651367,
-				11.991223335266113,
-				0.0
+				30.93505859375,
+				138.47364807128906,
+				-5.853704452514648
 			],
 			"scl": [
-				1.0,
-				1.0,
-				1.0
+				0.9999997019767761,
+				0.9999998211860657,
+				0.9999998807907104
 			]
 		},
 		{
@@ -2226,6 +2752,438 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-25.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-24.0,
+				50.0
+			],
+			"rot": [
+				-0.0,
+				4.999999523162842,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-22.0,
+				95.0
+			],
+			"rot": [
+				-0.0,
+				-9.999999046325684,
+				0.0
+			],
+			"scl": [
+				0.9999999403953552,
+				1.0,
+				0.9999999403953552
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-35.0,
+				-18.0,
+				141.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				-2.499999761581421
+			],
+			"scl": [
+				0.9999998807907104,
+				1.0,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				25.0,
+				-18.0,
+				141.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				2.499999761581421
+			],
+			"scl": [
+				0.9999998807907104,
+				1.0,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-15.0,
+				190.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				5.0,
+				220.0
+			],
+			"rot": [
+				-0.0,
+				4.999999523162842,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.0,
+				6.0,
+				244.0
+			],
+			"rot": [
+				-0.0,
+				-4.999999046325684,
+				0.0
+			],
+			"scl": [
+				0.9999999403953552,
+				1.0,
+				0.9999999403953552
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-26.0,
+				-4.0,
+				65.0
+			],
+			"rot": [
+				-0.0,
+				4.999998092651367,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				33.0,
+				-1.0,
+				110.0
+			],
+			"rot": [
+				-0.0,
+				4.999998569488525,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.0,
+				-10.0,
+				-34.0
+			],
+			"rot": [
+				-0.0,
+				4.999996662139893,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.0,
+				-58.0,
+				279.0
+			],
+			"rot": [
+				-0.0,
+				9.999999046325684,
+				0.0
+			],
+			"scl": [
+				0.9999998807907104,
+				1.0,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-10.0,
+				279.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-20.0,
+				7.0,
+				43.0
+			],
+			"rot": [
+				-4.999999523162842,
+				0.0,
+				4.999998092651367
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				23.0,
+				2.0,
+				92.0
+			],
+			"rot": [
+				-6.653843402862549,
+				-9.913995742797852,
+				-8.990899085998535
+			],
+			"scl": [
+				1.0000001192092896,
+				1.0,
+				0.9999999403953552
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				29.0,
+				-9.000001907348633,
+				92.0
+			],
+			"rot": [
+				8.537738835912023e-07,
+				-3.2550380524298816e-07,
+				84.99998474121094
+			],
+			"scl": [
+				1.0000001192092896,
+				1.0000001192092896,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				29.0,
+				1.9999980926513672,
+				170.0
+			],
+			"rot": [
+				8.5377399727804e-07,
+				-3.2550389050811646e-07,
+				84.99998474121094
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-40.0,
+				-8.0,
+				115.0
+			],
+			"rot": [
+				-10.144255638122559,
+				1.7553921937942505,
+				94.54181671142578
+			],
+			"scl": [
+				0.9999997019767761,
+				0.9999996423721313,
+				0.9999999403953552
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-19.0,
+				-6.000000476837158,
+				-11.0
+			],
+			"rot": [
+				-4.999999523162842,
+				0.0,
+				4.999997615814209
+			],
+			"scl": [
+				0.9999999403953552,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-13.0,
+				-2.0,
+				135.0
+			],
+			"rot": [
+				-44.19526290893555,
+				-9.410200119018555,
+				13.989081382751465
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999998807907104,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				6.0,
+				4.0,
+				162.0
+			],
+			"rot": [
+				-44.03986358642578,
+				10.27855396270752,
+				-14.005058288574219
+			],
+			"scl": [
+				0.9999991655349731,
+				0.9999994039535522,
+				0.9999998211860657
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				17.0,
+				-4.0,
+				23.0
+			],
+			"rot": [
+				-59.565399169921875,
+				9.033529281616211,
+				-9.944887161254883
+			],
+			"scl": [
+				0.9999994039535522,
+				0.9999997615814209,
+				0.9999998211860657
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				2.0,
+				5.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-7.0,
+				2.0,
+				5.0
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
 			]
 		}
 	]
