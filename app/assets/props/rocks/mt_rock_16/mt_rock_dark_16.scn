@@ -14,15 +14,15 @@
 			0,
 			0,
 			0,
-			0
+			255
 		],
 		"brdf_map": "core/pbr/brdf.dds",
 		"current_camera": null,
 		"fog_color": [
-			0,
-			0,
-			0,
-			0
+			255,
+			255,
+			255,
+			255
 		],
 		"fog_far": 0.0,
 		"fog_near": 0.0,
@@ -48,14 +48,6 @@
 			"type": "sphere"
 		}
 	},
-	"instances": [
-		{
-			"name": "props/square_shadow/round_shadow.scn"
-		},
-		{
-			"name": "props/square_shadow/square_shadow.scn"
-		}
-	],
 	"key_values": null,
 	"nodes": [
 		{
@@ -68,33 +60,7 @@
 			],
 			"disabled": false,
 			"idx": 0,
-			"name": "temple_columns_002_3"
-		},
-		{
-			"components": [
-				1,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 1,
-			"instance": 0,
-			"name": "round_shadow"
-		},
-		{
-			"components": [
-				2,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 2,
-			"instance": 1,
-			"name": "square_shadow"
+			"name": "Rock_5"
 		}
 	],
 	"objects": [
@@ -102,7 +68,7 @@
 			"bones": [],
 			"material_infos": [
 				{
-					"name": "temple_columns_002"
+					"name": "Rock_5"
 				}
 			],
 			"materials": [
@@ -114,28 +80,19 @@
 					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
-							"name": "uAmbientMap",
-							"path": "props/temple_columns_002/temple_columns_002_3_ao.png",
-							"stage": 6
-						},
-						{
 							"name": "uBaseOpacityMap",
-							"path": "props/maps/KB3D_SOL_StoneStructureA_basecolor.png",
+							"path": "props/rocks/maps/Rock_16_Base_Color.png",
 							"stage": 0
 						},
 						{
 							"name": "uNormalMap",
-							"path": "props/maps/KB3D_SOL_StoneStructureA_normal.png",
+							"path": "props/rocks/maps/Rock_16_Normal.png",
 							"stage": 2
 						},
 						{
 							"name": "uOcclusionRoughnessMetalnessMap",
-							"path": "props/maps/KB3D_SOL_StoneStructureA_orm.png",
+							"path": "props/rocks/maps/Rock_5_Mixed_ORM.png",
 							"stage": 1
-						},
-						{
-							"name": "uSelfMap",
-							"stage": 4
 						}
 					],
 					"values": [
@@ -144,8 +101,8 @@
 							"type": "vec4",
 							"value": [
 								0.20000000298023224,
-								1.0,
-								2.0,
+								1.100000023841858,
+								3.0,
 								0.0
 							]
 						},
@@ -153,9 +110,19 @@
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
 							"value": [
-								0.5,
-								0.5,
-								0.5,
+								0.800000011920929,
+								0.800000011920929,
+								0.800000011920929,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.3229527175426483,
+								0.36265692114830017,
+								0.4117647409439087,
 								1.0
 							]
 						},
@@ -187,7 +154,7 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_columns_002/temple_columns_002_3_43.geo"
+			"name": "props/rocks/mt_rock_16/Rock_5_40.geo"
 		}
 	],
 	"transforms": [
@@ -195,54 +162,18 @@
 			"parent": null,
 			"pos": [
 				0.0,
-				2.384185791015625e-07,
+				0.0,
 				0.0
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				-90.0,
 				0.0,
-				0.0
+				-0.0
 			],
 			"scl": [
-				1.0,
-				1.0,
-				1.0
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				0.0,
-				0.014999999664723873,
-				0.0
-			],
-			"rot": [
-				-0.0,
-				0.0,
-				0.0
-			],
-			"scl": [
-				2.0,
-				2.0,
-				2.0
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				0.0,
-				0.014999999664723873,
-				0.0
-			],
-			"rot": [
-				-0.0,
-				0.0,
-				0.0
-			],
-			"scl": [
-				1.2862815856933594,
-				2.0,
-				1.2862815856933594
+				0.007529673166573048,
+				0.007529673166573048,
+				0.007529673166573048
 			]
 		}
 	]

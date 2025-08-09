@@ -48,6 +48,14 @@
 			"type": "sphere"
 		}
 	},
+	"instances": [
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		}
+	],
 	"key_values": null,
 	"nodes": [
 		{
@@ -61,6 +69,32 @@
 			"disabled": false,
 			"idx": 0,
 			"name": "temple_columns_000_3"
+		},
+		{
+			"components": [
+				1,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 1,
+			"instance": 0,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 2,
+			"instance": 1,
+			"name": "square_shadow"
 		}
 	],
 	"objects": [
@@ -173,6 +207,42 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.014999999664723873,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.0,
+				2.0,
+				2.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.014999999664723873,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.2862815856933594,
+				2.0,
+				1.2862815856933594
 			]
 		}
 	]

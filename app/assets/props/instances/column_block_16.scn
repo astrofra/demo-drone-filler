@@ -3,9 +3,9 @@
 		"clear_color": true,
 		"clear_z": true,
 		"color": [
-			0,
-			0,
-			0,
+			79,
+			79,
+			79,
 			255
 		]
 	},
@@ -48,6 +48,29 @@
 			"type": "sphere"
 		}
 	},
+	"instances": [
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		}
+	],
 	"key_values": null,
 	"nodes": [
 		{
@@ -61,6 +84,97 @@
 			"disabled": false,
 			"idx": 0,
 			"name": "temple_columns_003_3"
+		},
+		{
+			"components": [
+				1,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 1,
+			"instance": 0,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 3,
+			"instance": 6,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				3,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 5,
+			"instance": 1,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				6,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 8,
+			"instance": 4,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				7,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 12,
+			"instance": 5,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				4,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 13,
+			"instance": 2,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				5,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 15,
+			"instance": 3,
+			"name": "square_shadow"
 		}
 	],
 	"objects": [
@@ -173,6 +287,132 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.02500000037252903,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				7.0,
+				7.0,
+				7.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				4.0,
+				0.02500000037252903,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-4.0,
+				0.02500000037252903,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-4.155850887298584,
+				0.02500000037252903,
+				0.0571136474609375
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.06416451930999756,
+				0.02500000037252903,
+				-0.015646934509277344
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.8493924140930176,
+				2.5,
+				3.5078134536743164
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.06416451930999756,
+				0.02500000037252903,
+				-0.015646934509277344
+			],
+			"rot": [
+				-0.0,
+				90.0,
+				0.0
+			],
+			"scl": [
+				2.461479425430298,
+				2.5,
+				4.554032802581787
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				4.089725971221924,
+				0.02500000037252903,
+				0.0571136474609375
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.384122371673584,
+				2.5,
+				2.5
 			]
 		}
 	]

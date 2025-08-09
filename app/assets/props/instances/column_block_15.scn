@@ -3,9 +3,9 @@
 		"clear_color": true,
 		"clear_z": true,
 		"color": [
-			0,
-			0,
-			0,
+			78,
+			78,
+			78,
 			255
 		]
 	},
@@ -48,6 +48,59 @@
 			"type": "sphere"
 		}
 	},
+	"instances": [
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		}
+	],
 	"key_values": null,
 	"nodes": [
 		{
@@ -61,6 +114,227 @@
 			"disabled": false,
 			"idx": 0,
 			"name": "temple_columns_003_2"
+		},
+		{
+			"components": [
+				1,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 1,
+			"instance": 0,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 2,
+			"instance": 1,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				3,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 3,
+			"instance": 2,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				4,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 4,
+			"instance": 3,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				16,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 5,
+			"instance": 15,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				5,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 6,
+			"instance": 4,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				6,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 7,
+			"instance": 5,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				7,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 8,
+			"instance": 6,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				8,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 9,
+			"instance": 7,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				17,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 10,
+			"instance": 16,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				9,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 11,
+			"instance": 8,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				10,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 12,
+			"instance": 9,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				11,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 13,
+			"instance": 10,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				12,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 14,
+			"instance": 11,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				13,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 15,
+			"instance": 12,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				14,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 16,
+			"instance": 13,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				15,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 17,
+			"instance": 14,
+			"name": "round_shadow"
 		}
 	],
 	"objects": [
@@ -111,7 +385,7 @@
 							"value": [
 								0.20000000298023224,
 								1.0,
-								2.0,
+								1.5,
 								0.0
 							]
 						},
@@ -173,6 +447,312 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.02500000037252903,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				10.0,
+				10.0,
+				10.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.02500000037252903,
+				3.25
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.02500000037252903,
+				-3.5
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				3.25,
+				0.02500000037252903,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.600000023841858,
+				0.02500000037252903,
+				1.600000023841858
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.649999976158142,
+				0.02500000037252903,
+				1.600000023841858
+			],
+			"rot": [
+				-0.0,
+				45.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.600000023841858,
+				0.02500000037252903,
+				-1.5
+			],
+			"rot": [
+				-0.0,
+				-30.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.600000023841858,
+				0.02500000037252903,
+				-1.600000023841858
+			],
+			"rot": [
+				-0.0,
+				90.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.4528051614761353,
+				0.02499976195394993,
+				3.4554545879364014
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				3.5901904106140137,
+				0.02499976195394993,
+				1.3090875148773193
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				3.5762100219726563,
+				0.02499976195394993,
+				-1.2546730041503906
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.3510000705718994,
+				0.02499976195394993,
+				-3.5432326793670654
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.393009901046753,
+				0.02499976195394993,
+				-3.6160805225372314
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-3.6244089603424072,
+				0.02499976195394993,
+				1.2935750484466553
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-3.696571111679077,
+				0.02499976195394993,
+				-1.3372642993927002
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-3.25,
+				0.02500000037252903,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				5.0,
+				5.0,
+				5.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.4330354928970337,
+				0.02499976195394993,
+				3.4554545879364014
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				2.5,
+				2.5,
+				2.5
 			]
 		}
 	]
