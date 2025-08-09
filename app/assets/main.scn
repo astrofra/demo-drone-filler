@@ -291,6 +291,9 @@
 		},
 		{
 			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/tv_vintage/tv_vintage.scn"
 		}
 	],
 	"key_values": null,
@@ -1407,25 +1410,14 @@
 			"components": [
 				83,
 				4294967295,
-				1,
 				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 83,
-			"name": "sphere"
-		},
-		{
-			"components": [
-				84,
-				4294967295,
-				2,
 				4294967295,
 				4294967295
 			],
 			"disabled": false,
 			"idx": 84,
-			"name": "sphere"
+			"instance": 81,
+			"name": "tv_vintage"
 		}
 	],
 	"objects": [
@@ -1503,156 +1495,6 @@
 				}
 			],
 			"name": "common/primitives/plane.geo"
-		},
-		{
-			"bones": [],
-			"material_infos": [
-				{
-					"name": "default"
-				}
-			],
-			"materials": [
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.16877639293670654,
-								0.16877470910549164,
-								0.16877470910549164,
-								1.0
-							]
-						},
-						{
-							"name": "uDiffuseColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.0,
-								1.0,
-								1.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						},
-						{
-							"name": "uSpecularColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								0.03124999813735485
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				}
-			],
-			"name": "common/primitives/sphere.geo"
-		},
-		{
-			"bones": [],
-			"material_infos": [
-				{
-					"name": "default"
-				}
-			],
-			"materials": [
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.16877639293670654,
-								0.16877470910549164,
-								0.16877470910549164,
-								1.0
-							]
-						},
-						{
-							"name": "uDiffuseColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.6579999923706055,
-								0.0,
-								1.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						},
-						{
-							"name": "uSpecularColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								0.03124999813735485
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				}
-			],
-			"name": "common/primitives/sphere.geo"
 		}
 	],
 	"transforms": [
@@ -3153,37 +2995,19 @@
 		{
 			"parent": null,
 			"pos": [
-				0.0,
-				2.0,
-				5.0
+				-0.30221235752105713,
+				0.29967355728149414,
+				0.0
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				-0.0,
 				0.0,
 				0.0
 			],
 			"scl": [
-				5.0,
-				5.0,
-				5.0
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				-7.0,
-				2.0,
-				5.0
-			],
-			"rot": [
-				-7.0167078561561656e-15,
-				0.0,
-				0.0
-			],
-			"scl": [
-				5.0,
-				5.0,
-				5.0
+				1.0,
+				1.0,
+				1.0
 			]
 		}
 	]
