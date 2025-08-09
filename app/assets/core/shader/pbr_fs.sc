@@ -30,6 +30,7 @@ float LightAttenuation(vec3 L, vec3 D, float dist, float attn, float inner_rim, 
 	if (outer_rim > 0.0) {
 		float c = dot(L, D);
 		k *= clamp(1.0 - (c - inner_rim) / (outer_rim - inner_rim), 0.0, 1.0); // spot attenuation
+		k = pow(k, 2.0);
 	}
 	return k;
 }
