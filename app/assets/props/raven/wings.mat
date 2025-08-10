@@ -1,0 +1,48 @@
+{
+	"blend_mode": "opaque",
+	"depth_test": "less",
+	"face_culling": "disabled",
+	"flags": [
+		"EnableSkinning"
+	],
+	"program": "core/shader/feather.hps",
+	"textures": [
+		{
+			"name": "uBaseOpacityMap",
+			"path": "props/raven/Feathers.png",
+			"stage": 0
+		},
+		{
+			"name": "uNormalMap",
+			"path": "props/raven/FeathersNormal.png",
+			"stage": 2
+		}
+	],
+	"values": [
+		{
+			"name": "uBaseOpacityColor",
+			"type": "vec4",
+			"value": [
+				0.5882353186607361,
+				0.5882353186607361,
+				0.5882353186607361,
+				1.0
+			]
+		},
+		{
+			"name": "uParams",
+			"type": "vec4",
+			"value": [
+				0.8999999761581421,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	],
+	"write_a": true,
+	"write_b": true,
+	"write_g": true,
+	"write_r": true,
+	"write_z": true
+}
