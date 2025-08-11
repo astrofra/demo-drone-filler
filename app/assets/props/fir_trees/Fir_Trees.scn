@@ -156,9 +156,9 @@
 		},
 		{
 			"components": [
-				8,
+				15,
 				4294967295,
-				8,
+				15,
 				4294967295,
 				4294967295
 			],
@@ -169,9 +169,9 @@
 		},
 		{
 			"components": [
-				9,
+				8,
 				4294967295,
-				9,
+				8,
 				4294967295,
 				4294967295
 			],
@@ -182,9 +182,9 @@
 		},
 		{
 			"components": [
-				10,
+				9,
 				4294967295,
-				10,
+				9,
 				4294967295,
 				4294967295
 			],
@@ -195,9 +195,9 @@
 		},
 		{
 			"components": [
-				11,
+				10,
 				4294967295,
-				11,
+				10,
 				4294967295,
 				4294967295
 			],
@@ -208,9 +208,9 @@
 		},
 		{
 			"components": [
-				12,
+				11,
 				4294967295,
-				12,
+				11,
 				4294967295,
 				4294967295
 			],
@@ -221,9 +221,9 @@
 		},
 		{
 			"components": [
-				13,
+				12,
 				4294967295,
-				13,
+				12,
 				4294967295,
 				4294967295
 			],
@@ -234,9 +234,9 @@
 		},
 		{
 			"components": [
-				14,
+				13,
 				4294967295,
-				14,
+				13,
 				4294967295,
 				4294967295
 			],
@@ -247,9 +247,9 @@
 		},
 		{
 			"components": [
-				15,
+				14,
 				4294967295,
-				15,
+				14,
 				4294967295,
 				4294967295
 			],
@@ -1484,136 +1484,6 @@
 							"name": "uBaseOpacityMap",
 							"path": "props/fir_trees/T_bark_fir_BC.tga",
 							"stage": 0
-						}
-					],
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				},
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [
-						"EnableAlphaCut"
-					],
-					"program": "core/shader/pbr.hps",
-					"textures": [
-						{
-							"name": "uBaseOpacityMap",
-							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
-							"stage": 0
-						}
-					],
-					"values": [
-						{
-							"name": "uAlphaCut",
-							"type": "vec4",
-							"value": [
-								0.10000000149011612,
-								0.0,
-								0.0,
-								0.0
-							]
-						},
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				}
-			],
-			"name": "props/fir_trees/SM_Fir_Tree_Fallen_A001_48.geo",
-			"shadow": ""
-		},
-		{
-			"bones": [],
-			"flags": [],
-			"material_infos": [
-				{
-					"name": "08 - Default"
-				},
-				{
-					"name": "01 - Default"
-				}
-			],
-			"materials": [
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"textures": [
-						{
-							"name": "uBaseOpacityMap",
-							"path": "props/fir_trees/T_bark_fir_BC.tga",
-							"stage": 0
 						},
 						{
 							"name": "uNormalMap",
@@ -2642,6 +2512,136 @@
 			],
 			"name": "props/fir_trees/SM_Fir_Tree_Small_55.geo",
 			"shadow": ""
+		},
+		{
+			"bones": [],
+			"flags": [],
+			"material_infos": [
+				{
+					"name": "08 - Default"
+				},
+				{
+					"name": "01 - Default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				},
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [
+						"EnableAlphaCut"
+					],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
+					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "props/fir_trees/SM_Fir_Tree_Fallen_A001_48.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [
@@ -2792,24 +2792,6 @@
 		{
 			"parent": null,
 			"pos": [
-				25.319618225097656,
-				0.0,
-				-30.4276180267334
-			],
-			"rot": [
-				-7.0167078561561656e-15,
-				0.0,
-				0.0
-			],
-			"scl": [
-				0.009999999776482582,
-				0.009999999776482582,
-				0.009999999776482582
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
 				-38.9530143737793,
 				0.0,
 				-8.933232307434082
@@ -2921,6 +2903,24 @@
 				-3.50732421875,
 				0.0,
 				-20.368520736694336
+			],
+			"rot": [
+				-7.0167078561561656e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.009999999776482582,
+				0.009999999776482582,
+				0.009999999776482582
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				25.319618225097656,
+				0.0,
+				-30.4276180267334
 			],
 			"rot": [
 				-7.0167078561561656e-15,
