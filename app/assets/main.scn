@@ -28,7 +28,7 @@
 			0
 		],
 		"brdf_map": "core/pbr/brdf.dds",
-		"current_camera": 109,
+		"current_camera": 107,
 		"fog_color": [
 			16,
 			16,
@@ -61,232 +61,87 @@
 	},
 	"instances": [
 		{
-			"name": "props/instances/wall_25m.scn"
+			"name": "props/instances/wall_50m.scn"
 		},
 		{
 			"name": "props/instances/column_block_02.scn"
 		},
 		{
-			"name": "props/instances/wall_50m.scn"
-		},
-		{
-			"name": "props/instances/column_block_01.scn"
+			"name": "props/instances/wall_25m.scn"
 		},
 		{
 			"name": "props/instances/column_block_00.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_1.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_16/mt_rock_dark_16.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/instances/gate_block_2.scn"
 		},
 		{
 			"name": "props/instances/wall_block_5.scn"
 		},
 		{
+			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
+		},
+		{
+			"name": "props/instances/tree_b13.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
 			"name": "props/instances/wall_block_6.scn"
 		},
 		{
-			"name": "props/instances/wall_block_7.scn"
-		},
-		{
-			"name": "props/instances/wall_block_8.scn"
-		},
-		{
-			"name": "props/instances/wall_block_9.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/column_block_12.scn"
-		},
-		{
-			"name": "props/instances/column_block_04.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/column_block_16.scn"
-		},
-		{
-			"name": "props/instances/gate_block_0.scn"
-		},
-		{
-			"name": "props/instances/column_block_16.scn"
-		},
-		{
-			"name": "props/instances/column_block_15.scn"
-		},
-		{
-			"name": "props/instances/column_block_14.scn"
-		},
-		{
-			"name": "props/instances/column_block_13.scn"
-		},
-		{
-			"name": "props/instances/column_block_12.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
 			"name": "props/instances/stairs_block_1.scn"
 		},
 		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_4.scn"
-		},
-		{
-			"name": "props/instances/column_block_15.scn"
-		},
-		{
-			"name": "props/tv_medium_size/tv_medium_size.scn"
-		},
-		{
-			"name": "props/monitor_cctv/monitor_cctv.scn"
-		},
-		{
-			"name": "props/monitor/monitor.scn"
-		},
-		{
-			"name": "props/tv_vintage/tv_vintage.scn"
-		},
-		{
 			"name": "props/instances/stairs_block_1.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_2.scn"
-		},
-		{
-			"name": "props/instances/wall_block_0.scn"
-		},
-		{
-			"name": "props/instances/wall_block_1.scn"
-		},
-		{
-			"name": "props/instances/wall_block_2.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/instances/wall_block_4.scn"
-		},
-		{
-			"name": "props/instances/column_block_10.scn"
-		},
-		{
-			"name": "props/instances/column_block_09.scn"
-		},
-		{
-			"name": "props/instances/column_block_08.scn"
-		},
-		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/column_block_06.scn"
-		},
-		{
-			"name": "props/instances/column_block_05.scn"
-		},
-		{
-			"name": "props/instances/column_block_04.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/column_block_02.scn"
-		},
-		{
-			"name": "props/instances/column_block_01.scn"
-		},
-		{
-			"name": "props/instances/column_block_00.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_4.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_3.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_1.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_0.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_4.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_0.scn"
-		},
-		{
-			"name": "props/instances/gate_block_2.scn"
-		},
-		{
-			"name": "props/instances/gate_block_1.scn"
 		},
 		{
 			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_01/mt_rock_01.scn"
+			"name": "props/instances/tree_b01.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_03/mt_rock_03.scn"
+			"name": "props/instances/tree_1_lo.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_04/mt_rock_04.scn"
+			"name": "props/instances/wall_block_5.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"anim": "Take 001",
+			"loop_mode": "loop",
+			"name": "props/raven/Raven_A.scn"
+		},
+		{
+			"name": "props/instances/tree_b01.scn"
+		},
+		{
+			"name": "props/instances/tree_b05.scn"
+		},
+		{
+			"name": "props/instances/tree_b08.scn"
+		},
+		{
+			"name": "props/instances/tree_b07.scn"
+		},
+		{
+			"name": "props/instances/tree_b01.scn"
+		},
+		{
+			"name": "props/instances/tree_b07.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/tree_b05.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
 		},
 		{
 			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
@@ -298,95 +153,363 @@
 			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_08/mt_rock_08.scn"
+			"name": "props/instances/tree_b01.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
+			"name": "props/instances/tree_b07.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_10/mt_rock_10.scn"
+			"name": "props/instances/tree_b08.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_11/mt_rock_11.scn"
+			"name": "props/instances/tree_b05.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
+			"name": "props/instances/tree_b02.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_13/mt_rock_13.scn"
+			"name": "props/instances/wall_block_9.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_14/mt_rock_14.scn"
+			"name": "props/instances/wall_block_4.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_15/mt_rock_15.scn"
+			"name": "props/instances/wall_block_8.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
+			"name": "props/instances/wall_block_9.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_13/mt_rock_dark_13.scn"
+			"name": "props/instances/wall_block_0.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_02/mt_rock_dark_02.scn"
+			"name": "props/instances/wall_block_0.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
+			"name": "props/instances/column_block_13.scn"
 		},
 		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"anim": "Take 001",
-			"loop_mode": "loop",
-			"name": "props/raven/Raven_A.scn"
+			"name": "props/instances/column_block_14.scn"
 		},
 		{
 			"anim": "Take 001",
 			"loop_mode": "loop",
 			"name": "props/raven/Raven_B.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_dark_02.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_13/mt_rock_dark_13.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_15/mt_rock_15.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_14/mt_rock_14.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_13/mt_rock_13.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_11/mt_rock_11.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_10/mt_rock_10.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_08/mt_rock_08.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_06/mt_rock_06.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_04/mt_rock_04.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_03/mt_rock_03.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_01/mt_rock_01.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
+		},
+		{
+			"name": "props/instances/gate_block_1.scn"
+		},
+		{
+			"name": "props/instances/gate_block_2.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_0.scn"
+		},
+		{
+			"name": "props/instances/column_block_11.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_4.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_0.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_1.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_3.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_4.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_5.scn"
+		},
+		{
+			"name": "props/instances/column_block_00.scn"
+		},
+		{
+			"name": "props/instances/column_block_01.scn"
+		},
+		{
+			"name": "props/instances/column_block_02.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/instances/column_block_04.scn"
+		},
+		{
+			"name": "props/instances/column_block_05.scn"
+		},
+		{
+			"name": "props/instances/column_block_06.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_08.scn"
+		},
+		{
+			"name": "props/instances/column_block_09.scn"
+		},
+		{
+			"name": "props/instances/column_block_10.scn"
+		},
+		{
+			"name": "props/instances/wall_block_4.scn"
+		},
+		{
+			"name": "props/instances/wall_block_3.scn"
+		},
+		{
+			"name": "props/instances/wall_block_2.scn"
+		},
+		{
+			"name": "props/instances/wall_block_1.scn"
+		},
+		{
+			"name": "props/instances/wall_block_0.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_2.scn"
+		},
+		{
+			"name": "props/tv_vintage/tv_vintage.scn"
+		},
+		{
+			"name": "props/monitor/monitor.scn"
+		},
+		{
+			"name": "props/monitor_cctv/monitor_cctv.scn"
+		},
+		{
+			"name": "props/tv_medium_size/tv_medium_size.scn"
+		},
+		{
+			"name": "props/instances/column_block_15.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_4.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_5.scn"
+		},
+		{
+			"name": "props/instances/column_block_11.scn"
+		},
+		{
+			"name": "props/instances/column_block_12.scn"
+		},
+		{
+			"name": "props/instances/column_block_13.scn"
+		},
+		{
+			"name": "props/instances/column_block_14.scn"
+		},
+		{
+			"name": "props/instances/column_block_15.scn"
+		},
+		{
+			"name": "props/instances/column_block_16.scn"
+		},
+		{
+			"name": "props/instances/gate_block_0.scn"
+		},
+		{
+			"name": "props/instances/column_block_16.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
+		},
+		{
+			"name": "props/instances/wall_block_6.scn"
+		},
+		{
+			"name": "props/instances/column_block_11.scn"
+		},
+		{
+			"name": "props/instances/column_block_04.scn"
+		},
+		{
+			"name": "props/instances/column_block_12.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/wall_block_7.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_0.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_block_9.scn"
+		},
+		{
+			"name": "props/instances/wall_block_8.scn"
+		},
+		{
+			"name": "props/instances/wall_block_6.scn"
+		},
+		{
+			"name": "props/instances/wall_block_5.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_5.scn"
+		},
+		{
+			"name": "props/instances/tree_b08.scn"
+		},
+		{
+			"name": "props/instances/gate_block_2.scn"
+		},
+		{
+			"name": "props/instances/wall_block_3.scn"
+		},
+		{
+			"name": "props/instances/wall_block_3.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_16/mt_rock_dark_16.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/column_block_01.scn"
+		},
+		{
+			"name": "props/instances/tree_b10.scn"
 		}
 	],
 	"key_values": null,
@@ -460,6 +583,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "plane"
 		},
@@ -472,6 +596,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 1,
 			"name": "Light"
 		},
@@ -484,8 +609,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 2,
-			"instance": 65,
+			"instance": 83,
 			"name": "bridge_block_0"
 		},
 		{
@@ -497,8 +623,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 3,
-			"instance": 64,
+			"instance": 84,
 			"name": "bridge_block_1"
 		},
 		{
@@ -510,8 +637,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 4,
-			"instance": 63,
+			"instance": 85,
 			"name": "bridge_block_2"
 		},
 		{
@@ -523,8 +651,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 5,
-			"instance": 62,
+			"instance": 86,
 			"name": "bridge_block_3"
 		},
 		{
@@ -536,8 +665,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 6,
-			"instance": 61,
+			"instance": 87,
 			"name": "bridge_block_4"
 		},
 		{
@@ -549,8 +679,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 7,
-			"instance": 60,
+			"instance": 88,
 			"name": "bridge_block_5"
 		},
 		{
@@ -562,8 +693,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 8,
-			"instance": 59,
+			"instance": 89,
 			"name": "column_block_00"
 		},
 		{
@@ -575,8 +707,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 9,
-			"instance": 58,
+			"instance": 90,
 			"name": "column_block_01"
 		},
 		{
@@ -588,8 +721,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 10,
-			"instance": 57,
+			"instance": 91,
 			"name": "column_block_02"
 		},
 		{
@@ -601,8 +735,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 11,
-			"instance": 56,
+			"instance": 92,
 			"name": "column_block_03"
 		},
 		{
@@ -614,8 +749,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 12,
-			"instance": 55,
+			"instance": 93,
 			"name": "column_block_04"
 		},
 		{
@@ -627,8 +763,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 13,
-			"instance": 54,
+			"instance": 94,
 			"name": "column_block_05"
 		},
 		{
@@ -640,8 +777,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 14,
-			"instance": 53,
+			"instance": 95,
 			"name": "column_block_06"
 		},
 		{
@@ -653,8 +791,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 15,
-			"instance": 52,
+			"instance": 96,
 			"name": "column_block_07"
 		},
 		{
@@ -666,8 +805,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 16,
-			"instance": 51,
+			"instance": 97,
 			"name": "column_block_08"
 		},
 		{
@@ -679,8 +819,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 17,
-			"instance": 50,
+			"instance": 98,
 			"name": "column_block_09"
 		},
 		{
@@ -692,8 +833,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 18,
-			"instance": 49,
+			"instance": 99,
 			"name": "column_block_10"
 		},
 		{
@@ -705,8 +847,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 19,
-			"instance": 32,
+			"instance": 115,
 			"name": "column_block_11"
 		},
 		{
@@ -718,8 +861,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 20,
-			"instance": 31,
+			"instance": 116,
 			"name": "column_block_12"
 		},
 		{
@@ -731,8 +875,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 21,
-			"instance": 30,
+			"instance": 117,
 			"name": "column_block_13"
 		},
 		{
@@ -744,8 +889,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 22,
-			"instance": 29,
+			"instance": 118,
 			"name": "column_block_14"
 		},
 		{
@@ -757,8 +903,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 23,
-			"instance": 28,
+			"instance": 119,
 			"name": "column_block_15"
 		},
 		{
@@ -770,8 +917,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 24,
-			"instance": 27,
+			"instance": 120,
 			"name": "column_block_16"
 		},
 		{
@@ -783,8 +931,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 25,
-			"instance": 26,
+			"instance": 121,
 			"name": "gate_block_0"
 		},
 		{
@@ -796,8 +945,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 26,
-			"instance": 71,
+			"instance": 77,
 			"name": "gate_block_1"
 		},
 		{
@@ -809,8 +959,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 27,
-			"instance": 70,
+			"instance": 78,
 			"name": "gate_block_2"
 		},
 		{
@@ -822,8 +973,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 28,
-			"instance": 69,
+			"instance": 79,
 			"name": "stairs_block_0"
 		},
 		{
@@ -835,8 +987,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 29,
-			"instance": 42,
+			"instance": 131,
 			"name": "stairs_block_1"
 		},
 		{
@@ -848,8 +1001,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 30,
-			"instance": 43,
+			"instance": 105,
 			"name": "stairs_block_2"
 		},
 		{
@@ -861,8 +1015,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 31,
-			"instance": 66,
+			"instance": 82,
 			"name": "stairs_block_4"
 		},
 		{
@@ -874,8 +1029,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 32,
-			"instance": 44,
+			"instance": 104,
 			"name": "wall_block_0"
 		},
 		{
@@ -887,8 +1043,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 33,
-			"instance": 45,
+			"instance": 103,
 			"name": "wall_block_1"
 		},
 		{
@@ -900,8 +1057,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 34,
-			"instance": 46,
+			"instance": 102,
 			"name": "wall_block_2"
 		},
 		{
@@ -913,8 +1071,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 35,
-			"instance": 47,
+			"instance": 101,
 			"name": "wall_block_3"
 		},
 		{
@@ -926,8 +1085,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 36,
-			"instance": 48,
+			"instance": 100,
 			"name": "wall_block_4"
 		},
 		{
@@ -939,8 +1099,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 37,
-			"instance": 11,
+			"instance": 139,
 			"name": "wall_block_5"
 		},
 		{
@@ -952,8 +1113,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 38,
-			"instance": 12,
+			"instance": 138,
 			"name": "wall_block_6"
 		},
 		{
@@ -965,8 +1127,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 39,
-			"instance": 13,
+			"instance": 132,
 			"name": "wall_block_7"
 		},
 		{
@@ -978,8 +1141,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 40,
-			"instance": 14,
+			"instance": 137,
 			"name": "wall_block_8"
 		},
 		{
@@ -991,8 +1155,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 41,
-			"instance": 15,
+			"instance": 136,
 			"name": "wall_block_9"
 		},
 		{
@@ -1004,8 +1169,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 42,
-			"instance": 72,
+			"instance": 76,
 			"name": "mt_rock_02"
 		},
 		{
@@ -1017,8 +1183,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 43,
-			"instance": 73,
+			"instance": 75,
 			"name": "mt_rock_01"
 		},
 		{
@@ -1030,6 +1197,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 44,
 			"instance": 74,
 			"name": "mt_rock_03"
@@ -1043,8 +1211,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 45,
-			"instance": 75,
+			"instance": 73,
 			"name": "mt_rock_04"
 		},
 		{
@@ -1056,8 +1225,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 46,
-			"instance": 76,
+			"instance": 72,
 			"name": "mt_rock_05"
 		},
 		{
@@ -1069,8 +1239,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 47,
-			"instance": 77,
+			"instance": 71,
 			"name": "mt_rock_06"
 		},
 		{
@@ -1082,8 +1253,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 48,
-			"instance": 78,
+			"instance": 70,
 			"name": "mt_rock_07"
 		},
 		{
@@ -1095,8 +1267,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 49,
-			"instance": 79,
+			"instance": 69,
 			"name": "mt_rock_08"
 		},
 		{
@@ -1108,8 +1281,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 50,
-			"instance": 80,
+			"instance": 68,
 			"name": "mt_rock_09"
 		},
 		{
@@ -1121,8 +1295,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 51,
-			"instance": 81,
+			"instance": 67,
 			"name": "mt_rock_10"
 		},
 		{
@@ -1134,8 +1309,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 52,
-			"instance": 82,
+			"instance": 66,
 			"name": "mt_rock_11"
 		},
 		{
@@ -1147,8 +1323,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 53,
-			"instance": 83,
+			"instance": 65,
 			"name": "mt_rock_12"
 		},
 		{
@@ -1160,8 +1337,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 54,
-			"instance": 84,
+			"instance": 64,
 			"name": "mt_rock_13"
 		},
 		{
@@ -1173,8 +1351,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 55,
-			"instance": 85,
+			"instance": 63,
 			"name": "mt_rock_14"
 		},
 		{
@@ -1186,8 +1365,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 56,
-			"instance": 86,
+			"instance": 62,
 			"name": "mt_rock_15"
 		},
 		{
@@ -1199,8 +1379,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 57,
-			"instance": 87,
+			"instance": 61,
 			"name": "mt_rock_01"
 		},
 		{
@@ -1212,8 +1393,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 58,
-			"instance": 88,
+			"instance": 60,
 			"name": "mt_rock_13"
 		},
 		{
@@ -1225,8 +1407,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 59,
-			"instance": 89,
+			"instance": 59,
 			"name": "mt_rock_02"
 		},
 		{
@@ -1238,8 +1421,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 60,
-			"instance": 90,
+			"instance": 58,
 			"name": "mt_rock_16"
 		},
 		{
@@ -1251,8 +1435,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 61,
-			"instance": 91,
+			"instance": 57,
 			"name": "cube_50m"
 		},
 		{
@@ -1264,8 +1449,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 62,
-			"instance": 92,
+			"instance": 56,
 			"name": "cube_50m"
 		},
 		{
@@ -1277,8 +1463,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 63,
-			"instance": 93,
+			"instance": 55,
 			"name": "cube_50m"
 		},
 		{
@@ -1290,8 +1477,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 64,
-			"instance": 94,
+			"instance": 54,
 			"name": "cube_50m"
 		},
 		{
@@ -1303,8 +1491,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 65,
-			"instance": 95,
+			"instance": 53,
 			"name": "cube_50m"
 		},
 		{
@@ -1316,8 +1505,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 66,
-			"instance": 96,
+			"instance": 52,
 			"name": "cube_50m"
 		},
 		{
@@ -1329,8 +1519,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 67,
-			"instance": 97,
+			"instance": 51,
 			"name": "cube_25m"
 		},
 		{
@@ -1342,8 +1533,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 68,
-			"instance": 98,
+			"instance": 24,
 			"name": "cube_25m"
 		},
 		{
@@ -1355,8 +1547,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 69,
-			"instance": 99,
+			"instance": 50,
 			"name": "cube_25m"
 		},
 		{
@@ -1368,8 +1561,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 70,
-			"instance": 100,
+			"instance": 49,
 			"name": "cube_25m"
 		},
 		{
@@ -1381,8 +1575,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 71,
-			"instance": 101,
+			"instance": 48,
 			"name": "cube_25m"
 		},
 		{
@@ -1394,8 +1589,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 72,
-			"instance": 102,
+			"instance": 47,
 			"name": "cube_50m"
 		},
 		{
@@ -1407,8 +1603,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 73,
-			"instance": 103,
+			"instance": 46,
 			"name": "cube_50m"
 		},
 		{
@@ -1420,8 +1617,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 74,
-			"instance": 104,
+			"instance": 45,
 			"name": "wall_25m"
 		},
 		{
@@ -1433,8 +1631,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 75,
-			"instance": 105,
+			"instance": 44,
 			"name": "wall_25m"
 		},
 		{
@@ -1446,8 +1645,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 76,
-			"instance": 16,
+			"instance": 135,
 			"name": "wall_25m"
 		},
 		{
@@ -1459,8 +1659,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 77,
-			"instance": 17,
+			"instance": 134,
 			"name": "wall_25m"
 		},
 		{
@@ -1472,8 +1673,9 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 78,
-			"instance": 2,
+			"instance": 0,
 			"name": "wall_50m"
 		},
 		{
@@ -1485,9 +1687,164 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 79,
-			"instance": 0,
+			"instance": 2,
 			"name": "wall_25m"
+		},
+		{
+			"components": [
+				149,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 80,
+			"instance": 130,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				87,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 81,
+			"instance": 106,
+			"name": "tv_vintage"
+		},
+		{
+			"components": [
+				131,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 82,
+			"instance": 107,
+			"name": "monitor"
+		},
+		{
+			"components": [
+				92,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 83,
+			"instance": 110,
+			"name": "column_block_15"
+		},
+		{
+			"components": [
+				135,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 84,
+			"instance": 108,
+			"name": "monitor_cctv"
+		},
+		{
+			"components": [
+				90,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 85,
+			"instance": 109,
+			"name": "tv_medium_size"
+		},
+		{
+			"components": [
+				91,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 86,
+			"instance": 111,
+			"name": "stairs_block_4"
+		},
+		{
+			"components": [
+				89,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 87,
+			"instance": 112,
+			"name": "bridge_block_2"
+		},
+		{
+			"components": [
+				88,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 88,
+			"instance": 113,
+			"name": "stairs_block_1"
+		},
+		{
+			"components": [
+				140,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 89,
+			"instance": 114,
+			"name": "bridge_block_5"
+		},
+		{
+			"components": [
+				146,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 90,
+			"instance": 140,
+			"name": "bridge_block_5"
 		},
 		{
 			"components": [
@@ -1498,138 +1855,9 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 80,
-			"instance": 18,
-			"name": "wall_25m"
-		},
-		{
-			"components": [
-				81,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 81,
-			"instance": 19,
-			"name": "wall_25m"
-		},
-		{
-			"components": [
-				82,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 82,
-			"instance": 20,
-			"name": "wall_25m"
-		},
-		{
-			"components": [
-				94,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 83,
-			"instance": 41,
-			"name": "tv_vintage"
-		},
-		{
-			"components": [
-				83,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 84,
-			"instance": 40,
-			"name": "monitor"
-		},
-		{
-			"components": [
-				99,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 85,
-			"instance": 37,
-			"name": "column_block_15"
-		},
-		{
-			"components": [
-				84,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 86,
-			"instance": 39,
-			"name": "monitor_cctv"
-		},
-		{
-			"components": [
-				97,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 87,
-			"instance": 38,
-			"name": "tv_medium_size"
-		},
-		{
-			"components": [
-				98,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 88,
-			"instance": 36,
-			"name": "stairs_block_4"
-		},
-		{
-			"components": [
-				96,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 89,
-			"instance": 35,
-			"name": "bridge_block_2"
-		},
-		{
-			"components": [
-				95,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 90,
-			"instance": 34,
+			"editor": false,
+			"idx": 91,
+			"instance": 146,
 			"name": "stairs_block_1"
 		},
 		{
@@ -1641,9 +1869,66 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 91,
-			"instance": 33,
-			"name": "bridge_block_5"
+			"editor": false,
+			"idx": 92,
+			"instance": 127,
+			"name": "column_block_11"
+		},
+		{
+			"components": [
+				84,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 93,
+			"instance": 123,
+			"name": "column_block_03"
+		},
+		{
+			"components": [
+				83,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 94,
+			"instance": 1,
+			"name": "column_block_02"
+		},
+		{
+			"components": [
+				82,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 95,
+			"instance": 147,
+			"name": "column_block_01"
+		},
+		{
+			"components": [
+				81,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 96,
+			"instance": 3,
+			"name": "column_block_00"
 		},
 		{
 			"components": [
@@ -1654,87 +1939,10 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 92,
-			"instance": 6,
-			"name": "bridge_block_5"
-		},
-		{
-			"components": [
-				87,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 93,
-			"instance": 5,
-			"name": "stairs_block_1"
-		},
-		{
-			"components": [
-				92,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 94,
-			"instance": 23,
-			"name": "column_block_11"
-		},
-		{
-			"components": [
-				91,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 95,
-			"instance": 24,
-			"name": "column_block_03"
-		},
-		{
-			"components": [
-				90,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 96,
-			"instance": 1,
-			"name": "column_block_02"
-		},
-		{
-			"components": [
-				89,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
+			"editor": false,
 			"idx": 97,
-			"instance": 3,
-			"name": "column_block_01"
-		},
-		{
-			"components": [
-				88,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 98,
-			"instance": 4,
-			"name": "column_block_00"
+			"instance": 129,
+			"name": "column_block_12"
 		},
 		{
 			"components": [
@@ -1745,9 +1953,66 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
+			"idx": 98,
+			"instance": 80,
+			"name": "column_block_11"
+		},
+		{
+			"components": [
+				94,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
 			"idx": 99,
-			"instance": 21,
-			"name": "column_block_12"
+			"instance": 81,
+			"name": "column_block_03"
+		},
+		{
+			"components": [
+				95,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 100,
+			"instance": 122,
+			"name": "column_block_16"
+		},
+		{
+			"components": [
+				96,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 101,
+			"instance": 142,
+			"name": "gate_block_2"
+		},
+		{
+			"components": [
+				97,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 102,
+			"instance": 143,
+			"name": "wall_block_3"
 		},
 		{
 			"components": [
@@ -1758,35 +2023,64 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 100,
-			"instance": 68,
-			"name": "column_block_11"
+			"editor": false,
+			"idx": 103,
+			"instance": 144,
+			"name": "wall_block_3"
+		},
+		{
+			"components": [
+				98,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 104,
+			"instance": 145,
+			"name": "mt_rock_dark_16"
+		},
+		{
+			"components": [
+				99,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 105,
+			"instance": 128,
+			"name": "column_block_04"
 		},
 		{
 			"components": [
 				101,
 				4294967295,
 				4294967295,
-				4294967295,
+				1,
 				4294967295
 			],
 			"disabled": false,
-			"idx": 101,
-			"instance": 67,
-			"name": "column_block_03"
+			"editor": false,
+			"idx": 106,
+			"name": "Light"
 		},
 		{
 			"components": [
 				102,
-				4294967295,
+				0,
 				4294967295,
 				4294967295,
 				4294967295
 			],
 			"disabled": false,
-			"idx": 102,
-			"instance": 25,
-			"name": "column_block_16"
+			"editor": false,
+			"idx": 107,
+			"name": "Camera"
 		},
 		{
 			"components": [
@@ -1797,9 +2091,10 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 103,
-			"instance": 10,
-			"name": "gate_block_2"
+			"editor": false,
+			"idx": 108,
+			"instance": 17,
+			"name": "Raven"
 		},
 		{
 			"components": [
@@ -1810,22 +2105,10 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 104,
-			"instance": 9,
-			"name": "wall_block_3"
-		},
-		{
-			"components": [
-				107,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 105,
-			"instance": 8,
-			"name": "wall_block_3"
+			"editor": false,
+			"idx": 109,
+			"instance": 43,
+			"name": "Raven_B"
 		},
 		{
 			"components": [
@@ -1836,9 +2119,24 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 106,
-			"instance": 7,
-			"name": "mt_rock_dark_16"
+			"editor": false,
+			"idx": 110,
+			"instance": 42,
+			"name": "column_block_14"
+		},
+		{
+			"components": [
+				147,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 111,
+			"instance": 41,
+			"name": "column_block_13"
 		},
 		{
 			"components": [
@@ -1849,33 +2147,24 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 107,
-			"instance": 22,
-			"name": "column_block_04"
+			"editor": false,
+			"idx": 112,
+			"instance": 40,
+			"name": "wall_block_0"
 		},
 		{
 			"components": [
-				108,
+				107,
 				4294967295,
-				4294967295,
-				1,
-				4294967295
-			],
-			"disabled": false,
-			"idx": 108,
-			"name": "Light"
-		},
-		{
-			"components": [
-				109,
-				0,
 				4294967295,
 				4294967295,
 				4294967295
 			],
 			"disabled": false,
-			"idx": 109,
-			"name": "Camera"
+			"editor": false,
+			"idx": 113,
+			"instance": 39,
+			"name": "wall_block_0"
 		},
 		{
 			"components": [
@@ -1886,9 +2175,38 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 110,
-			"instance": 106,
-			"name": "Raven"
+			"editor": false,
+			"idx": 114,
+			"instance": 38,
+			"name": "wall_block_9"
+		},
+		{
+			"components": [
+				108,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 115,
+			"instance": 36,
+			"name": "wall_block_4"
+		},
+		{
+			"components": [
+				109,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 116,
+			"instance": 37,
+			"name": "wall_block_8"
 		},
 		{
 			"components": [
@@ -1899,14 +2217,506 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 112,
-			"instance": 107,
-			"name": "Raven_B"
+			"editor": false,
+			"idx": 117,
+			"instance": 35,
+			"name": "wall_block_9"
+		},
+		{
+			"components": [
+				113,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 118,
+			"instance": 32,
+			"name": "tree_b08"
+		},
+		{
+			"components": [
+				114,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 119,
+			"instance": 31,
+			"name": "tree_b07"
+		},
+		{
+			"components": [
+				112,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 120,
+			"instance": 33,
+			"name": "tree_b05"
+		},
+		{
+			"components": [
+				121,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 121,
+			"instance": 30,
+			"name": "tree_b01"
+		},
+		{
+			"components": [
+				132,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 122,
+			"instance": 34,
+			"name": "tree_b02"
+		},
+		{
+			"components": [
+				128,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 123,
+			"instance": 20,
+			"name": "tree_b08"
+		},
+		{
+			"components": [
+				115,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 124,
+			"instance": 19,
+			"name": "tree_b05"
+		},
+		{
+			"components": [
+				136,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 125,
+			"instance": 21,
+			"name": "tree_b07"
+		},
+		{
+			"components": [
+				116,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 126,
+			"instance": 22,
+			"name": "tree_b01"
+		},
+		{
+			"components": [
+				142,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 127,
+			"instance": 141,
+			"name": "tree_b08"
+		},
+		{
+			"components": [
+				117,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 128,
+			"instance": 23,
+			"name": "tree_b07"
+		},
+		{
+			"components": [
+				144,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 129,
+			"instance": 25,
+			"name": "tree_b05"
+		},
+		{
+			"components": [
+				120,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 130,
+			"instance": 18,
+			"name": "tree_b01"
+		},
+		{
+			"components": [
+				150,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 131,
+			"instance": 26,
+			"name": "mt_rock_01"
+		},
+		{
+			"components": [
+				122,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 132,
+			"instance": 29,
+			"name": "mt_rock_07"
+		},
+		{
+			"components": [
+				129,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 133,
+			"instance": 27,
+			"name": "mt_rock_05"
+		},
+		{
+			"components": [
+				118,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 134,
+			"instance": 28,
+			"name": "mt_rock_06"
+		},
+		{
+			"components": [
+				137,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 135,
+			"instance": 8,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				141,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 136,
+			"instance": 7,
+			"name": "tree_b13"
+		},
+		{
+			"components": [
+				151,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 137,
+			"instance": 6,
+			"name": "mt_rock_16"
+		},
+		{
+			"components": [
+				119,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 138,
+			"instance": 5,
+			"name": "mt_rock_12"
+		},
+		{
+			"components": [
+				130,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 139,
+			"instance": 4,
+			"name": "wall_block_5"
+		},
+		{
+			"components": [
+				138,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 140,
+			"instance": 16,
+			"name": "wall_25m"
+		},
+		{
+			"components": [
+				134,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 141,
+			"instance": 15,
+			"name": "wall_block_5"
+		},
+		{
+			"components": [
+				148,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 142,
+			"instance": 13,
+			"name": "tree_b01"
+		},
+		{
+			"components": [
+				123,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 143,
+			"instance": 14,
+			"name": "tree_1_lo"
+		},
+		{
+			"components": [
+				124,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 144,
+			"instance": 12,
+			"name": "mt_rock_02"
+		},
+		{
+			"components": [
+				145,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 145,
+			"instance": 133,
+			"name": "bridge_block_0"
+		},
+		{
+			"components": [
+				143,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 146,
+			"instance": 11,
+			"name": "stairs_block_1"
+		},
+		{
+			"components": [
+				133,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 147,
+			"instance": 10,
+			"name": "stairs_block_1"
+		},
+		{
+			"components": [
+				139,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 148,
+			"instance": 9,
+			"name": "wall_block_6"
+		},
+		{
+			"components": [
+				125,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 149,
+			"instance": 126,
+			"name": "wall_block_6"
+		},
+		{
+			"components": [
+				127,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 150,
+			"instance": 125,
+			"name": "mt_rock_09"
+		},
+		{
+			"components": [
+				126,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 151,
+			"instance": 124,
+			"name": "mt_rock_05"
+		},
+		{
+			"components": [
+				152,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 715,
+			"instance": 148,
+			"name": "tree_b10"
 		}
 	],
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "default"
@@ -1978,7 +2788,8 @@
 					"write_z": true
 				}
 			],
-			"name": "common/primitives/plane.geo"
+			"name": "common/primitives/plane.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [
@@ -3144,7 +3955,7 @@
 			"rot": [
 				-0.0,
 				0.0,
-				-2.4999992847442627
+				-2.4999990463256836
 			],
 			"scl": [
 				0.9999996423721313,
@@ -3359,7 +4170,7 @@
 			],
 			"rot": [
 				8.537738267477835e-07,
-				-3.25503663134441e-07,
+				-3.255036347127316e-07,
 				84.99995422363281
 			],
 			"scl": [
@@ -3395,7 +4206,7 @@
 			],
 			"rot": [
 				-10.144255638122559,
-				1.7553915977478027,
+				1.7553913593292236,
 				94.54181671142578
 			],
 			"scl": [
@@ -3420,132 +4231,6 @@
 				0.9999999403953552,
 				1.0,
 				1.0
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				-7.0025739669799805,
-				-2.0,
-				135.0
-			],
-			"rot": [
-				-44.195247650146484,
-				-9.410199165344238,
-				13.989076614379883
-			],
-			"scl": [
-				0.9999995231628418,
-				0.9999998807907104,
-				0.9999998807907104
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				11.99742603302002,
-				4.0,
-				162.0
-			],
-			"rot": [
-				-44.03986358642578,
-				10.278549194335938,
-				-14.005054473876953
-			],
-			"scl": [
-				0.9999990463256836,
-				0.9999993443489075,
-				0.9999998211860657
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				17.0,
-				-4.0,
-				23.0
-			],
-			"rot": [
-				-59.56539535522461,
-				9.033524513244629,
-				-9.944883346557617
-			],
-			"scl": [
-				0.9999994039535522,
-				0.9999997615814209,
-				0.9999998211860657
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				-0.8683760166168213,
-				9.5367431640625e-07,
-				-6.982513427734375
-			],
-			"rot": [
-				-0.0,
-				0.0,
-				0.0
-			],
-			"scl": [
-				1.0,
-				1.0,
-				1.0
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				0.719942569732666,
-				0.0,
-				-9.207229614257813
-			],
-			"rot": [
-				-0.0,
-				0.0,
-				0.0
-			],
-			"scl": [
-				1.0,
-				1.0,
-				1.0
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				0.0,
-				-8.502467155456543,
-				26.700891494750977
-			],
-			"rot": [
-				-0.0,
-				90.0,
-				0.0
-			],
-			"scl": [
-				0.9999998807907104,
-				1.0,
-				0.9999998807907104
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				0.0,
-				-6.907898426055908,
-				32.438438415527344
-			],
-			"rot": [
-				-0.0,
-				90.0,
-				0.0
-			],
-			"scl": [
-				0.9999996423721313,
-				1.0,
-				0.9999996423721313
 			]
 		},
 		{
@@ -3809,7 +4494,7 @@
 			],
 			"rot": [
 				-0.0,
-				84.99996185302734,
+				84.99995422363281,
 				0.0
 			],
 			"scl": [
@@ -3899,7 +4584,7 @@
 			],
 			"rot": [
 				-0.0,
-				-179.9999237060547,
+				-179.99989318847656,
 				0.0
 			],
 			"scl": [
@@ -3927,14 +4612,14 @@
 			]
 		},
 		{
-			"parent": 109,
+			"parent": 107,
 			"pos": [
 				-0.004995226860046387,
 				0.009534001350402832,
 				-0.5020686388015747
 			],
 			"rot": [
-				-0.42963504791259766,
+				-0.4296349883079529,
 				1.1459301710128784,
 				-0.008594314567744732
 			],
@@ -3952,7 +4637,7 @@
 				-14.532990455627441
 			],
 			"rot": [
-				0.4297228157520294,
+				0.42972275614738464,
 				-1.1459271907806396,
 				0.0
 			],
@@ -3965,37 +4650,901 @@
 		{
 			"parent": null,
 			"pos": [
-				-2.240123748779297,
-				0.0,
-				-1.531522274017334
+				-0.5755456686019897,
+				1.1920928955078125e-07,
+				0.26006603240966797
 			],
 			"rot": [
 				-0.0,
-				7.713353633880615,
+				7.713354587554932,
+				0.0
+			],
+			"scl": [
+				0.9999989867210388,
+				0.9999995827674866,
+				0.9999985694885254
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.174641728401184,
+				1.1920928955078125e-07,
+				0.4875779151916504
+			],
+			"rot": [
+				0.0,
+				-112.60530853271484,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999995827674866,
+				0.9999992251396179
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				19.0,
+				3.0,
+				110.0
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999998211860657,
+				0.9999998211860657,
+				0.9999996423721313
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-10.0,
+				2.0,
+				115.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				-4.999998569488525
+			],
+			"scl": [
+				0.9999995231628418,
+				0.9999995231628418,
+				0.9999990463256836
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				12.0,
+				2.0,
+				116.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999995827674866,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.0,
+				2.853797674179077,
+				94.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999995231628418,
+				0.9999995231628418,
+				0.9999990463256836
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.0,
+				2.211874485015869,
+				94.0
+			],
+			"rot": [
+				-0.0,
+				45.0,
+				0.0
+			],
+			"scl": [
+				0.9999998211860657,
+				0.9999996423721313,
+				0.9999992847442627
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				1.7543649673461914,
+				94.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999996423721313,
+				0.9999996423721313,
+				0.9999992847442627
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.0,
+				1.7543649673461914,
+				95.0
+			],
+			"rot": [
+				0.0,
+				-179.99996948242188,
+				0.0
+			],
+			"scl": [
+				0.9999996423721313,
+				0.9999995231628418,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-15.0,
+				3.0,
+				101.0
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999992847442627,
+				0.9999992847442627,
+				0.9999985694885254
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-14.0,
+				3.0,
+				107.0
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999992251396179,
+				0.9999992251396179,
+				0.9999984502792358
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-14.0,
+				3.0,
+				93.0
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999992251396179,
+				0.9999992251396179,
+				0.9999984502792358
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				5.25,
+				1.0182945728302002,
+				45.25
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999991059303284,
+				0.9999991059303284,
+				0.9999982118606567
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				6.25,
+				0.01829463243484497,
+				30.25
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999992251396179,
+				0.9999992251396179,
+				0.9999984502792358
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-6.679532051086426,
+				1.0182945728302002,
+				43.778987884521484
+			],
+			"rot": [
+				-0.0,
+				90.17717742919922,
+				0.0
+			],
+			"scl": [
+				0.9999988675117493,
+				0.9999988675117493,
+				0.9999977350234985
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-9.136981010437012,
+				1.0,
+				3.3922157287597656
+			],
+			"rot": [
+				-0.0,
+				-46.99999237060547,
+				0.0
+			],
+			"scl": [
+				0.9999998211860657,
+				0.9999996423721313,
+				0.999999463558197
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-12.054566383361816,
+				3.1193549633026123,
+				74.12796783447266
+			],
+			"rot": [
+				-0.0,
+				-33.0,
+				0.0
+			],
+			"scl": [
+				0.9999998211860657,
+				0.9999995827674866,
+				0.9999993443489075
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-6.657883644104004,
+				0.01829463243484497,
+				50.778953552246094
+			],
+			"rot": [
+				-0.0,
+				90.17717742919922,
+				0.0
+			],
+			"scl": [
+				0.9999990463256836,
+				0.9999990463256836,
+				0.9999980926513672
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-14.0,
+				2.0,
+				86.0
+			],
+			"rot": [
+				-0.0,
+				-90.0,
 				0.0
 			],
 			"scl": [
 				0.9999994039535522,
+				0.9999994039535522,
+				0.9999988079071045
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				14.519621849060059,
 				1.0,
+				22.88688850402832
+			],
+			"rot": [
+				-0.0,
+				156.0,
+				0.0
+			],
+			"scl": [
+				0.9999998807907104,
+				0.9999998807907104,
+				0.9999997615814209
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				12.0,
+				3.0,
+				94.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999995827674866,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-16.716285705566406,
+				7.64572286605835,
+				53.34825897216797
+			],
+			"rot": [
+				-0.0,
+				-97.9999771118164,
+				0.0
+			],
+			"scl": [
+				0.9999992251396179,
+				0.999998927116394,
+				0.9999988079071045
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.9633756875991821,
+				0.08382081985473633,
+				70.17385864257813
+			],
+			"rot": [
+				-0.0,
+				-16.999996185302734,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999993443489075,
+				0.9999990463256836
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				3.337610960006714,
+				1.7372543811798096,
+				69.79656219482422
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999997019767761,
+				0.9999997019767761,
 				0.9999994039535522
 			]
 		},
 		{
 			"parent": null,
 			"pos": [
-				-2.839219808578491,
-				0.0,
-				-1.304010272026062
+				5.840323448181152,
+				2.5738730430603027,
+				67.78012084960938
 			],
 			"rot": [
 				-0.0,
-				-112.6053237915039,
+				-100.99999237060547,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999995827674866,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				6.25,
+				1.0182945728302002,
+				51.25
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999990463256836,
+				0.9999990463256836,
+				0.9999980926513672
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.6694560050964355,
+				0.5346332788467407,
+				9.121143341064453
+			],
+			"rot": [
+				0.0,
+				-147.99899291992188,
+				0.0
+			],
+			"scl": [
+				0.9999997615814209,
+				0.9999995827674866,
+				0.9999992251396179
+			]
+		},
+		{
+			"parent": 135,
+			"pos": [
+				1.590000033378601,
+				6.65500020980835,
+				6.627999782562256
+			],
+			"rot": [
+				89.99998474121094,
+				0.0,
+				90.0
+			],
+			"scl": [
+				1.0,
+				0.9999998807907104,
+				0.9999997615814209
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-0.8683760166168213,
+				9.5367431640625e-07,
+				-6.982513427734375
+			],
+			"rot": [
+				-0.0,
+				0.0,
 				0.0
 			],
 			"scl": [
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-13.164836883544922,
+				9.221990585327148,
+				74.88145446777344
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999989867210388,
+				0.9999989867210388,
+				0.9999979734420776
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.935994532686891e-06,
+				3.5544753074645996,
+				65.22080993652344
+			],
+			"rot": [
+				-0.0,
+				-179.99996948242188,
+				0.0
+			],
+			"scl": [
+				0.9999998807907104,
+				0.9999997019767761,
+				0.9999995827674866
+			]
+		},
+		{
+			"parent": 140,
+			"pos": [
+				0.33000001311302185,
+				3.7750000953674316,
+				3.888000011444092
+			],
+			"rot": [
+				89.99998474121094,
+				0.0,
+				90.0
+			],
+			"scl": [
+				1.5,
+				1.5,
+				1.5
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.719942569732666,
+				0.0,
+				-9.207229614257813
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				6.25,
+				1.0182945728302002,
+				37.25
+			],
+			"rot": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				0.9999990463256836,
+				0.9999990463256836,
+				0.9999980926513672
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-7.0025739669799805,
+				-2.0,
+				135.0
+			],
+			"rot": [
+				-44.19524383544922,
+				-9.410199165344238,
+				13.989076614379883
+			],
+			"scl": [
+				0.9999995231628418,
+				0.9999998807907104,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				11.967000007629395,
+				4.0,
+				162.0
+			],
+			"rot": [
+				-44.03986358642578,
+				10.278549194335938,
+				-14.00505256652832
+			],
+			"scl": [
+				0.9999990463256836,
+				0.9999993443489075,
+				0.9999998211860657
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-0.009999999776482582,
+				1.503000020980835,
+				70.93599700927734
+			],
+			"rot": [
+				7.000000476837158,
+				5.383370194067538e-08,
+				-2.999999523162842
+			],
+			"scl": [
+				0.9999996423721313,
+				0.9999995231628418,
+				0.9999992847442627
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-8.502467155456543,
+				26.700891494750977
+			],
+			"rot": [
+				-0.0,
+				90.0,
+				0.0
+			],
+			"scl": [
+				0.9999998807907104,
+				1.0,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				3.8468146324157715,
+				0.6173964142799377,
+				4.468823432922363
+			],
+			"rot": [
+				-0.0,
+				86.00098419189453,
+				0.0
+			],
+			"scl": [
+				0.9999990463256836,
+				0.9999988675117493,
+				0.9999980926513672
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-6.722829818725586,
+				1.0182945728302002,
+				29.779050827026367
+			],
+			"rot": [
+				-0.0,
+				90.17717742919922,
+				0.0
+			],
+			"scl": [
+				0.9999988675117493,
+				0.9999988675117493,
+				0.9999977350234985
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.3419549759613458e-14,
+				5.082489013671875,
+				52.74332809448242
+			],
+			"rot": [
+				-0.0,
+				-179.99996948242188,
+				0.0
+			],
+			"scl": [
+				0.9999998807907104,
+				0.9999998807907104,
+				0.9999997615814209
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-5.704277992248535,
+				1.0182945728302002,
+				35.77593231201172
+			],
+			"rot": [
+				-0.0,
+				90.17717742919922,
+				0.0
+			],
+			"scl": [
+				0.999998927116394,
+				0.999998927116394,
+				0.9999978542327881
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-6.679800510406494,
+				58.77280807495117
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999992847442627,
+				0.9999992847442627,
+				0.9999985694885254
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				-6.907898426055908,
+				32.438438415527344
+			],
+			"rot": [
+				-0.0,
+				90.0,
+				0.0
+			],
+			"scl": [
+				0.9999996423721313,
+				1.0,
+				0.9999996423721313
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				16.0,
+				3.0,
+				114.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999997615814209,
+				0.9999997615814209,
+				0.9999995231628418
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				12.0,
+				3.0,
+				87.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999995827674866,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				17.0,
+				-4.0,
+				23.0
+			],
+			"rot": [
+				-59.56539535522461,
+				9.033523559570313,
+				-9.944883346557617
+			],
+			"scl": [
+				0.9999994039535522,
+				0.9999997615814209,
+				0.9999998211860657
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-13.103320121765137,
+				2.424999713897705,
+				6.663923263549805
+			],
+			"rot": [
+				-0.0,
+				3.000000238418579,
+				0.0
+			],
+			"scl": [
+				0.9999992847442627,
+				0.9999992251396179,
+				0.9999985098838806
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-13.0,
+				2.1856040954589844,
+				76.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999998211860657,
+				0.9999998211860657,
+				0.9999996423721313
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				8.295265197753906,
+				3.4654853343963623,
+				60.147823333740234
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999987483024597,
+				0.9999987483024597,
+				0.9999974966049194
 			]
 		}
 	]
