@@ -12,6 +12,7 @@ uniform vec4 uORMg; // x, y: min, max / z : pow
 uniform vec4 uORMb; // x, y: min, max / z : pow
 uniform vec4 uAmbient; // x, y: min, max / z : pow
 uniform vec4 uParallax;
+uniform vec4 uSelf; // x, y: mul, pow
 
 // Texture slots
 SAMPLER2D(uBaseOpacityMap, 0);
@@ -183,7 +184,7 @@ void main() {
 
 #if DEPTH_ONLY != 1
 #if USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
-	vec4 occ_rough_metal = texture2D(uOcclusionRoughnessMetalnessMap, offset_uv);
+	vec4 occ_rough_metal = texture2D(uOcclusionRoughnessMetalnessMap, vTexCoord0);
 #else // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
 	vec4 occ_rough_metal = uOcclusionRoughnessMetalnessColor;
 #endif // USE_OCCLUSION_ROUGHNESS_METALNESS_MAP
@@ -220,6 +221,8 @@ occ_rough_metal.z = pow(occ_rough_metal.z, uORMb.z);
 #else // USE_SELF_MAP
 	vec4 self = uSelfColor;
 #endif // USE_SELF_MAP
+
+	self = pow(self * uSelf.x, uSelf.y);
 
 #if USE_NORMAL_MAP
 	T = normalize(vTangent);
