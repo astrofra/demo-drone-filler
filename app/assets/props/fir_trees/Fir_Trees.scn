@@ -59,6 +59,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "SM_Fir_Tree_A"
 		},
@@ -71,6 +72,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 1,
 			"name": "SM_Fir_Tree_B"
 		},
@@ -83,6 +85,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 2,
 			"name": "SM_Fir_Tree_C"
 		},
@@ -95,6 +98,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 3,
 			"name": "SM_Fir_Tree_Dead_A"
 		},
@@ -107,6 +111,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 4,
 			"name": "SM_Fir_Tree_D"
 		},
@@ -119,6 +124,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 5,
 			"name": "SM_log_B"
 		},
@@ -131,6 +137,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 6,
 			"name": "SM_Log_A"
 		},
@@ -143,6 +150,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 7,
 			"name": "SM_Fir_Tree_Fallen_A"
 		},
@@ -155,6 +163,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 8,
 			"name": "SM_Fir_Tree_Fallen_A001"
 		},
@@ -167,6 +176,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 9,
 			"name": "SM_Fir_Tree_E"
 		},
@@ -179,6 +189,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 10,
 			"name": "SM_Fir_Tree_Dead_B"
 		},
@@ -191,6 +202,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 11,
 			"name": "SM_Stump_Roots_A"
 		},
@@ -203,6 +215,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 12,
 			"name": "SM_Fir_Tree_B_Root"
 		},
@@ -215,6 +228,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 13,
 			"name": "SM_Fir_Tree_D_Root"
 		},
@@ -227,6 +241,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 14,
 			"name": "SM_Stump_Roots_B"
 		},
@@ -239,6 +254,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 15,
 			"name": "SM_Fir_Tree_Small"
 		}
@@ -246,6 +262,7 @@
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -261,6 +278,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -269,6 +303,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -302,10 +346,29 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.30000001192092896,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -317,12 +380,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -344,10 +417,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_A_40.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_A_40.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -363,6 +438,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -371,6 +463,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -404,10 +506,29 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.30000001192092896,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -419,12 +540,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -446,10 +577,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_B_41.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_B_41.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -465,6 +598,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -473,6 +623,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -506,10 +666,29 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.4000000059604645,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -521,12 +700,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -548,10 +737,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_C_42.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_C_42.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -567,6 +758,493 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				},
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
+					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5999999642372131,
+								0.9399999976158142,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "props/fir_trees/SM_Fir_Tree_Dead_A_43.geo",
+			"shadow": ""
+		},
+		{
+			"bones": [],
+			"flags": [],
+			"material_infos": [
+				{
+					"name": "08 - Default"
+				},
+				{
+					"name": "01 - Default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				},
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
+					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.30000001192092896,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5999999642372131,
+								0.9399999976158142,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "props/fir_trees/SM_Fir_Tree_D_44.geo",
+			"shadow": ""
+		},
+		{
+			"bones": [],
+			"flags": [],
+			"material_infos": [
+				{
+					"name": "08 - Default"
+				},
+				{
+					"name": "01 - Default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				},
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
+					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5882353186607361,
+								0.5882353186607361,
+								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5999999642372131,
+								0.9399999976158142,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "props/fir_trees/SM_log_B_45.geo",
+			"shadow": ""
+		},
+		{
+			"bones": [],
+			"flags": [],
+			"material_infos": [
+				{
+					"name": "08 - Default"
+				},
+				{
+					"name": "01 - Default"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -650,10 +1328,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_Dead_A_43.geo"
+			"name": "props/fir_trees/SM_Log_A_46.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -731,6 +1411,16 @@
 					],
 					"values": [
 						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
 							"value": [
@@ -768,221 +1458,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_D_44.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_Fallen_A_47.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
-			"material_infos": [
-				{
-					"name": "08 - Default"
-				},
-				{
-					"name": "01 - Default"
-				}
-			],
-			"materials": [
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				},
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				}
-			],
-			"name": "props/fir_trees/SM_log_B_45.geo"
-		},
-		{
-			"bones": [],
-			"material_infos": [
-				{
-					"name": "08 - Default"
-				},
-				{
-					"name": "01 - Default"
-				}
-			],
-			"materials": [
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"textures": [
-						{
-							"name": "uBaseOpacityMap",
-							"path": "props/fir_trees/T_bark_fir_BC.tga",
-							"stage": 0
-						}
-					],
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				},
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				}
-			],
-			"name": "props/fir_trees/SM_Log_A_46.geo"
-		},
-		{
-			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1060,6 +1541,16 @@
 					],
 					"values": [
 						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
 							"value": [
@@ -1097,10 +1588,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_Fallen_A_47.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_Fallen_A001_48.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1121,6 +1614,16 @@
 							"name": "uBaseOpacityMap",
 							"path": "props/fir_trees/T_bark_fir_BC.tga",
 							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
 						}
 					],
 					"values": [
@@ -1131,6 +1634,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -1164,7 +1677,7 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
+					"face_culling": "disabled",
 					"flags": [
 						"EnableAlphaCut"
 					],
@@ -1178,6 +1691,16 @@
 					],
 					"values": [
 						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.30000001192092896,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
 							"value": [
@@ -1188,12 +1711,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -1215,10 +1748,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_Fallen_A001_48.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_E_49.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1234,6 +1769,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -1242,6 +1794,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -1275,10 +1837,29 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -1290,12 +1871,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -1317,112 +1908,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_E_49.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_Dead_B_50.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
-			"material_infos": [
-				{
-					"name": "08 - Default"
-				},
-				{
-					"name": "01 - Default"
-				}
-			],
-			"materials": [
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				},
-				{
-					"blend_mode": "opaque",
-					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
-					"program": "core/shader/pbr.hps",
-					"values": [
-						{
-							"name": "uBaseOpacityColor",
-							"type": "vec4",
-							"value": [
-								0.5882353186607361,
-								0.5882353186607361,
-								0.5882353186607361,
-								1.0
-							]
-						},
-						{
-							"name": "uOcclusionRoughnessMetalnessColor",
-							"type": "vec4",
-							"value": [
-								1.0,
-								0.5,
-								0.25,
-								0.0
-							]
-						},
-						{
-							"name": "uSelfColor",
-							"type": "vec4",
-							"value": [
-								0.0,
-								0.0,
-								0.0,
-								-1.0
-							]
-						}
-					],
-					"write_a": true,
-					"write_b": true,
-					"write_g": true,
-					"write_r": true,
-					"write_z": true
-				}
-			],
-			"name": "props/fir_trees/SM_Fir_Tree_Dead_B_50.geo"
-		},
-		{
-			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1438,6 +1929,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -1446,6 +1954,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -1521,10 +2039,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Stump_Roots_A_51.geo"
+			"name": "props/fir_trees/SM_Stump_Roots_A_51.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1540,6 +2060,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -1548,6 +2085,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -1581,10 +2128,29 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.30000001192092896,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -1596,12 +2162,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -1623,10 +2199,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_B_Root_52.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_B_Root_52.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1642,6 +2220,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -1650,6 +2245,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -1683,10 +2288,29 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.30000001192092896,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -1698,12 +2322,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -1725,10 +2359,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_D_Root_53.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_D_Root_53.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1844,10 +2480,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Stump_Roots_B_54.geo"
+			"name": "props/fir_trees/SM_Stump_Roots_B_54.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "08 - Default"
@@ -1863,6 +2501,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_bark_fir_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_bark_fir_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -1871,6 +2526,16 @@
 								0.5882353186607361,
 								0.5882353186607361,
 								0.5882353186607361,
+								1.0
+							]
+						},
+						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.37552744150161743,
+								0.34225285053253174,
+								0.34225285053253174,
 								1.0
 							]
 						},
@@ -1904,10 +2569,29 @@
 				{
 					"blend_mode": "opaque",
 					"depth_test": "less",
-					"face_culling": "cw",
-					"flags": [],
+					"face_culling": "disabled",
+					"flags": [
+						"EnableAlphaCut"
+					],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Fir_Branches_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.30000001192092896,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
 						{
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
@@ -1919,12 +2603,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6329114437103271,
+								0.6329114437103271,
+								0.6329114437103271,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.5,
-								0.25,
+								0.5999999642372131,
+								0.9399999976158142,
 								0.0
 							]
 						},
@@ -1946,7 +2640,8 @@
 					"write_z": true
 				}
 			],
-			"name": "props/fir_trees/SM_Fir_Tree_Small_55.geo"
+			"name": "props/fir_trees/SM_Fir_Tree_Small_55.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [
@@ -2120,14 +2815,14 @@
 				-8.933232307434082
 			],
 			"rot": [
-				-7.0167078561561656e-15,
+				-7.016712091320902e-15,
 				0.0,
 				0.0
 			],
 			"scl": [
-				0.009999999776482582,
-				0.009999999776482582,
-				0.009999999776482582
+				0.009999996982514858,
+				0.009999996982514858,
+				0.009999996982514858
 			]
 		},
 		{
