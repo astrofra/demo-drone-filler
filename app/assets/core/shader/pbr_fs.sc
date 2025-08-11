@@ -9,6 +9,7 @@ uniform vec4 uOcclusionRoughnessMetalnessColor;
 uniform vec4 uSelfColor;
 uniform vec4 uAmbient; // x, y: min, max / z : pow
 uniform vec4 uColorMul;
+uniform vec4 uAlphaCut;
 
 // Texture slots
 SAMPLER2D(uBaseOpacityMap, 0);
@@ -295,7 +296,7 @@ void main() {
 	float opacity = base_opacity.w;
 
 #if ENABLE_ALPHA_CUT
-	if (opacity < 0.8)
+	if (opacity < uAlphaCut.x)
 		discard;
 #endif // ENABLE_ALPHA_CUT
 

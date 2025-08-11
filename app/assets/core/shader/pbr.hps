@@ -2,7 +2,8 @@
 	"features": ["OptionalBaseColorOpacityMap", "OptionalOcclusionRoughnessMetalnessMap", "OptionalNormalMap", "OptionalSelfMap", "OptionalAlphaCut", "OptionalAmbientMap", "OptionalSkinning"],
 	"uniforms": [
 		{"name": "uColorMul", "type": "Color", "value": [1.0, 1.0, 1.0, 1.0]},
-		{"name": "uAmbient", "type": "Vec4", "value": [0.0, 1.0, 1.0, 0.0]}
+		{"name": "uAmbient", "type": "Vec4", "value": [0.0, 1.0, 1.0, 0.0]},
+		{"name": "uAlphaCut", "type": "Vec4", "value": [0.2, 0.0, 0.0, 0.0]}
 	]
 
 }

@@ -5,7 +5,6 @@
 "geometry_scale":"1.000000"
 "gltf_file_path":""
 "material_policy":"1"
-"max_smoothing_angle":"70.000000"
 "output_folder":""
 "recalculate_normals":"0"
 "recalculate_tangents":"0"
