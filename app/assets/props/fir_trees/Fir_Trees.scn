@@ -998,6 +998,13 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_bark_fir_BC.tga",
+							"stage": 0
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
@@ -1737,6 +1744,23 @@
 					"face_culling": "cw",
 					"flags": [],
 					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "props/fir_trees/T_Wood_log_BC.tga",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"path": "props/fir_trees/T_Wood_log_norm.png",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"path": "props/fir_trees/T_Wood_log_orm.png",
+							"stage": 1
+						}
+					],
 					"values": [
 						{
 							"name": "uBaseOpacityColor",
