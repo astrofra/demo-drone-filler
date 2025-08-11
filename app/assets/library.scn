@@ -243,6 +243,45 @@
 		},
 		{
 			"name": "props/instances/tree_7_lo.scn"
+		},
+		{
+			"name": "props/instances/tree_b0.scn"
+		},
+		{
+			"name": "props/instances/tree_b01.scn"
+		},
+		{
+			"name": "props/instances/tree_b02.scn"
+		},
+		{
+			"name": "props/instances/tree_b03.scn"
+		},
+		{
+			"name": "props/instances/tree_b04.scn"
+		},
+		{
+			"name": "props/instances/tree_b05.scn"
+		},
+		{
+			"name": "props/instances/tree_b08.scn"
+		},
+		{
+			"name": "props/instances/tree_b09.scn"
+		},
+		{
+			"name": "props/instances/tree_b10.scn"
+		},
+		{
+			"name": "props/instances/tree_b11.scn"
+		},
+		{
+			"name": "props/instances/tree_b12.scn"
+		},
+		{
+			"name": "props/instances/tree_b13.scn"
+		},
+		{
+			"name": "props/instances/tree_b07.scn"
 		}
 	],
 	"key_values": null,
@@ -287,6 +326,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "plane"
 		},
@@ -299,6 +339,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 1,
 			"name": "Light"
 		},
@@ -311,6 +352,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 2,
 			"instance": 0,
 			"name": "bridge_block_0"
@@ -324,6 +366,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 3,
 			"instance": 1,
 			"name": "bridge_block_1"
@@ -337,6 +380,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 4,
 			"instance": 2,
 			"name": "bridge_block_2"
@@ -350,6 +394,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 5,
 			"instance": 3,
 			"name": "bridge_block_3"
@@ -363,6 +408,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 6,
 			"instance": 4,
 			"name": "bridge_block_4"
@@ -376,6 +422,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 7,
 			"instance": 5,
 			"name": "bridge_block_5"
@@ -389,6 +436,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 8,
 			"instance": 6,
 			"name": "column_block_00"
@@ -402,6 +450,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 9,
 			"instance": 7,
 			"name": "column_block_01"
@@ -415,6 +464,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 10,
 			"instance": 8,
 			"name": "column_block_02"
@@ -428,6 +478,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 11,
 			"instance": 9,
 			"name": "column_block_03"
@@ -441,6 +492,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 12,
 			"instance": 10,
 			"name": "column_block_04"
@@ -454,6 +506,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 13,
 			"instance": 11,
 			"name": "column_block_05"
@@ -467,6 +520,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 14,
 			"instance": 12,
 			"name": "column_block_06"
@@ -480,6 +534,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 15,
 			"instance": 13,
 			"name": "column_block_07"
@@ -493,6 +548,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 16,
 			"instance": 14,
 			"name": "column_block_08"
@@ -506,6 +562,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 17,
 			"instance": 15,
 			"name": "column_block_09"
@@ -519,6 +576,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 18,
 			"instance": 16,
 			"name": "column_block_10"
@@ -532,6 +590,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 19,
 			"instance": 17,
 			"name": "column_block_11"
@@ -545,6 +604,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 20,
 			"instance": 18,
 			"name": "column_block_12"
@@ -558,6 +618,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 21,
 			"instance": 19,
 			"name": "column_block_13"
@@ -571,6 +632,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 22,
 			"instance": 20,
 			"name": "column_block_14"
@@ -584,6 +646,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 23,
 			"instance": 21,
 			"name": "column_block_15"
@@ -597,6 +660,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 24,
 			"instance": 22,
 			"name": "column_block_16"
@@ -610,6 +674,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 25,
 			"instance": 23,
 			"name": "gate_block_0"
@@ -623,6 +688,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 26,
 			"instance": 39,
 			"name": "gate_block_1"
@@ -636,6 +702,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 27,
 			"instance": 38,
 			"name": "gate_block_2"
@@ -649,6 +716,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 28,
 			"instance": 37,
 			"name": "stairs_block_0"
@@ -662,6 +730,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 29,
 			"instance": 36,
 			"name": "stairs_block_1"
@@ -675,6 +744,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 30,
 			"instance": 35,
 			"name": "stairs_block_2"
@@ -688,6 +758,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 31,
 			"instance": 34,
 			"name": "stairs_block_4"
@@ -701,6 +772,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 32,
 			"instance": 33,
 			"name": "wall_block_0"
@@ -714,6 +786,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 33,
 			"instance": 32,
 			"name": "wall_block_1"
@@ -727,6 +800,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 34,
 			"instance": 31,
 			"name": "wall_block_2"
@@ -740,6 +814,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 35,
 			"instance": 30,
 			"name": "wall_block_3"
@@ -753,6 +828,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 36,
 			"instance": 29,
 			"name": "wall_block_4"
@@ -766,6 +842,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 37,
 			"instance": 28,
 			"name": "wall_block_5"
@@ -779,6 +856,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 38,
 			"instance": 27,
 			"name": "wall_block_6"
@@ -792,6 +870,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 39,
 			"instance": 26,
 			"name": "wall_block_7"
@@ -805,6 +884,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 40,
 			"instance": 25,
 			"name": "wall_block_8"
@@ -818,6 +898,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 41,
 			"instance": 24,
 			"name": "wall_block_9"
@@ -831,6 +912,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 42,
 			"instance": 40,
 			"name": "mt_rock_02"
@@ -844,6 +926,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 43,
 			"instance": 41,
 			"name": "mt_rock_01"
@@ -857,6 +940,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 44,
 			"instance": 42,
 			"name": "mt_rock_03"
@@ -870,6 +954,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 45,
 			"instance": 43,
 			"name": "mt_rock_04"
@@ -883,6 +968,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 46,
 			"instance": 44,
 			"name": "mt_rock_05"
@@ -896,6 +982,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 47,
 			"instance": 45,
 			"name": "mt_rock_06"
@@ -909,6 +996,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 48,
 			"instance": 46,
 			"name": "mt_rock_07"
@@ -922,6 +1010,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 49,
 			"instance": 47,
 			"name": "mt_rock_08"
@@ -935,6 +1024,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 50,
 			"instance": 48,
 			"name": "mt_rock_09"
@@ -948,6 +1038,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 51,
 			"instance": 49,
 			"name": "mt_rock_10"
@@ -961,6 +1052,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 52,
 			"instance": 50,
 			"name": "mt_rock_11"
@@ -974,6 +1066,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 53,
 			"instance": 51,
 			"name": "mt_rock_12"
@@ -987,6 +1080,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 54,
 			"instance": 52,
 			"name": "mt_rock_13"
@@ -1000,6 +1094,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 55,
 			"instance": 53,
 			"name": "mt_rock_14"
@@ -1013,6 +1108,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 56,
 			"instance": 54,
 			"name": "mt_rock_15"
@@ -1026,6 +1122,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 57,
 			"instance": 55,
 			"name": "mt_rock_01"
@@ -1039,6 +1136,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 58,
 			"instance": 56,
 			"name": "mt_rock_13"
@@ -1052,6 +1150,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 59,
 			"instance": 57,
 			"name": "mt_rock_02"
@@ -1065,6 +1164,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 60,
 			"instance": 58,
 			"name": "mt_rock_16"
@@ -1078,7 +1178,8 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 196,
+			"editor": false,
+			"idx": 61,
 			"instance": 59,
 			"name": "tree_1_hi"
 		},
@@ -1091,7 +1192,8 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 198,
+			"editor": false,
+			"idx": 62,
 			"instance": 60,
 			"name": "tree_1_lo"
 		},
@@ -1104,7 +1206,8 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 200,
+			"editor": false,
+			"idx": 63,
 			"instance": 61,
 			"name": "tree_4_hi"
 		},
@@ -1117,7 +1220,8 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 202,
+			"editor": false,
+			"idx": 64,
 			"instance": 62,
 			"name": "tree_4_lo"
 		},
@@ -1130,7 +1234,8 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 204,
+			"editor": false,
+			"idx": 65,
 			"instance": 63,
 			"name": "tree_7_hi"
 		},
@@ -1143,14 +1248,198 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 206,
+			"editor": false,
+			"idx": 66,
 			"instance": 64,
 			"name": "tree_7_lo"
+		},
+		{
+			"components": [
+				77,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 208,
+			"instance": 65,
+			"name": "tree_b0"
+		},
+		{
+			"components": [
+				67,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 210,
+			"instance": 66,
+			"name": "tree_b01"
+		},
+		{
+			"components": [
+				68,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 212,
+			"instance": 67,
+			"name": "tree_b02"
+		},
+		{
+			"components": [
+				69,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 214,
+			"instance": 68,
+			"name": "tree_b03"
+		},
+		{
+			"components": [
+				70,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 216,
+			"instance": 69,
+			"name": "tree_b04"
+		},
+		{
+			"components": [
+				71,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 218,
+			"instance": 70,
+			"name": "tree_b05"
+		},
+		{
+			"components": [
+				78,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 221,
+			"instance": 77,
+			"name": "tree_b07"
+		},
+		{
+			"components": [
+				72,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 222,
+			"instance": 71,
+			"name": "tree_b08"
+		},
+		{
+			"components": [
+				73,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 224,
+			"instance": 72,
+			"name": "tree_b09"
+		},
+		{
+			"components": [
+				79,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 226,
+			"instance": 73,
+			"name": "tree_b10"
+		},
+		{
+			"components": [
+				74,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 228,
+			"instance": 74,
+			"name": "tree_b11"
+		},
+		{
+			"components": [
+				75,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 230,
+			"instance": 75,
+			"name": "tree_b12"
+		},
+		{
+			"components": [
+				76,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 232,
+			"instance": 76,
+			"name": "tree_b13"
 		}
 	],
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "default"
@@ -1222,7 +1511,8 @@
 					"write_z": true
 				}
 			],
-			"name": "common/primitives/plane.geo"
+			"name": "common/primitives/plane.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [
@@ -2430,6 +2720,240 @@
 				0.9999998807907104,
 				0.9999998807907104,
 				0.9999997615814209
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-40.0,
+				0.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999997615814209,
+				0.9999997615814209,
+				0.9999995231628418
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-30.0,
+				3.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999996423721313,
+				0.9999996423721313,
+				0.9999992847442627
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-20.0,
+				4.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999995827674866,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-10.0,
+				0.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999995827674866,
+				0.9999995827674866,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999995231628418,
+				0.9999995231628418,
+				0.9999990463256836
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				20.0,
+				0.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999994039535522,
+				0.9999994039535522,
+				0.9999988079071045
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				30.0,
+				2.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999992847442627,
+				0.9999992847442627,
+				0.9999985694885254
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				1.0,
+				60.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999994039535522,
+				0.9999994039535522,
+				0.9999988079071045
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				20.0,
+				1.0,
+				60.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999993443489075,
+				0.9999993443489075,
+				0.9999986886978149
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				45.0,
+				1.0,
+				60.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999992251396179,
+				0.9999992251396179,
+				0.9999984502792358
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-50.0,
+				0.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999998211860657,
+				0.9999998211860657,
+				0.9999996423721313
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				10.0,
+				0.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.999999463558197,
+				0.999999463558197,
+				0.999998927116394
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				40.0,
+				2.0,
+				70.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999992251396179,
+				0.9999992251396179,
+				0.9999984502792358
 			]
 		}
 	]

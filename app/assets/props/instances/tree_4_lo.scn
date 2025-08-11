@@ -59,6 +59,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "LOD2"
 		}
@@ -66,6 +67,7 @@
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "Bark1_Mat"
@@ -94,7 +96,6 @@
 						},
 						{
 							"name": "uOcclusionRoughnessMetalnessMap",
-							"path": "props/forest_pack_000/Spruce_maps/Spruce_Bark_ORM.png",
 							"stage": 1
 						}
 					],
@@ -110,12 +111,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.4388185739517212,
+								0.4388185739517212,
+								0.4388185739517212,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.6639999747276306,
-								0.0,
+								0.6299999952316284,
+								0.3400000035762787,
 								0.09765625
 							]
 						},
@@ -157,7 +168,6 @@
 						},
 						{
 							"name": "uOcclusionRoughnessMetalnessMap",
-							"path": "props/forest_pack_000/Spruce_maps/Spruce_Needles_ORM.png",
 							"stage": 1
 						}
 					],
@@ -167,6 +177,16 @@
 							"type": "vec4",
 							"value": [
 								0.009999999776482582,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"name": "uAlphaCut",
+							"type": "vec4",
+							"value": [
+								0.10000000149011612,
 								0.0,
 								0.0,
 								0.0
@@ -187,8 +207,8 @@
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.20000000298023224,
-								0.20000000298023224,
+								0.6800000071525574,
+								0.5600000023841858,
 								0.09765625
 							]
 						},
@@ -210,7 +230,8 @@
 					"write_z": true
 				}
 			],
-			"name": "props/forest_pack_000/Spruce_4/LOD2.geo"
+			"name": "props/forest_pack_000/Spruce_4/LOD2.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [

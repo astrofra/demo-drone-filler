@@ -112,6 +112,16 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.31223630905151367,
+								0.31223630905151367,
+								0.31223630905151367,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [

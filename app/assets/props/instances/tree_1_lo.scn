@@ -59,6 +59,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "LOD2"
 		}
@@ -66,6 +67,7 @@
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "Bark1_Mat"
@@ -157,7 +159,6 @@
 						},
 						{
 							"name": "uOcclusionRoughnessMetalnessMap",
-							"path": "props/forest_pack_000/Spruce_maps/Spruce_Needles_ORM.png",
 							"stage": 1
 						}
 					],
@@ -183,12 +184,22 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.8143460154533386,
+								0.8143460154533386,
+								0.8143460154533386,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
 								1.0,
-								0.20000000298023224,
-								0.20000000298023224,
+								0.4399999976158142,
+								0.3199999928474426,
 								0.09765625
 							]
 						},
@@ -210,7 +221,8 @@
 					"write_z": true
 				}
 			],
-			"name": "props/forest_pack_000/Spruce_1/LOD2.geo"
+			"name": "props/forest_pack_000/Spruce_1/LOD2.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [
