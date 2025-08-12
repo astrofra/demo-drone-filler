@@ -57,7 +57,7 @@
 				0,
 				255
 			],
-			"diffuse_intensity": 2.0,
+			"diffuse_intensity": 0.5,
 			"inner_angle": 0.5235987901687622,
 			"outer_angle": 0.7853981852531433,
 			"priority": -1.0,
@@ -76,7 +76,7 @@
 				0,
 				255
 			],
-			"specular_intensity": 2.0,
+			"specular_intensity": 5.0,
 			"type": "point"
 		}
 	],
@@ -106,6 +106,58 @@
 			"editor": false,
 			"idx": 1,
 			"name": "Light"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				1,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 2,
+			"name": "cube_5m"
+		},
+		{
+			"components": [
+				3,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 3,
+			"name": "scaler"
+		},
+		{
+			"components": [
+				5,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 4,
+			"name": "scaler"
+		},
+		{
+			"components": [
+				4,
+				4294967295,
+				2,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 5,
+			"name": "cube_5m"
 		}
 	],
 	"objects": [
@@ -147,9 +199,9 @@
 							"name": "uBaseOpacityColor",
 							"type": "vec4",
 							"value": [
-								1.0,
-								0.3797469139099121,
-								5.960464477539063e-08,
+								0.7594937086105347,
+								0.28841540217399597,
+								0.0,
 								1.0
 							]
 						},
@@ -159,7 +211,7 @@
 							"value": [
 								1.0,
 								0.0,
-								0.7999999523162842,
+								1.0,
 								0.0
 							]
 						},
@@ -167,8 +219,8 @@
 							"name": "uSelfColor",
 							"type": "vec4",
 							"value": [
-								0.03529411926865578,
-								0.013287198729813099,
+								0.0,
+								0.0,
 								0.0,
 								-1.0
 							]
@@ -179,6 +231,156 @@
 					"write_g": true,
 					"write_r": true,
 					"write_z": true
+				}
+			],
+			"name": "props/cubes/cube_5m_44.geo",
+			"shadow": ""
+		},
+		{
+			"bones": [],
+			"flags": [],
+			"material_infos": [
+				{
+					"name": "wall"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "add",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"stage": 1
+						},
+						{
+							"name": "uSelfMap",
+							"stage": 4
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.20253169536590576,
+								5.960464477539063e-08,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								1.0,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "props/cubes/cube_5m_44.geo",
+			"shadow": ""
+		},
+		{
+			"bones": [],
+			"flags": [],
+			"material_infos": [
+				{
+					"name": "wall"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "add",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"stage": 0
+						},
+						{
+							"name": "uNormalMap",
+							"stage": 2
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessMap",
+							"stage": 1
+						},
+						{
+							"name": "uSelfMap",
+							"stage": 4
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								5.960464477539063e-08,
+								5.960464477539063e-08,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.7599999904632568,
+								1.0,
+								0.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
 				}
 			],
 			"name": "props/cubes/cube_5m_44.geo",
@@ -194,7 +396,7 @@
 				8.254448567556464e-17
 			],
 			"rot": [
-				-7.016716750002112e-15,
+				-7.016715479452691e-15,
 				0.0,
 				0.0
 			],
@@ -220,6 +422,78 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": 3,
+			"pos": [
+				0.0,
+				-0.6499999761581421,
+				8.254449229300954e-17
+			],
+			"rot": [
+				-7.016715479452691e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.24999991059303284,
+				0.24999991059303284,
+				0.24999985098838806
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0099999904632568,
+				1.0099999904632568,
+				1.0099999904632568
+			]
+		},
+		{
+			"parent": 4,
+			"pos": [
+				0.0,
+				-0.6499999761581421,
+				8.254449229300954e-17
+			],
+			"rot": [
+				-7.016715479452691e-15,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.24999991059303284,
+				0.24999991059303284,
+				0.24999985098838806
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0199999809265137,
+				1.0199999809265137,
+				1.0199999809265137
 			]
 		}
 	]
