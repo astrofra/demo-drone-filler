@@ -1,14 +1,14 @@
 {
 	"recent_files": [
+		"library.scn",
+		"props/instances/gate_block_0.scn",
+		"props/instances/column_block_04.scn",
+		"main.scn",
 		"props/square_shadow/round_shadow.scn",
 		"props/instances/column_block_15.scn",
-		"main.scn",
 		"props/fir_trees/Fir_Trees.scn",
 		"props/forest_pack_000/Spruce_2/Spruce_2.scn",
 		"props/forest_pack_000/Spruce_3/Spruce_3.scn",
-		"props/forest_pack_000/Spruce_8/Spruce_8.scn",
-		"props/instances/tree_7_lo.scn",
-		"props/instances/tree_7_hi.scn",
-		"props/forest_pack_000/Spruce_7/Spruce_7.scn"
+		"props/forest_pack_000/Spruce_8/Spruce_8.scn"
 	]
 }

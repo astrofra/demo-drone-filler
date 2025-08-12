@@ -3,9 +3,9 @@
 		"clear_color": true,
 		"clear_z": true,
 		"color": [
-			0,
-			0,
-			0,
+			76,
+			76,
+			76,
 			255
 		]
 	},
@@ -48,6 +48,20 @@
 			"type": "sphere"
 		}
 	},
+	"instances": [
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/round_shadow.scn"
+		},
+		{
+			"name": "props/square_shadow/square_shadow.scn"
+		}
+	],
 	"key_values": null,
 	"nodes": [
 		{
@@ -59,13 +73,71 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "temple_gate_000_0"
+		},
+		{
+			"components": [
+				1,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1,
+			"instance": 0,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 2,
+			"instance": 1,
+			"name": "square_shadow"
+		},
+		{
+			"components": [
+				3,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 5,
+			"instance": 2,
+			"name": "round_shadow"
+		},
+		{
+			"components": [
+				4,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 6,
+			"instance": 3,
+			"name": "square_shadow"
 		}
 	],
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "temple_gate_000"
@@ -168,7 +240,8 @@
 					"write_z": true
 				}
 			],
-			"name": "props/temple_gate_000/temple_gate_000_0_45.geo"
+			"name": "props/temple_gate_000/temple_gate_000_0_45.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [
@@ -188,6 +261,78 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.396667242050171,
+				0.014999999664723873,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.9999998807907104,
+				1.9999998807907104,
+				1.999999761581421
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-1.396667242050171,
+				0.014999999664723873,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.2862814664840698,
+				1.9999998807907104,
+				1.2862814664840698
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.4022347927093506,
+				0.014999999664723873,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.999999761581421,
+				1.999999761581421,
+				1.9999995231628418
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.4022347927093506,
+				0.014999999664723873,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.2862813472747803,
+				1.999999761581421,
+				1.2862813472747803
 			]
 		}
 	]
