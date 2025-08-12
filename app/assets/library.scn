@@ -282,6 +282,9 @@
 		},
 		{
 			"name": "props/instances/tree_b07.scn"
+		},
+		{
+			"name": "props/desert_house/house.scn"
 		}
 	],
 	"key_values": null,
@@ -1263,7 +1266,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 208,
+			"idx": 67,
 			"instance": 65,
 			"name": "tree_b0"
 		},
@@ -1277,7 +1280,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 210,
+			"idx": 68,
 			"instance": 66,
 			"name": "tree_b01"
 		},
@@ -1291,7 +1294,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 212,
+			"idx": 69,
 			"instance": 67,
 			"name": "tree_b02"
 		},
@@ -1305,7 +1308,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 214,
+			"idx": 70,
 			"instance": 68,
 			"name": "tree_b03"
 		},
@@ -1319,7 +1322,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 216,
+			"idx": 71,
 			"instance": 69,
 			"name": "tree_b04"
 		},
@@ -1333,7 +1336,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 218,
+			"idx": 72,
 			"instance": 70,
 			"name": "tree_b05"
 		},
@@ -1347,7 +1350,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 221,
+			"idx": 73,
 			"instance": 77,
 			"name": "tree_b07"
 		},
@@ -1361,7 +1364,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 222,
+			"idx": 74,
 			"instance": 71,
 			"name": "tree_b08"
 		},
@@ -1375,7 +1378,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 224,
+			"idx": 75,
 			"instance": 72,
 			"name": "tree_b09"
 		},
@@ -1389,7 +1392,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 226,
+			"idx": 76,
 			"instance": 73,
 			"name": "tree_b10"
 		},
@@ -1403,7 +1406,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 228,
+			"idx": 77,
 			"instance": 74,
 			"name": "tree_b11"
 		},
@@ -1417,7 +1420,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 230,
+			"idx": 78,
 			"instance": 75,
 			"name": "tree_b12"
 		},
@@ -1431,9 +1434,23 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 232,
+			"idx": 79,
 			"instance": 76,
 			"name": "tree_b13"
+		},
+		{
+			"components": [
+				80,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 242,
+			"instance": 78,
+			"name": "reservoir"
 		}
 	],
 	"objects": [
@@ -2954,6 +2971,24 @@
 				0.9999992251396179,
 				0.9999992251396179,
 				0.9999984502792358
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-84.0,
+				0.0,
+				62.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999999403953552,
+				0.9999999403953552,
+				0.9999998807907104
 			]
 		}
 	]
