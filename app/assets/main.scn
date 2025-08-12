@@ -61,450 +61,73 @@
 	},
 	"instances": [
 		{
-			"name": "props/instances/column_block_07.scn"
+			"name": "props/desert_house/house.scn"
 		},
 		{
-			"name": "props/instances/column_block_07.scn"
+			"name": "animatable/cubic_crystal.scn"
 		},
 		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/column_block_08.scn"
-		},
-		{
-			"name": "props/instances/column_block_08.scn"
-		},
-		{
-			"name": "props/instances/column_block_08.scn"
-		},
-		{
-			"name": "props/instances/column_block_08.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/gate_block_0.scn"
-		},
-		{
-			"name": "props/instances/gate_block_0.scn"
-		},
-		{
-			"name": "props/instances/tree_b10.scn"
-		},
-		{
-			"name": "props/instances/column_block_01.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_1.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_16/mt_rock_dark_16.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/instances/gate_block_2.scn"
-		},
-		{
-			"name": "props/instances/tree_b08.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
-			"name": "props/instances/wall_block_5.scn"
-		},
-		{
-			"name": "props/instances/wall_block_6.scn"
-		},
-		{
-			"name": "props/instances/wall_block_8.scn"
-		},
-		{
-			"name": "props/instances/wall_block_9.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_0.scn"
-		},
-		{
-			"name": "props/instances/wall_block_7.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_1.scn"
-		},
-		{
-			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"name": "props/instances/column_block_12.scn"
-		},
-		{
-			"name": "props/instances/column_block_04.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/wall_block_6.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/column_block_16.scn"
-		},
-		{
-			"name": "props/instances/gate_block_0.scn"
-		},
-		{
-			"name": "props/instances/column_block_16.scn"
-		},
-		{
-			"name": "props/instances/column_block_15.scn"
-		},
-		{
-			"name": "props/instances/column_block_14.scn"
-		},
-		{
-			"name": "props/instances/column_block_13.scn"
-		},
-		{
-			"name": "props/instances/column_block_12.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_1.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_4.scn"
-		},
-		{
-			"name": "props/instances/column_block_15.scn"
-		},
-		{
-			"name": "props/tv_medium_size/tv_medium_size.scn"
-		},
-		{
-			"name": "props/monitor_cctv/monitor_cctv.scn"
-		},
-		{
-			"name": "props/monitor/monitor.scn"
-		},
-		{
-			"name": "props/tv_vintage/tv_vintage.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_2.scn"
-		},
-		{
-			"name": "props/instances/wall_block_0.scn"
-		},
-		{
-			"name": "props/instances/wall_block_1.scn"
-		},
-		{
-			"name": "props/instances/wall_block_2.scn"
-		},
-		{
-			"name": "props/instances/wall_block_3.scn"
-		},
-		{
-			"name": "props/instances/wall_block_4.scn"
-		},
-		{
-			"name": "props/instances/column_block_10.scn"
-		},
-		{
-			"name": "props/instances/column_block_09.scn"
-		},
-		{
-			"name": "props/instances/column_block_08.scn"
-		},
-		{
-			"name": "props/instances/column_block_07.scn"
-		},
-		{
-			"name": "props/instances/column_block_06.scn"
-		},
-		{
-			"name": "props/instances/column_block_05.scn"
-		},
-		{
-			"name": "props/instances/column_block_04.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/column_block_02.scn"
-		},
-		{
-			"name": "props/instances/column_block_01.scn"
-		},
-		{
-			"name": "props/instances/column_block_00.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_5.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_4.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_3.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_2.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_1.scn"
-		},
-		{
-			"name": "props/instances/bridge_block_0.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_4.scn"
-		},
-		{
-			"name": "props/instances/column_block_03.scn"
-		},
-		{
-			"name": "props/instances/column_block_11.scn"
-		},
-		{
-			"name": "props/instances/stairs_block_0.scn"
-		},
-		{
-			"name": "props/instances/gate_block_2.scn"
-		},
-		{
-			"name": "props/instances/gate_block_1.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_01/mt_rock_01.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_03/mt_rock_03.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_04/mt_rock_04.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_06/mt_rock_06.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_08/mt_rock_08.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_10/mt_rock_10.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_11/mt_rock_11.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_13/mt_rock_13.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_14/mt_rock_14.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_15/mt_rock_15.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
+			"name": "props/instances/tree_b11.scn"
 		},
 		{
 			"name": "props/rocks/mt_rock_13/mt_rock_dark_13.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_02/mt_rock_dark_02.scn"
+			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
+		},
+		{
+			"name": "props/instances/tree_1_lo.scn"
+		},
+		{
+			"name": "props/instances/wall_50m.scn"
+		},
+		{
+			"name": "props/instances/column_block_02.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/column_block_00.scn"
+		},
+		{
+			"name": "props/instances/wall_block_5.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
 		},
 		{
 			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
 		},
 		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
-		},
-		{
-			"name": "props/instances/cube_50m.scn"
+			"name": "props/instances/tree_b13.scn"
 		},
 		{
 			"name": "props/instances/wall_25m.scn"
 		},
 		{
+			"name": "props/instances/wall_block_6.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
+		},
+		{
+			"name": "props/instances/tree_b01.scn"
+		},
+		{
+			"name": "props/instances/tree_1_lo.scn"
+		},
+		{
+			"name": "props/instances/wall_block_5.scn"
+		},
+		{
 			"name": "props/instances/wall_25m.scn"
-		},
-		{
-			"anim": "Take 001",
-			"loop_mode": "loop",
-			"name": "props/raven/Raven_B.scn"
-		},
-		{
-			"name": "props/instances/column_block_14.scn"
-		},
-		{
-			"name": "props/instances/column_block_13.scn"
-		},
-		{
-			"name": "props/instances/wall_block_0.scn"
-		},
-		{
-			"name": "props/instances/wall_block_0.scn"
-		},
-		{
-			"name": "props/instances/wall_block_9.scn"
-		},
-		{
-			"name": "props/instances/wall_block_8.scn"
-		},
-		{
-			"name": "props/instances/wall_block_4.scn"
-		},
-		{
-			"name": "props/instances/wall_block_9.scn"
-		},
-		{
-			"name": "props/instances/tree_b02.scn"
-		},
-		{
-			"name": "props/instances/tree_b05.scn"
-		},
-		{
-			"name": "props/instances/tree_b08.scn"
-		},
-		{
-			"name": "props/instances/tree_b07.scn"
-		},
-		{
-			"name": "props/instances/tree_b01.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_06/mt_rock_06.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
-		},
-		{
-			"name": "props/instances/tree_b05.scn"
-		},
-		{
-			"name": "props/instances/cube_25m.scn"
-		},
-		{
-			"name": "props/instances/tree_b07.scn"
-		},
-		{
-			"name": "props/instances/tree_b01.scn"
-		},
-		{
-			"name": "props/instances/tree_b07.scn"
-		},
-		{
-			"name": "props/instances/tree_b08.scn"
-		},
-		{
-			"name": "props/instances/tree_b05.scn"
-		},
-		{
-			"name": "props/instances/tree_b01.scn"
 		},
 		{
 			"anim": "Take 001",
@@ -512,73 +135,450 @@
 			"name": "props/raven/Raven_A.scn"
 		},
 		{
-			"name": "props/instances/wall_25m.scn"
+			"name": "props/instances/tree_b01.scn"
 		},
 		{
-			"name": "props/instances/wall_block_5.scn"
+			"name": "props/instances/tree_b05.scn"
 		},
 		{
-			"name": "props/instances/tree_1_lo.scn"
+			"name": "props/instances/tree_b08.scn"
+		},
+		{
+			"name": "props/instances/tree_b07.scn"
 		},
 		{
 			"name": "props/instances/tree_b01.scn"
 		},
 		{
-			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
+			"name": "props/instances/tree_b07.scn"
 		},
 		{
-			"name": "props/instances/stairs_block_1.scn"
+			"name": "props/instances/cube_25m.scn"
 		},
 		{
-			"name": "props/instances/stairs_block_1.scn"
+			"name": "props/instances/tree_b05.scn"
 		},
 		{
-			"name": "props/instances/wall_block_6.scn"
+			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_06/mt_rock_06.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
+		},
+		{
+			"name": "props/instances/tree_b01.scn"
+		},
+		{
+			"name": "props/instances/tree_b07.scn"
+		},
+		{
+			"name": "props/instances/tree_b08.scn"
+		},
+		{
+			"name": "props/instances/tree_b05.scn"
+		},
+		{
+			"name": "props/instances/tree_b02.scn"
+		},
+		{
+			"name": "props/instances/wall_block_9.scn"
+		},
+		{
+			"name": "props/instances/wall_block_4.scn"
+		},
+		{
+			"name": "props/instances/wall_block_8.scn"
+		},
+		{
+			"name": "props/instances/wall_block_9.scn"
+		},
+		{
+			"name": "props/instances/wall_block_0.scn"
+		},
+		{
+			"name": "props/instances/wall_block_0.scn"
+		},
+		{
+			"name": "props/instances/column_block_13.scn"
+		},
+		{
+			"name": "props/instances/column_block_14.scn"
+		},
+		{
+			"anim": "Take 001",
+			"loop_mode": "loop",
+			"name": "props/raven/Raven_B.scn"
 		},
 		{
 			"name": "props/instances/wall_25m.scn"
 		},
 		{
-			"name": "props/instances/tree_b13.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
-		},
-		{
-			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
-		},
-		{
-			"name": "props/instances/wall_block_5.scn"
-		},
-		{
-			"name": "props/instances/column_block_00.scn"
-		},
-		{
 			"name": "props/instances/wall_25m.scn"
 		},
 		{
-			"name": "props/instances/column_block_02.scn"
+			"name": "props/instances/cube_50m.scn"
 		},
 		{
-			"name": "props/instances/wall_50m.scn"
+			"name": "props/instances/cube_50m.scn"
 		},
 		{
-			"name": "props/instances/tree_1_lo.scn"
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_25m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
+		},
+		{
+			"name": "props/instances/cube_50m.scn"
 		},
 		{
 			"name": "props/rocks/mt_rock_16/mt_rock_16.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_dark_02.scn"
 		},
 		{
 			"name": "props/rocks/mt_rock_13/mt_rock_dark_13.scn"
 		},
 		{
-			"name": "props/instances/tree_b11.scn"
+			"name": "props/rocks/mt_rock_01/mt_rock_dark_01.scn"
 		},
 		{
-			"name": "animatable/cubic_crystal.scn"
+			"name": "props/rocks/mt_rock_15/mt_rock_15.scn"
 		},
 		{
-			"name": "props/desert_house/house.scn"
+			"name": "props/rocks/mt_rock_14/mt_rock_14.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_13/mt_rock_13.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_12/mt_rock_12.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_11/mt_rock_11.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_10/mt_rock_10.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_08/mt_rock_08.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_07/mt_rock_07.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_06/mt_rock_06.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_04/mt_rock_04.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_03/mt_rock_03.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_01/mt_rock_01.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_02/mt_rock_02.scn"
+		},
+		{
+			"name": "props/instances/gate_block_1.scn"
+		},
+		{
+			"name": "props/instances/gate_block_2.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_0.scn"
+		},
+		{
+			"name": "props/instances/column_block_11.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_4.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_0.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_1.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_3.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_4.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_5.scn"
+		},
+		{
+			"name": "props/instances/column_block_00.scn"
+		},
+		{
+			"name": "props/instances/column_block_01.scn"
+		},
+		{
+			"name": "props/instances/column_block_02.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/instances/column_block_04.scn"
+		},
+		{
+			"name": "props/instances/column_block_05.scn"
+		},
+		{
+			"name": "props/instances/column_block_06.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_08.scn"
+		},
+		{
+			"name": "props/instances/column_block_09.scn"
+		},
+		{
+			"name": "props/instances/column_block_10.scn"
+		},
+		{
+			"name": "props/instances/wall_block_4.scn"
+		},
+		{
+			"name": "props/instances/wall_block_3.scn"
+		},
+		{
+			"name": "props/instances/wall_block_2.scn"
+		},
+		{
+			"name": "props/instances/wall_block_1.scn"
+		},
+		{
+			"name": "props/instances/wall_block_0.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_2.scn"
+		},
+		{
+			"name": "props/tv_vintage/tv_vintage.scn"
+		},
+		{
+			"name": "props/monitor/monitor.scn"
+		},
+		{
+			"name": "props/monitor_cctv/monitor_cctv.scn"
+		},
+		{
+			"name": "props/tv_medium_size/tv_medium_size.scn"
+		},
+		{
+			"name": "props/instances/column_block_15.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_4.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_5.scn"
+		},
+		{
+			"name": "props/instances/column_block_11.scn"
+		},
+		{
+			"name": "props/instances/column_block_12.scn"
+		},
+		{
+			"name": "props/instances/column_block_13.scn"
+		},
+		{
+			"name": "props/instances/column_block_14.scn"
+		},
+		{
+			"name": "props/instances/column_block_15.scn"
+		},
+		{
+			"name": "props/instances/column_block_16.scn"
+		},
+		{
+			"name": "props/instances/gate_block_0.scn"
+		},
+		{
+			"name": "props/instances/column_block_16.scn"
+		},
+		{
+			"name": "props/instances/column_block_03.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_05/mt_rock_05.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_09/mt_rock_09.scn"
+		},
+		{
+			"name": "props/instances/wall_block_6.scn"
+		},
+		{
+			"name": "props/instances/column_block_11.scn"
+		},
+		{
+			"name": "props/instances/column_block_04.scn"
+		},
+		{
+			"name": "props/instances/column_block_12.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/wall_block_7.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_0.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_25m.scn"
+		},
+		{
+			"name": "props/instances/wall_block_9.scn"
+		},
+		{
+			"name": "props/instances/wall_block_8.scn"
+		},
+		{
+			"name": "props/instances/wall_block_6.scn"
+		},
+		{
+			"name": "props/instances/wall_block_5.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_5.scn"
+		},
+		{
+			"name": "props/instances/tree_b08.scn"
+		},
+		{
+			"name": "props/instances/gate_block_2.scn"
+		},
+		{
+			"name": "props/instances/wall_block_3.scn"
+		},
+		{
+			"name": "props/instances/wall_block_3.scn"
+		},
+		{
+			"name": "props/rocks/mt_rock_16/mt_rock_dark_16.scn"
+		},
+		{
+			"name": "props/instances/stairs_block_1.scn"
+		},
+		{
+			"name": "props/instances/column_block_01.scn"
+		},
+		{
+			"name": "props/instances/tree_b10.scn"
+		},
+		{
+			"name": "props/instances/gate_block_0.scn"
+		},
+		{
+			"name": "props/instances/gate_block_0.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/column_block_08.scn"
+		},
+		{
+			"name": "props/instances/column_block_08.scn"
+		},
+		{
+			"name": "props/instances/column_block_08.scn"
+		},
+		{
+			"name": "props/instances/column_block_08.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/bridge_block_2.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
 		}
 	],
 	"key_values": null,
@@ -680,7 +680,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 2,
-			"instance": 82,
+			"instance": 89,
 			"name": "bridge_block_0"
 		},
 		{
@@ -694,7 +694,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 3,
-			"instance": 81,
+			"instance": 90,
 			"name": "bridge_block_1"
 		},
 		{
@@ -708,7 +708,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 4,
-			"instance": 80,
+			"instance": 91,
 			"name": "bridge_block_2"
 		},
 		{
@@ -722,7 +722,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 5,
-			"instance": 79,
+			"instance": 92,
 			"name": "bridge_block_3"
 		},
 		{
@@ -736,7 +736,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 6,
-			"instance": 78,
+			"instance": 93,
 			"name": "bridge_block_4"
 		},
 		{
@@ -750,7 +750,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 7,
-			"instance": 77,
+			"instance": 94,
 			"name": "bridge_block_5"
 		},
 		{
@@ -764,7 +764,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 8,
-			"instance": 76,
+			"instance": 95,
 			"name": "column_block_00"
 		},
 		{
@@ -778,7 +778,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 9,
-			"instance": 75,
+			"instance": 96,
 			"name": "column_block_01"
 		},
 		{
@@ -792,7 +792,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 10,
-			"instance": 74,
+			"instance": 97,
 			"name": "column_block_02"
 		},
 		{
@@ -806,7 +806,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 11,
-			"instance": 73,
+			"instance": 98,
 			"name": "column_block_03"
 		},
 		{
@@ -820,7 +820,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 12,
-			"instance": 72,
+			"instance": 99,
 			"name": "column_block_04"
 		},
 		{
@@ -834,7 +834,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 13,
-			"instance": 71,
+			"instance": 100,
 			"name": "column_block_05"
 		},
 		{
@@ -848,7 +848,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 14,
-			"instance": 70,
+			"instance": 101,
 			"name": "column_block_06"
 		},
 		{
@@ -862,7 +862,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 15,
-			"instance": 69,
+			"instance": 102,
 			"name": "column_block_07"
 		},
 		{
@@ -876,7 +876,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 16,
-			"instance": 68,
+			"instance": 103,
 			"name": "column_block_08"
 		},
 		{
@@ -890,7 +890,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 17,
-			"instance": 67,
+			"instance": 104,
 			"name": "column_block_09"
 		},
 		{
@@ -904,7 +904,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 18,
-			"instance": 66,
+			"instance": 105,
 			"name": "column_block_10"
 		},
 		{
@@ -918,7 +918,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 19,
-			"instance": 50,
+			"instance": 121,
 			"name": "column_block_11"
 		},
 		{
@@ -932,7 +932,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 20,
-			"instance": 49,
+			"instance": 122,
 			"name": "column_block_12"
 		},
 		{
@@ -946,7 +946,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 21,
-			"instance": 48,
+			"instance": 123,
 			"name": "column_block_13"
 		},
 		{
@@ -960,7 +960,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 22,
-			"instance": 47,
+			"instance": 124,
 			"name": "column_block_14"
 		},
 		{
@@ -974,7 +974,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 23,
-			"instance": 46,
+			"instance": 125,
 			"name": "column_block_15"
 		},
 		{
@@ -988,7 +988,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 24,
-			"instance": 45,
+			"instance": 126,
 			"name": "column_block_16"
 		},
 		{
@@ -1002,7 +1002,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 25,
-			"instance": 44,
+			"instance": 127,
 			"name": "gate_block_0"
 		},
 		{
@@ -1016,7 +1016,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 26,
-			"instance": 88,
+			"instance": 83,
 			"name": "gate_block_1"
 		},
 		{
@@ -1030,7 +1030,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 27,
-			"instance": 87,
+			"instance": 84,
 			"name": "gate_block_2"
 		},
 		{
@@ -1044,7 +1044,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 28,
-			"instance": 86,
+			"instance": 85,
 			"name": "stairs_block_0"
 		},
 		{
@@ -1058,7 +1058,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 29,
-			"instance": 34,
+			"instance": 137,
 			"name": "stairs_block_1"
 		},
 		{
@@ -1072,7 +1072,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 30,
-			"instance": 60,
+			"instance": 111,
 			"name": "stairs_block_2"
 		},
 		{
@@ -1086,7 +1086,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 31,
-			"instance": 83,
+			"instance": 88,
 			"name": "stairs_block_4"
 		},
 		{
@@ -1100,7 +1100,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 32,
-			"instance": 61,
+			"instance": 110,
 			"name": "wall_block_0"
 		},
 		{
@@ -1114,7 +1114,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 33,
-			"instance": 62,
+			"instance": 109,
 			"name": "wall_block_1"
 		},
 		{
@@ -1128,7 +1128,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 34,
-			"instance": 63,
+			"instance": 108,
 			"name": "wall_block_2"
 		},
 		{
@@ -1142,7 +1142,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 35,
-			"instance": 64,
+			"instance": 107,
 			"name": "wall_block_3"
 		},
 		{
@@ -1156,7 +1156,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 36,
-			"instance": 65,
+			"instance": 106,
 			"name": "wall_block_4"
 		},
 		{
@@ -1170,7 +1170,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 37,
-			"instance": 26,
+			"instance": 145,
 			"name": "wall_block_5"
 		},
 		{
@@ -1184,7 +1184,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 38,
-			"instance": 27,
+			"instance": 144,
 			"name": "wall_block_6"
 		},
 		{
@@ -1198,7 +1198,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 39,
-			"instance": 33,
+			"instance": 138,
 			"name": "wall_block_7"
 		},
 		{
@@ -1212,7 +1212,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 40,
-			"instance": 28,
+			"instance": 143,
 			"name": "wall_block_8"
 		},
 		{
@@ -1226,7 +1226,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 41,
-			"instance": 29,
+			"instance": 142,
 			"name": "wall_block_9"
 		},
 		{
@@ -1240,7 +1240,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 42,
-			"instance": 89,
+			"instance": 82,
 			"name": "mt_rock_02"
 		},
 		{
@@ -1254,7 +1254,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 43,
-			"instance": 90,
+			"instance": 81,
 			"name": "mt_rock_01"
 		},
 		{
@@ -1268,7 +1268,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 44,
-			"instance": 91,
+			"instance": 80,
 			"name": "mt_rock_03"
 		},
 		{
@@ -1282,7 +1282,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 45,
-			"instance": 92,
+			"instance": 79,
 			"name": "mt_rock_04"
 		},
 		{
@@ -1296,7 +1296,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 46,
-			"instance": 93,
+			"instance": 78,
 			"name": "mt_rock_05"
 		},
 		{
@@ -1310,7 +1310,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 47,
-			"instance": 94,
+			"instance": 77,
 			"name": "mt_rock_06"
 		},
 		{
@@ -1324,7 +1324,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 48,
-			"instance": 95,
+			"instance": 76,
 			"name": "mt_rock_07"
 		},
 		{
@@ -1338,7 +1338,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 49,
-			"instance": 96,
+			"instance": 75,
 			"name": "mt_rock_08"
 		},
 		{
@@ -1352,7 +1352,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 50,
-			"instance": 97,
+			"instance": 74,
 			"name": "mt_rock_09"
 		},
 		{
@@ -1366,7 +1366,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 51,
-			"instance": 98,
+			"instance": 73,
 			"name": "mt_rock_10"
 		},
 		{
@@ -1380,7 +1380,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 52,
-			"instance": 99,
+			"instance": 72,
 			"name": "mt_rock_11"
 		},
 		{
@@ -1394,7 +1394,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 53,
-			"instance": 100,
+			"instance": 71,
 			"name": "mt_rock_12"
 		},
 		{
@@ -1408,7 +1408,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 54,
-			"instance": 101,
+			"instance": 70,
 			"name": "mt_rock_13"
 		},
 		{
@@ -1422,7 +1422,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 55,
-			"instance": 102,
+			"instance": 69,
 			"name": "mt_rock_14"
 		},
 		{
@@ -1436,7 +1436,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 56,
-			"instance": 103,
+			"instance": 68,
 			"name": "mt_rock_15"
 		},
 		{
@@ -1450,7 +1450,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 57,
-			"instance": 104,
+			"instance": 67,
 			"name": "mt_rock_01"
 		},
 		{
@@ -1464,7 +1464,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 58,
-			"instance": 105,
+			"instance": 66,
 			"name": "mt_rock_13"
 		},
 		{
@@ -1478,7 +1478,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 59,
-			"instance": 106,
+			"instance": 65,
 			"name": "mt_rock_02"
 		},
 		{
@@ -1492,7 +1492,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 60,
-			"instance": 107,
+			"instance": 64,
 			"name": "mt_rock_16"
 		},
 		{
@@ -1506,7 +1506,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 61,
-			"instance": 108,
+			"instance": 63,
 			"name": "cube_50m"
 		},
 		{
@@ -1520,7 +1520,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 62,
-			"instance": 109,
+			"instance": 62,
 			"name": "cube_50m"
 		},
 		{
@@ -1534,7 +1534,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 63,
-			"instance": 110,
+			"instance": 61,
 			"name": "cube_50m"
 		},
 		{
@@ -1548,7 +1548,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 64,
-			"instance": 111,
+			"instance": 60,
 			"name": "cube_50m"
 		},
 		{
@@ -1562,7 +1562,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 65,
-			"instance": 112,
+			"instance": 59,
 			"name": "cube_50m"
 		},
 		{
@@ -1576,7 +1576,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 66,
-			"instance": 113,
+			"instance": 58,
 			"name": "cube_50m"
 		},
 		{
@@ -1590,7 +1590,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 67,
-			"instance": 114,
+			"instance": 57,
 			"name": "cube_25m"
 		},
 		{
@@ -1604,7 +1604,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 68,
-			"instance": 141,
+			"instance": 30,
 			"name": "cube_25m"
 		},
 		{
@@ -1618,7 +1618,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 69,
-			"instance": 115,
+			"instance": 56,
 			"name": "cube_25m"
 		},
 		{
@@ -1632,7 +1632,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 70,
-			"instance": 116,
+			"instance": 55,
 			"name": "cube_25m"
 		},
 		{
@@ -1646,7 +1646,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 71,
-			"instance": 117,
+			"instance": 54,
 			"name": "cube_25m"
 		},
 		{
@@ -1660,7 +1660,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 72,
-			"instance": 118,
+			"instance": 53,
 			"name": "cube_50m"
 		},
 		{
@@ -1674,7 +1674,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 73,
-			"instance": 119,
+			"instance": 52,
 			"name": "cube_50m"
 		},
 		{
@@ -1688,7 +1688,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 74,
-			"instance": 120,
+			"instance": 51,
 			"name": "wall_25m"
 		},
 		{
@@ -1702,7 +1702,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 75,
-			"instance": 121,
+			"instance": 50,
 			"name": "wall_25m"
 		},
 		{
@@ -1716,7 +1716,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 76,
-			"instance": 30,
+			"instance": 141,
 			"name": "wall_25m"
 		},
 		{
@@ -1730,7 +1730,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 77,
-			"instance": 31,
+			"instance": 140,
 			"name": "wall_25m"
 		},
 		{
@@ -1744,7 +1744,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 78,
-			"instance": 165,
+			"instance": 6,
 			"name": "wall_50m"
 		},
 		{
@@ -1758,7 +1758,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 79,
-			"instance": 163,
+			"instance": 8,
 			"name": "wall_25m"
 		},
 		{
@@ -1772,7 +1772,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 80,
-			"instance": 35,
+			"instance": 136,
 			"name": "wall_25m"
 		},
 		{
@@ -1786,7 +1786,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 81,
-			"instance": 59,
+			"instance": 112,
 			"name": "tv_vintage"
 		},
 		{
@@ -1800,7 +1800,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 82,
-			"instance": 58,
+			"instance": 113,
 			"name": "monitor"
 		},
 		{
@@ -1814,7 +1814,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 83,
-			"instance": 55,
+			"instance": 116,
 			"name": "column_block_15"
 		},
 		{
@@ -1828,7 +1828,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 84,
-			"instance": 57,
+			"instance": 114,
 			"name": "monitor_cctv"
 		},
 		{
@@ -1842,7 +1842,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 85,
-			"instance": 56,
+			"instance": 115,
 			"name": "tv_medium_size"
 		},
 		{
@@ -1856,7 +1856,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 86,
-			"instance": 54,
+			"instance": 117,
 			"name": "stairs_block_4"
 		},
 		{
@@ -1870,7 +1870,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 87,
-			"instance": 53,
+			"instance": 118,
 			"name": "bridge_block_2"
 		},
 		{
@@ -1884,7 +1884,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 88,
-			"instance": 52,
+			"instance": 119,
 			"name": "stairs_block_1"
 		},
 		{
@@ -1898,7 +1898,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 89,
-			"instance": 51,
+			"instance": 120,
 			"name": "bridge_block_5"
 		},
 		{
@@ -1912,7 +1912,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 90,
-			"instance": 25,
+			"instance": 146,
 			"name": "bridge_block_5"
 		},
 		{
@@ -1926,7 +1926,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 91,
-			"instance": 19,
+			"instance": 152,
 			"name": "stairs_block_1"
 		},
 		{
@@ -1940,7 +1940,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 92,
-			"instance": 38,
+			"instance": 133,
 			"name": "column_block_11"
 		},
 		{
@@ -1954,7 +1954,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 93,
-			"instance": 42,
+			"instance": 129,
 			"name": "column_block_03"
 		},
 		{
@@ -1968,7 +1968,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 94,
-			"instance": 164,
+			"instance": 7,
 			"name": "column_block_02"
 		},
 		{
@@ -1982,7 +1982,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 95,
-			"instance": 18,
+			"instance": 153,
 			"name": "column_block_01"
 		},
 		{
@@ -1996,7 +1996,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 96,
-			"instance": 162,
+			"instance": 9,
 			"name": "column_block_00"
 		},
 		{
@@ -2010,7 +2010,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 97,
-			"instance": 36,
+			"instance": 135,
 			"name": "column_block_12"
 		},
 		{
@@ -2024,7 +2024,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 98,
-			"instance": 85,
+			"instance": 86,
 			"name": "column_block_11"
 		},
 		{
@@ -2038,7 +2038,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 99,
-			"instance": 84,
+			"instance": 87,
 			"name": "column_block_03"
 		},
 		{
@@ -2052,7 +2052,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 100,
-			"instance": 43,
+			"instance": 128,
 			"name": "column_block_16"
 		},
 		{
@@ -2066,7 +2066,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 101,
-			"instance": 23,
+			"instance": 148,
 			"name": "gate_block_2"
 		},
 		{
@@ -2080,7 +2080,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 102,
-			"instance": 22,
+			"instance": 149,
 			"name": "wall_block_3"
 		},
 		{
@@ -2094,7 +2094,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 103,
-			"instance": 21,
+			"instance": 150,
 			"name": "wall_block_3"
 		},
 		{
@@ -2108,7 +2108,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 104,
-			"instance": 20,
+			"instance": 151,
 			"name": "mt_rock_dark_16"
 		},
 		{
@@ -2122,7 +2122,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 105,
-			"instance": 37,
+			"instance": 134,
 			"name": "column_block_04"
 		},
 		{
@@ -2162,7 +2162,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 108,
-			"instance": 148,
+			"instance": 23,
 			"name": "Raven"
 		},
 		{
@@ -2176,7 +2176,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 109,
-			"instance": 122,
+			"instance": 49,
 			"name": "Raven_B"
 		},
 		{
@@ -2190,7 +2190,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 110,
-			"instance": 123,
+			"instance": 48,
 			"name": "column_block_14"
 		},
 		{
@@ -2204,7 +2204,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 111,
-			"instance": 124,
+			"instance": 47,
 			"name": "column_block_13"
 		},
 		{
@@ -2218,7 +2218,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 112,
-			"instance": 125,
+			"instance": 46,
 			"name": "wall_block_0"
 		},
 		{
@@ -2232,7 +2232,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 113,
-			"instance": 126,
+			"instance": 45,
 			"name": "wall_block_0"
 		},
 		{
@@ -2246,7 +2246,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 114,
-			"instance": 127,
+			"instance": 44,
 			"name": "wall_block_9"
 		},
 		{
@@ -2260,7 +2260,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 115,
-			"instance": 129,
+			"instance": 42,
 			"name": "wall_block_4"
 		},
 		{
@@ -2274,7 +2274,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 116,
-			"instance": 128,
+			"instance": 43,
 			"name": "wall_block_8"
 		},
 		{
@@ -2288,7 +2288,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 117,
-			"instance": 130,
+			"instance": 41,
 			"name": "wall_block_9"
 		},
 		{
@@ -2302,7 +2302,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 118,
-			"instance": 133,
+			"instance": 38,
 			"name": "tree_b08"
 		},
 		{
@@ -2316,7 +2316,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 119,
-			"instance": 134,
+			"instance": 37,
 			"name": "tree_b07"
 		},
 		{
@@ -2330,7 +2330,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 120,
-			"instance": 132,
+			"instance": 39,
 			"name": "tree_b05"
 		},
 		{
@@ -2344,7 +2344,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 121,
-			"instance": 135,
+			"instance": 36,
 			"name": "tree_b01"
 		},
 		{
@@ -2358,7 +2358,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 122,
-			"instance": 131,
+			"instance": 40,
 			"name": "tree_b02"
 		},
 		{
@@ -2372,7 +2372,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 123,
-			"instance": 145,
+			"instance": 26,
 			"name": "tree_b08"
 		},
 		{
@@ -2386,7 +2386,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 124,
-			"instance": 146,
+			"instance": 25,
 			"name": "tree_b05"
 		},
 		{
@@ -2400,7 +2400,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 125,
-			"instance": 144,
+			"instance": 27,
 			"name": "tree_b07"
 		},
 		{
@@ -2414,7 +2414,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 126,
-			"instance": 143,
+			"instance": 28,
 			"name": "tree_b01"
 		},
 		{
@@ -2428,7 +2428,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 127,
-			"instance": 24,
+			"instance": 147,
 			"name": "tree_b08"
 		},
 		{
@@ -2442,7 +2442,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 128,
-			"instance": 142,
+			"instance": 29,
 			"name": "tree_b07"
 		},
 		{
@@ -2456,7 +2456,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 129,
-			"instance": 140,
+			"instance": 31,
 			"name": "tree_b05"
 		},
 		{
@@ -2470,7 +2470,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 130,
-			"instance": 147,
+			"instance": 24,
 			"name": "tree_b01"
 		},
 		{
@@ -2484,7 +2484,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 131,
-			"instance": 139,
+			"instance": 32,
 			"name": "mt_rock_01"
 		},
 		{
@@ -2498,7 +2498,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 132,
-			"instance": 136,
+			"instance": 35,
 			"name": "mt_rock_07"
 		},
 		{
@@ -2512,7 +2512,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 133,
-			"instance": 138,
+			"instance": 33,
 			"name": "mt_rock_05"
 		},
 		{
@@ -2526,7 +2526,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 134,
-			"instance": 137,
+			"instance": 34,
 			"name": "mt_rock_06"
 		},
 		{
@@ -2540,7 +2540,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 135,
-			"instance": 157,
+			"instance": 14,
 			"name": "wall_25m"
 		},
 		{
@@ -2554,7 +2554,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 136,
-			"instance": 158,
+			"instance": 13,
 			"name": "tree_b13"
 		},
 		{
@@ -2568,7 +2568,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 137,
-			"instance": 159,
+			"instance": 12,
 			"name": "mt_rock_16"
 		},
 		{
@@ -2582,7 +2582,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 138,
-			"instance": 160,
+			"instance": 11,
 			"name": "mt_rock_12"
 		},
 		{
@@ -2596,7 +2596,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 139,
-			"instance": 161,
+			"instance": 10,
 			"name": "wall_block_5"
 		},
 		{
@@ -2610,7 +2610,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 140,
-			"instance": 149,
+			"instance": 22,
 			"name": "wall_25m"
 		},
 		{
@@ -2624,7 +2624,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 141,
-			"instance": 150,
+			"instance": 21,
 			"name": "wall_block_5"
 		},
 		{
@@ -2638,7 +2638,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 142,
-			"instance": 152,
+			"instance": 19,
 			"name": "tree_b01"
 		},
 		{
@@ -2652,7 +2652,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 143,
-			"instance": 151,
+			"instance": 20,
 			"name": "tree_1_lo"
 		},
 		{
@@ -2666,7 +2666,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 144,
-			"instance": 153,
+			"instance": 18,
 			"name": "mt_rock_02"
 		},
 		{
@@ -2680,7 +2680,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 145,
-			"instance": 32,
+			"instance": 139,
 			"name": "bridge_block_0"
 		},
 		{
@@ -2694,7 +2694,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 146,
-			"instance": 154,
+			"instance": 17,
 			"name": "stairs_block_1"
 		},
 		{
@@ -2708,7 +2708,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 147,
-			"instance": 155,
+			"instance": 16,
 			"name": "stairs_block_1"
 		},
 		{
@@ -2722,7 +2722,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 148,
-			"instance": 156,
+			"instance": 15,
 			"name": "wall_block_6"
 		},
 		{
@@ -2736,7 +2736,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 149,
-			"instance": 39,
+			"instance": 132,
 			"name": "wall_block_6"
 		},
 		{
@@ -2750,7 +2750,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 150,
-			"instance": 40,
+			"instance": 131,
 			"name": "mt_rock_09"
 		},
 		{
@@ -2764,7 +2764,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 151,
-			"instance": 41,
+			"instance": 130,
 			"name": "mt_rock_05"
 		},
 		{
@@ -2778,7 +2778,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 152,
-			"instance": 17,
+			"instance": 154,
 			"name": "tree_b10"
 		},
 		{
@@ -2792,7 +2792,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 153,
-			"instance": 16,
+			"instance": 155,
 			"name": "gate_block_0"
 		},
 		{
@@ -2806,7 +2806,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 154,
-			"instance": 15,
+			"instance": 156,
 			"name": "gate_block_0"
 		},
 		{
@@ -2820,7 +2820,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 155,
-			"instance": 2,
+			"instance": 169,
 			"name": "column_block_07"
 		},
 		{
@@ -2834,7 +2834,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 156,
-			"instance": 1,
+			"instance": 170,
 			"name": "column_block_07"
 		},
 		{
@@ -2848,7 +2848,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 157,
-			"instance": 0,
+			"instance": 171,
 			"name": "column_block_07"
 		},
 		{
@@ -2862,7 +2862,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 158,
-			"instance": 5,
+			"instance": 166,
 			"name": "column_block_07"
 		},
 		{
@@ -2876,7 +2876,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 159,
-			"instance": 6,
+			"instance": 165,
 			"name": "column_block_07"
 		},
 		{
@@ -2890,7 +2890,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 160,
-			"instance": 7,
+			"instance": 164,
 			"name": "column_block_07"
 		},
 		{
@@ -2904,7 +2904,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 161,
-			"instance": 8,
+			"instance": 163,
 			"name": "column_block_07"
 		},
 		{
@@ -2918,7 +2918,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 162,
-			"instance": 9,
+			"instance": 162,
 			"name": "column_block_07"
 		},
 		{
@@ -2932,7 +2932,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 163,
-			"instance": 10,
+			"instance": 161,
 			"name": "column_block_08"
 		},
 		{
@@ -2946,7 +2946,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 164,
-			"instance": 11,
+			"instance": 160,
 			"name": "column_block_08"
 		},
 		{
@@ -2960,7 +2960,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 165,
-			"instance": 12,
+			"instance": 159,
 			"name": "column_block_08"
 		},
 		{
@@ -2974,7 +2974,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 166,
-			"instance": 13,
+			"instance": 158,
 			"name": "column_block_08"
 		},
 		{
@@ -2988,7 +2988,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 167,
-			"instance": 14,
+			"instance": 157,
 			"name": "bridge_block_2"
 		},
 		{
@@ -3002,7 +3002,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 168,
-			"instance": 3,
+			"instance": 168,
 			"name": "bridge_block_2"
 		},
 		{
@@ -3016,7 +3016,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 169,
-			"instance": 4,
+			"instance": 167,
 			"name": "bridge_block_2"
 		},
 		{
@@ -3030,7 +3030,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 170,
-			"instance": 166,
+			"instance": 5,
 			"name": "tree_1_lo"
 		},
 		{
@@ -3044,7 +3044,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 171,
-			"instance": 167,
+			"instance": 4,
 			"name": "mt_rock_16"
 		},
 		{
@@ -3058,7 +3058,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 172,
-			"instance": 168,
+			"instance": 3,
 			"name": "mt_rock_13"
 		},
 		{
@@ -3072,7 +3072,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 173,
-			"instance": 169,
+			"instance": 2,
 			"name": "tree_b11"
 		},
 		{
@@ -3086,7 +3086,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 174,
-			"instance": 170,
+			"instance": 1,
 			"name": "cubic_crystal"
 		},
 		{
@@ -3099,8 +3099,8 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 790,
-			"instance": 171,
+			"idx": 175,
+			"instance": 0,
 			"name": "reservoir"
 		}
 	],
@@ -6347,9 +6347,9 @@
 				0.0
 			],
 			"scl": [
-				0.9999993443489075,
-				0.9999993443489075,
-				0.9999986886978149
+				0.9999994039535522,
+				0.9999994039535522,
+				0.9999988079071045
 			]
 		}
 	]
