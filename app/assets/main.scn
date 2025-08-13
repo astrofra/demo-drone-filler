@@ -172,7 +172,7 @@
 			0
 		],
 		"brdf_map": "core/pbr/brdf.dds",
-		"current_camera": 866,
+		"current_camera": 27,
 		"fog_color": [
 			16,
 			16,
@@ -278,7 +278,7 @@
 				0,
 				255
 			],
-			"diffuse_intensity": 100.0,
+			"diffuse_intensity": 10.0,
 			"inner_angle": 9.999999747378752e-05,
 			"outer_angle": 0.3822183609008789,
 			"priority": 1.0,
@@ -312,7 +312,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 1,
+			"idx": 0,
 			"name": "Light"
 		},
 		{
@@ -325,7 +325,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 81,
+			"idx": 1,
 			"instance": 2,
 			"name": "tv_vintage"
 		},
@@ -339,7 +339,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 82,
+			"idx": 2,
 			"instance": 3,
 			"name": "monitor"
 		},
@@ -353,7 +353,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 84,
+			"idx": 3,
 			"instance": 4,
 			"name": "monitor_cctv"
 		},
@@ -367,7 +367,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 85,
+			"idx": 4,
 			"instance": 5,
 			"name": "tv_medium_size"
 		},
@@ -381,7 +381,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 106,
+			"idx": 5,
 			"name": "Light"
 		},
 		{
@@ -394,7 +394,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 107,
+			"idx": 6,
 			"name": "Camera"
 		},
 		{
@@ -407,7 +407,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 108,
+			"idx": 7,
 			"instance": 0,
 			"name": "Raven"
 		},
@@ -421,7 +421,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 109,
+			"idx": 8,
 			"instance": 1,
 			"name": "Raven_B"
 		},
@@ -435,7 +435,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 308,
+			"idx": 9,
 			"instance": 8,
 			"name": "Raven"
 		},
@@ -449,7 +449,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 366,
+			"idx": 10,
 			"instance": 7,
 			"name": "Raven_B"
 		},
@@ -463,7 +463,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 421,
+			"idx": 11,
 			"instance": 6,
 			"name": "static"
 		},
@@ -477,7 +477,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 851,
+			"idx": 12,
 			"name": "camera_000"
 		},
 		{
@@ -490,7 +490,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 852,
+			"idx": 13,
 			"name": "camera_010"
 		},
 		{
@@ -503,7 +503,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 853,
+			"idx": 14,
 			"name": "camera_005"
 		},
 		{
@@ -516,7 +516,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 854,
+			"idx": 15,
 			"name": "camera_008"
 		},
 		{
@@ -529,7 +529,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 855,
+			"idx": 16,
 			"name": "camera_020"
 		},
 		{
@@ -542,7 +542,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 856,
+			"idx": 17,
 			"name": "camera_030"
 		},
 		{
@@ -555,7 +555,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 857,
+			"idx": 18,
 			"name": "camera_040"
 		},
 		{
@@ -568,7 +568,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 858,
+			"idx": 19,
 			"name": "camera_045"
 		},
 		{
@@ -581,7 +581,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 859,
+			"idx": 20,
 			"name": "camera_050"
 		},
 		{
@@ -594,7 +594,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 860,
+			"idx": 21,
 			"name": "camera_060"
 		},
 		{
@@ -607,7 +607,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 861,
+			"idx": 22,
 			"name": "camera_070"
 		},
 		{
@@ -620,7 +620,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 862,
+			"idx": 23,
 			"name": "camera_080"
 		},
 		{
@@ -633,7 +633,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 863,
+			"idx": 24,
 			"name": "camera_090"
 		},
 		{
@@ -646,7 +646,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 864,
+			"idx": 25,
 			"name": "camera_100"
 		},
 		{
@@ -659,7 +659,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 865,
+			"idx": 26,
 			"name": "camera_110"
 		},
 		{
@@ -672,7 +672,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 866,
+			"idx": 27,
 			"name": "camera_120"
 		}
 	],
@@ -732,14 +732,14 @@
 			]
 		},
 		{
-			"parent": 107,
+			"parent": 6,
 			"pos": [
 				-0.004995226860046387,
 				0.009534001350402832,
 				-0.5020686388015747
 			],
 			"rot": [
-				-0.42963483929634094,
+				-0.42963480949401855,
 				1.1459301710128784,
 				-0.008594314567744732
 			],
@@ -794,7 +794,7 @@
 			],
 			"rot": [
 				0.0,
-				-112.60527038574219,
+				-112.60526275634766,
 				0.0
 			],
 			"scl": [
@@ -866,7 +866,7 @@
 			],
 			"rot": [
 				0.0,
-				-112.60526275634766,
+				-112.60525512695313,
 				0.0
 			],
 			"scl": [
@@ -901,8 +901,8 @@
 				133.20083618164063
 			],
 			"rot": [
-				-7.161755561828613,
-				-1.8621572256088257,
+				-7.161755084991455,
+				-1.8621571063995361,
 				0.0
 			],
 			"scl": [
@@ -919,8 +919,8 @@
 				117.02734375
 			],
 			"rot": [
-				11.889154434204102,
-				-3.4377799034118652,
+				11.889153480529785,
+				-3.437779664993286,
 				0.0
 			],
 			"scl": [
@@ -956,7 +956,7 @@
 			],
 			"rot": [
 				4.010904312133789,
-				2.1485421657562256,
+				2.1485419273376465,
 				0.0
 			],
 			"scl": [
@@ -991,7 +991,7 @@
 				77.80628967285156
 			],
 			"rot": [
-				-12.748147010803223,
+				-12.748146057128906,
 				4.2971673011779785,
 				0.0
 			],
@@ -1009,8 +1009,8 @@
 				63.276939392089844
 			],
 			"rot": [
-				19.194231033325195,
-				0.1432114988565445,
+				19.194229125976563,
+				0.1432114839553833,
 				0.0
 			],
 			"scl": [
@@ -1045,8 +1045,8 @@
 				37.37609100341797
 			],
 			"rot": [
-				0.4296399652957916,
-				-3.724233865737915,
+				0.42963993549346924,
+				-3.724233388900757,
 				0.0
 			],
 			"scl": [
@@ -1063,8 +1063,8 @@
 				34.6966667175293
 			],
 			"rot": [
-				-13.464523315429688,
-				-2.578303813934326,
+				-13.464522361755371,
+				-2.578303575515747,
 				0.0
 			],
 			"scl": [
@@ -1100,7 +1100,7 @@
 			],
 			"rot": [
 				0.5730221271514893,
-				0.42969784140586853,
+				0.42969781160354614,
 				0.0
 			],
 			"scl": [
@@ -1117,8 +1117,8 @@
 				-30.70168685913086
 			],
 			"rot": [
-				2.7221004962921143,
-				-4.01072359085083,
+				2.722100257873535,
+				-4.010723114013672,
 				0.0
 			],
 			"scl": [
@@ -1135,8 +1135,8 @@
 				-38.922367095947266
 			],
 			"rot": [
-				0.8596838712692261,
-				-3.00809383392334,
+				0.8596838116645813,
+				-3.0080935955047607,
 				0.0
 			],
 			"scl": [
@@ -1171,7 +1171,7 @@
 				-62.47465515136719
 			],
 			"rot": [
-				6.7323994636535645,
+				6.732398986816406,
 				-2.148622512817383,
 				0.0
 			],
