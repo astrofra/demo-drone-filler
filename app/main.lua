@@ -80,6 +80,8 @@ function main()
 	pipeline_aaa_config.bloom_bias = 0.009999999776482582
 	pipeline_aaa_config.bloom_intensity = 0.699999988079071
 	pipeline_aaa_config.bloom_threshold = 0.009999999776482582
+	pipeline_aaa_config.dof_focus_point = 5.0
+	pipeline_aaa_config.dof_focus_length = 50.0
 
 	-- Create an empty main_scene
 	local main_scene = hg.Scene()
