@@ -1,5 +1,6 @@
 {
 	"recent_files": [
+		"static.scn",
 		"main.scn",
 		"props/desert_house/house.scn",
 		"library.scn",
@@ -8,7 +9,6 @@
 		"props/instances/gate_block_0.scn",
 		"props/instances/column_block_04.scn",
 		"props/square_shadow/round_shadow.scn",
-		"props/instances/column_block_15.scn",
-		"props/fir_trees/Fir_Trees.scn"
+		"props/instances/column_block_15.scn"
 	]
 }
