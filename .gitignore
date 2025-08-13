@@ -1,2 +1,5 @@
 *.editor
 *.aaa
+.DS_Store
+*.DS_Store
+/app/assets_compiled
