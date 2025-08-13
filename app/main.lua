@@ -58,7 +58,17 @@ function main()
 	local res = hg.PipelineResources()
 	local render_data = hg.SceneForwardPipelineRenderData()
 
-	hg.AddAssetsFolder("assets_compiled")
+	if IsLinux() then
+		hg.AddAssetsFolder("../assets_compiled")
+	else
+		if file_exists("assets_compiled/project.prj") then
+			hg.AddAssetsFolder("assets_compiled")
+		elseif file_exists("../assets_compiled/project.prj") then
+			hg.AddAssetsFolder("../assets_compiled")
+		else
+			print("/!\\ Cannot locate the compiled assets!")
+		end
+	end
 
 	local pipeline_aaa_config = hg.ForwardPipelineAAAConfig()
 	local pipeline_aaa = hg.CreateForwardPipelineAAAFromAssets("core", pipeline_aaa_config, hg.BR_Half, hg.BR_Half)
