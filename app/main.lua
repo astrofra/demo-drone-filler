@@ -61,11 +61,15 @@ function main()
 	hg.AddAssetsFolder("assets_compiled")
 
 	local pipeline_aaa_config = hg.ForwardPipelineAAAConfig()
-	local pipeline_aaa = hg.CreateForwardPipelineAAAFromAssets("core", pipeline_aaa_config, hg.BR_Equal, hg.BR_Equal)
-    pipeline_aaa_config.exposure = 1.2
+	local pipeline_aaa = hg.CreateForwardPipelineAAAFromAssets("core", pipeline_aaa_config, hg.BR_Half, hg.BR_Half)
+	pipeline_aaa_config.sample_count = 1
+    pipeline_aaa_config.exposure = 2.5
     pipeline_aaa_config.gamma = 1.8
-    pipeline_aaa_config.z_thickness = 1.0
+    pipeline_aaa_config.z_thickness = 0.5
     pipeline_aaa_config.motion_blur = 0.01
+	pipeline_aaa_config.bloom_bias = 0.009999999776482582
+	pipeline_aaa_config.bloom_intensity = 0.699999988079071
+	pipeline_aaa_config.bloom_threshold = 0.009999999776482582
 
 	-- Create an empty main_scene
 	local main_scene = hg.Scene()
