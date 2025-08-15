@@ -83,7 +83,7 @@ function main()
 	pipeline_aaa_config.bloom_bias = 1.0
 	pipeline_aaa_config.bloom_intensity = 0.55
 	pipeline_aaa_config.bloom_threshold = 0.001
-	pipeline_aaa_config.dof_focus_length = 120.0
+	pipeline_aaa_config.dof_focus_length = 50.0
 	pipeline_aaa_config.dof_focus_point	= 10.0
 
 	-- Create an empty main_scene
@@ -118,7 +118,7 @@ function main()
 	local keyboard = hg.Keyboard('raw')
 
 	local start_clock = hg.GetClock()
-	local motion_duration_f = 120.0 -- in seconds
+	local motion_duration_f = 2.0 * 60.0 + 26.0 -- in seconds
 
 	local main_cam = main_scene:GetNode("Camera")
 	main_scene:SetCurrentCamera(main_cam)
