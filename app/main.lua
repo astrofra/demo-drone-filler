@@ -78,7 +78,7 @@ function main()
 	pipeline_aaa_config.sample_count = 1
     pipeline_aaa_config.exposure = 1.5
     pipeline_aaa_config.gamma = 2.5
-    pipeline_aaa_config.z_thickness = 1.0
+    pipeline_aaa_config.z_thickness = 5.0
     pipeline_aaa_config.motion_blur = 0.25
 	pipeline_aaa_config.bloom_bias = 1.0
 	pipeline_aaa_config.bloom_intensity = 0.25
@@ -108,7 +108,7 @@ function main()
 	local motions = ResampleCameraMotion(cam_path_nodes)
 
 	-- music
-    -- demo_soundtrack_sound = hg.OpenALLoadOGGSoundAsset("audio/landslide(short).ogg")
+    demo_soundtrack_sound = hg.OpenALLoadOGGSoundAsset("audio/landslide(short).ogg")
     demo_soundtrack_ref = nil
 
 	-- Main render loop

@@ -1,14 +1,14 @@
 {
 	"recent_files": [
-		"props/instances/tv_p02.scn",
-		"props/instances/tv_p01.scn",
-		"props/instances/tv_p00.scn",
 		"main.scn",
 		"props/instances/tv_p13.scn",
 		"props/instances/tv_p12.scn",
+		"props/instances/tv_p11.scn",
+		"props/instances/tv_p10.scn",
+		"props/instances/tv_p09.scn",
+		"props/instances/tv_p08.scn",
+		"props/instances/tv_p03.scn",
 		"props/instances/tv_p07.scn",
-		"static.scn",
-		"props/desert_house/house.scn",
-		"library.scn"
+		"props/instances/tv_p06.scn"
 	]
 }
