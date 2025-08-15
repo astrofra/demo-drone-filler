@@ -28,7 +28,7 @@
 			0
 		],
 		"brdf_map": "core/pbr/brdf.dds",
-		"current_camera": 102,
+		"current_camera": 41,
 		"fog_color": [
 			16,
 			16,
@@ -491,7 +491,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 1,
+			"idx": 0,
 			"name": "Light"
 		},
 		{
@@ -504,7 +504,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 61,
+			"idx": 1,
 			"instance": 64,
 			"name": "cube_50m"
 		},
@@ -518,7 +518,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 62,
+			"idx": 2,
 			"instance": 63,
 			"name": "cube_50m"
 		},
@@ -532,7 +532,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 63,
+			"idx": 3,
 			"instance": 62,
 			"name": "cube_50m"
 		},
@@ -546,7 +546,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 64,
+			"idx": 4,
 			"instance": 61,
 			"name": "cube_50m"
 		},
@@ -560,7 +560,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 65,
+			"idx": 5,
 			"instance": 60,
 			"name": "cube_50m"
 		},
@@ -574,7 +574,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 66,
+			"idx": 6,
 			"instance": 59,
 			"name": "cube_50m"
 		},
@@ -588,7 +588,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 67,
+			"idx": 7,
 			"instance": 58,
 			"name": "cube_25m"
 		},
@@ -602,7 +602,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 68,
+			"idx": 8,
 			"instance": 33,
 			"name": "cube_25m"
 		},
@@ -616,7 +616,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 69,
+			"idx": 9,
 			"instance": 57,
 			"name": "cube_25m"
 		},
@@ -630,7 +630,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 70,
+			"idx": 10,
 			"instance": 56,
 			"name": "cube_25m"
 		},
@@ -644,7 +644,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 71,
+			"idx": 11,
 			"instance": 55,
 			"name": "cube_25m"
 		},
@@ -658,7 +658,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 72,
+			"idx": 12,
 			"instance": 54,
 			"name": "cube_50m"
 		},
@@ -672,7 +672,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 73,
+			"idx": 13,
 			"instance": 53,
 			"name": "cube_50m"
 		},
@@ -686,7 +686,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 74,
+			"idx": 14,
 			"instance": 52,
 			"name": "wall_25m"
 		},
@@ -700,7 +700,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 75,
+			"idx": 15,
 			"instance": 51,
 			"name": "wall_25m"
 		},
@@ -714,7 +714,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 76,
+			"idx": 16,
 			"instance": 83,
 			"name": "wall_25m"
 		},
@@ -728,7 +728,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 77,
+			"idx": 17,
 			"instance": 82,
 			"name": "wall_25m"
 		},
@@ -742,7 +742,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 78,
+			"idx": 18,
 			"instance": 10,
 			"name": "wall_50m"
 		},
@@ -756,7 +756,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 79,
+			"idx": 19,
 			"instance": 12,
 			"name": "wall_25m"
 		},
@@ -770,7 +770,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 80,
+			"idx": 20,
 			"instance": 80,
 			"name": "wall_25m"
 		},
@@ -784,7 +784,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 81,
+			"idx": 21,
 			"instance": 67,
 			"name": "column_block_15"
 		},
@@ -798,7 +798,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 82,
+			"idx": 22,
 			"instance": 68,
 			"name": "stairs_block_4"
 		},
@@ -812,7 +812,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 83,
+			"idx": 23,
 			"instance": 69,
 			"name": "bridge_block_2"
 		},
@@ -826,7 +826,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 84,
+			"idx": 24,
 			"instance": 70,
 			"name": "stairs_block_1"
 		},
@@ -840,7 +840,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 85,
+			"idx": 25,
 			"instance": 71,
 			"name": "bridge_block_5"
 		},
@@ -854,7 +854,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 86,
+			"idx": 26,
 			"instance": 84,
 			"name": "bridge_block_5"
 		},
@@ -868,7 +868,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 87,
+			"idx": 27,
 			"instance": 89,
 			"name": "stairs_block_1"
 		},
@@ -882,7 +882,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 88,
+			"idx": 28,
 			"instance": 77,
 			"name": "column_block_11"
 		},
@@ -896,7 +896,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 89,
+			"idx": 29,
 			"instance": 73,
 			"name": "column_block_03"
 		},
@@ -910,7 +910,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 90,
+			"idx": 30,
 			"instance": 11,
 			"name": "column_block_02"
 		},
@@ -924,7 +924,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 91,
+			"idx": 31,
 			"instance": 90,
 			"name": "column_block_01"
 		},
@@ -938,7 +938,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 92,
+			"idx": 32,
 			"instance": 13,
 			"name": "column_block_00"
 		},
@@ -952,7 +952,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 93,
+			"idx": 33,
 			"instance": 79,
 			"name": "column_block_12"
 		},
@@ -966,7 +966,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 94,
+			"idx": 34,
 			"instance": 65,
 			"name": "column_block_11"
 		},
@@ -980,7 +980,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 95,
+			"idx": 35,
 			"instance": 66,
 			"name": "column_block_03"
 		},
@@ -994,7 +994,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 96,
+			"idx": 36,
 			"instance": 72,
 			"name": "column_block_16"
 		},
@@ -1008,7 +1008,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 97,
+			"idx": 37,
 			"instance": 86,
 			"name": "gate_block_2"
 		},
@@ -1022,7 +1022,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 98,
+			"idx": 38,
 			"instance": 87,
 			"name": "wall_block_3"
 		},
@@ -1036,7 +1036,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 99,
+			"idx": 39,
 			"instance": 88,
 			"name": "wall_block_3"
 		},
@@ -1050,7 +1050,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 101,
+			"idx": 40,
 			"instance": 78,
 			"name": "column_block_04"
 		},
@@ -1064,7 +1064,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 102,
+			"idx": 41,
 			"name": "TestCamera"
 		},
 		{
@@ -1077,7 +1077,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 105,
+			"idx": 42,
 			"instance": 50,
 			"name": "column_block_14"
 		},
@@ -1091,7 +1091,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 106,
+			"idx": 43,
 			"instance": 49,
 			"name": "column_block_13"
 		},
@@ -1105,7 +1105,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 107,
+			"idx": 44,
 			"instance": 48,
 			"name": "wall_block_0"
 		},
@@ -1119,7 +1119,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 108,
+			"idx": 45,
 			"instance": 47,
 			"name": "wall_block_0"
 		},
@@ -1133,7 +1133,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 109,
+			"idx": 46,
 			"instance": 46,
 			"name": "wall_block_9"
 		},
@@ -1147,7 +1147,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 110,
+			"idx": 47,
 			"instance": 44,
 			"name": "wall_block_4"
 		},
@@ -1161,7 +1161,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 111,
+			"idx": 48,
 			"instance": 45,
 			"name": "wall_block_8"
 		},
@@ -1175,7 +1175,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 112,
+			"idx": 49,
 			"instance": 43,
 			"name": "wall_block_9"
 		},
@@ -1189,7 +1189,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 113,
+			"idx": 50,
 			"instance": 40,
 			"name": "tree_b08"
 		},
@@ -1203,7 +1203,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 114,
+			"idx": 51,
 			"instance": 39,
 			"name": "tree_b07"
 		},
@@ -1217,7 +1217,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 115,
+			"idx": 52,
 			"instance": 41,
 			"name": "tree_b05"
 		},
@@ -1231,7 +1231,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 116,
+			"idx": 53,
 			"instance": 38,
 			"name": "tree_b01"
 		},
@@ -1245,7 +1245,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 117,
+			"idx": 54,
 			"instance": 42,
 			"name": "tree_b02"
 		},
@@ -1259,7 +1259,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 118,
+			"idx": 55,
 			"instance": 29,
 			"name": "tree_b08"
 		},
@@ -1273,7 +1273,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 119,
+			"idx": 56,
 			"instance": 28,
 			"name": "tree_b05"
 		},
@@ -1287,7 +1287,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 120,
+			"idx": 57,
 			"instance": 30,
 			"name": "tree_b07"
 		},
@@ -1301,7 +1301,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 121,
+			"idx": 58,
 			"instance": 31,
 			"name": "tree_b01"
 		},
@@ -1315,7 +1315,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 122,
+			"idx": 59,
 			"instance": 85,
 			"name": "tree_b08"
 		},
@@ -1329,7 +1329,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 123,
+			"idx": 60,
 			"instance": 32,
 			"name": "tree_b07"
 		},
@@ -1343,7 +1343,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 124,
+			"idx": 61,
 			"instance": 34,
 			"name": "tree_b05"
 		},
@@ -1357,7 +1357,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 125,
+			"idx": 62,
 			"instance": 27,
 			"name": "tree_b01"
 		},
@@ -1371,7 +1371,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 126,
+			"idx": 63,
 			"instance": 35,
 			"name": "mt_rock_01"
 		},
@@ -1385,7 +1385,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 127,
+			"idx": 64,
 			"instance": 0,
 			"name": "mt_rock_07"
 		},
@@ -1399,7 +1399,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 128,
+			"idx": 65,
 			"instance": 36,
 			"name": "mt_rock_05"
 		},
@@ -1413,7 +1413,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 129,
+			"idx": 66,
 			"instance": 37,
 			"name": "mt_rock_06"
 		},
@@ -1427,7 +1427,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 130,
+			"idx": 67,
 			"instance": 18,
 			"name": "wall_25m"
 		},
@@ -1441,7 +1441,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 131,
+			"idx": 68,
 			"instance": 17,
 			"name": "tree_b13"
 		},
@@ -1455,7 +1455,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 132,
+			"idx": 69,
 			"instance": 16,
 			"name": "mt_rock_16"
 		},
@@ -1469,7 +1469,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 133,
+			"idx": 70,
 			"instance": 15,
 			"name": "mt_rock_12"
 		},
@@ -1483,7 +1483,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 134,
+			"idx": 71,
 			"instance": 14,
 			"name": "wall_block_5"
 		},
@@ -1497,7 +1497,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 135,
+			"idx": 72,
 			"instance": 26,
 			"name": "wall_25m"
 		},
@@ -1511,7 +1511,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 136,
+			"idx": 73,
 			"instance": 25,
 			"name": "wall_block_5"
 		},
@@ -1525,7 +1525,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 137,
+			"idx": 74,
 			"instance": 23,
 			"name": "tree_b01"
 		},
@@ -1539,7 +1539,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 138,
+			"idx": 75,
 			"instance": 24,
 			"name": "tree_1_lo"
 		},
@@ -1553,7 +1553,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 139,
+			"idx": 76,
 			"instance": 22,
 			"name": "mt_rock_02"
 		},
@@ -1567,7 +1567,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 140,
+			"idx": 77,
 			"instance": 81,
 			"name": "bridge_block_0"
 		},
@@ -1581,7 +1581,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 141,
+			"idx": 78,
 			"instance": 21,
 			"name": "stairs_block_1"
 		},
@@ -1595,7 +1595,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 142,
+			"idx": 79,
 			"instance": 20,
 			"name": "stairs_block_1"
 		},
@@ -1609,7 +1609,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 143,
+			"idx": 80,
 			"instance": 19,
 			"name": "wall_block_6"
 		},
@@ -1623,7 +1623,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 144,
+			"idx": 81,
 			"instance": 76,
 			"name": "wall_block_6"
 		},
@@ -1637,7 +1637,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 145,
+			"idx": 82,
 			"instance": 75,
 			"name": "mt_rock_09"
 		},
@@ -1651,7 +1651,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 146,
+			"idx": 83,
 			"instance": 74,
 			"name": "mt_rock_05"
 		},
@@ -1665,7 +1665,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 147,
+			"idx": 84,
 			"instance": 91,
 			"name": "tree_b10"
 		},
@@ -1679,7 +1679,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 148,
+			"idx": 85,
 			"instance": 1,
 			"name": "gate_block_0"
 		},
@@ -1693,7 +1693,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 149,
+			"idx": 86,
 			"instance": 2,
 			"name": "gate_block_0"
 		},
@@ -1707,7 +1707,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 150,
+			"idx": 87,
 			"instance": 102,
 			"name": "column_block_07"
 		},
@@ -1721,7 +1721,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 151,
+			"idx": 88,
 			"instance": 103,
 			"name": "column_block_07"
 		},
@@ -1735,7 +1735,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 152,
+			"idx": 89,
 			"instance": 104,
 			"name": "column_block_07"
 		},
@@ -1749,7 +1749,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 153,
+			"idx": 90,
 			"instance": 99,
 			"name": "column_block_07"
 		},
@@ -1763,7 +1763,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 154,
+			"idx": 91,
 			"instance": 98,
 			"name": "column_block_07"
 		},
@@ -1777,7 +1777,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 155,
+			"idx": 92,
 			"instance": 97,
 			"name": "column_block_07"
 		},
@@ -1791,7 +1791,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 156,
+			"idx": 93,
 			"instance": 96,
 			"name": "column_block_07"
 		},
@@ -1805,7 +1805,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 157,
+			"idx": 94,
 			"instance": 95,
 			"name": "column_block_07"
 		},
@@ -1819,7 +1819,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 158,
+			"idx": 95,
 			"instance": 94,
 			"name": "column_block_08"
 		},
@@ -1833,7 +1833,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 159,
+			"idx": 96,
 			"instance": 93,
 			"name": "column_block_08"
 		},
@@ -1847,7 +1847,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 160,
+			"idx": 97,
 			"instance": 92,
 			"name": "column_block_08"
 		},
@@ -1861,7 +1861,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 161,
+			"idx": 98,
 			"instance": 4,
 			"name": "column_block_08"
 		},
@@ -1875,7 +1875,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 162,
+			"idx": 99,
 			"instance": 3,
 			"name": "bridge_block_2"
 		},
@@ -1889,7 +1889,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 163,
+			"idx": 100,
 			"instance": 101,
 			"name": "bridge_block_2"
 		},
@@ -1903,7 +1903,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 164,
+			"idx": 101,
 			"instance": 100,
 			"name": "bridge_block_2"
 		},
@@ -1917,7 +1917,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 165,
+			"idx": 102,
 			"instance": 9,
 			"name": "tree_1_lo"
 		},
@@ -1931,7 +1931,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 166,
+			"idx": 103,
 			"instance": 8,
 			"name": "mt_rock_16"
 		},
@@ -1945,7 +1945,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 167,
+			"idx": 104,
 			"instance": 7,
 			"name": "mt_rock_13"
 		},
@@ -1959,7 +1959,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 168,
+			"idx": 105,
 			"instance": 6,
 			"name": "tree_b11"
 		},
@@ -1973,7 +1973,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 169,
+			"idx": 106,
 			"instance": 5,
 			"name": "reservoir"
 		},
@@ -1987,7 +1987,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 170,
+			"idx": 107,
 			"instance": 108,
 			"name": "wall_block_0"
 		},
@@ -2001,7 +2001,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 171,
+			"idx": 108,
 			"instance": 109,
 			"name": "wall_block_2"
 		},
@@ -2015,7 +2015,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 172,
+			"idx": 109,
 			"instance": 107,
 			"name": "gate_block_1"
 		},
@@ -2029,7 +2029,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 173,
+			"idx": 110,
 			"instance": 105,
 			"name": "wall_block_5"
 		},
@@ -2043,7 +2043,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 174,
+			"idx": 111,
 			"instance": 106,
 			"name": "wall_block_5"
 		},
@@ -2057,7 +2057,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 175,
+			"idx": 112,
 			"instance": 110,
 			"name": "wall_25m"
 		},
@@ -2071,7 +2071,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 176,
+			"idx": 113,
 			"instance": 111,
 			"name": "wall_block_2"
 		},
@@ -2085,7 +2085,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 177,
+			"idx": 114,
 			"instance": 118,
 			"name": "mt_rock_13"
 		},
@@ -2099,7 +2099,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 178,
+			"idx": 115,
 			"instance": 117,
 			"name": "wall_block_0"
 		},
@@ -2113,7 +2113,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 179,
+			"idx": 116,
 			"instance": 116,
 			"name": "column_block_10"
 		},
@@ -2127,7 +2127,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 180,
+			"idx": 117,
 			"instance": 115,
 			"name": "column_block_10"
 		},
@@ -2141,7 +2141,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 181,
+			"idx": 118,
 			"instance": 114,
 			"name": "column_block_10"
 		},
@@ -2155,7 +2155,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 182,
+			"idx": 119,
 			"instance": 113,
 			"name": "column_block_10"
 		},
@@ -2169,7 +2169,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 183,
+			"idx": 120,
 			"instance": 112,
 			"name": "stairs_block_4"
 		},
@@ -2183,7 +2183,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 664,
+			"idx": 121,
 			"instance": 120,
 			"name": "mt_rock_13"
 		},
@@ -2197,7 +2197,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 666,
+			"idx": 122,
 			"instance": 121,
 			"name": "mt_rock_13"
 		},
@@ -2211,7 +2211,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 668,
+			"idx": 123,
 			"instance": 122,
 			"name": "mt_rock_13"
 		},
@@ -2225,7 +2225,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 670,
+			"idx": 124,
 			"instance": 123,
 			"name": "tree_b01"
 		},
@@ -2239,7 +2239,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 673,
+			"idx": 125,
 			"instance": 125,
 			"name": "tree_b07"
 		},
@@ -2253,7 +2253,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 674,
+			"idx": 126,
 			"instance": 124,
 			"name": "tree_b08"
 		},
@@ -2267,7 +2267,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 685,
+			"idx": 127,
 			"instance": 127,
 			"name": "column_block_11"
 		},
@@ -2281,7 +2281,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 686,
+			"idx": 128,
 			"instance": 126,
 			"name": "column_block_12"
 		},
@@ -2295,7 +2295,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 692,
+			"idx": 129,
 			"instance": 128,
 			"name": "column_block_00"
 		},
@@ -2309,7 +2309,7 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 698,
+			"idx": 130,
 			"instance": 119,
 			"name": "column_block_00"
 		}
@@ -2648,7 +2648,7 @@
 			],
 			"rot": [
 				-10.144255638122559,
-				1.7553906440734863,
+				1.7553905248641968,
 				94.54181671142578
 			],
 			"scl": [
@@ -2899,14 +2899,14 @@
 				-51.78668212890625
 			],
 			"rot": [
-				39.397857666015625,
-				21.1043758392334,
-				2.4401126097473025e-07
+				25.21719741821289,
+				-2.243647336959839,
+				2.084236143673479e-07
 			],
 			"scl": [
-				0.9997802376747131,
-				0.9995509386062622,
-				0.9995465278625488
+				0.9997784495353699,
+				0.9995500445365906,
+				0.9995444416999817
 			]
 		},
 		{
@@ -3324,7 +3324,7 @@
 			]
 		},
 		{
-			"parent": 130,
+			"parent": 67,
 			"pos": [
 				1.590000033378601,
 				6.65500020980835,
@@ -3378,7 +3378,7 @@
 			]
 		},
 		{
-			"parent": 135,
+			"parent": 72,
 			"pos": [
 				0.33000001311302185,
 				3.7750000953674316,
@@ -3423,7 +3423,7 @@
 			"rot": [
 				-44.03986358642578,
 				10.278549194335938,
-				-14.005046844482422
+				-14.005045890808105
 			],
 			"scl": [
 				0.9999990463256836,
@@ -3927,7 +3927,7 @@
 			"rot": [
 				-90.0,
 				0.0,
-				-26.99999237060547
+				-26.999990463256836
 			],
 			"scl": [
 				2.9999990463256836,
@@ -3943,9 +3943,9 @@
 				69.66834259033203
 			],
 			"rot": [
-				4.0,
+				3.999999761581421,
 				-1.8281131985986576e-07,
-				-27.999982833862305
+				-27.999980926513672
 			],
 			"scl": [
 				0.9999991059303284,
@@ -4053,7 +4053,7 @@
 			"rot": [
 				-0.0,
 				90.0,
-				9.999998092651367
+				9.99999713897705
 			],
 			"scl": [
 				0.999999463558197,
@@ -4069,7 +4069,7 @@
 				-57.216896057128906
 			],
 			"rot": [
-				7.999998569488525,
+				7.999997615814209,
 				0.0,
 				90.0
 			],
@@ -4088,7 +4088,7 @@
 			],
 			"rot": [
 				0.0,
-				-179.99996948242188,
+				-179.9999542236328,
 				0.0
 			],
 			"scl": [
@@ -4159,7 +4159,7 @@
 				-42.21686935424805
 			],
 			"rot": [
-				10.0,
+				9.999999046325684,
 				0.0,
 				0.0
 			],
@@ -4303,7 +4303,7 @@
 				-33.36322784423828
 			],
 			"rot": [
-				4.999998569488525,
+				4.999998092651367,
 				-179.99989318847656,
 				0.0
 			],
@@ -4430,7 +4430,7 @@
 			],
 			"rot": [
 				-71.0,
-				-3.0000009536743164,
+				-3.0000007152557373,
 				0.0
 			],
 			"scl": [
@@ -4501,9 +4501,9 @@
 				-36.995994567871094
 			],
 			"rot": [
-				-61.330989837646484,
+				-61.33098220825195,
 				-175.69091796875,
-				49.975154876708984
+				49.97515106201172
 			],
 			"scl": [
 				0.6999996304512024,
@@ -4521,7 +4521,7 @@
 			"rot": [
 				-36.331485748291016,
 				17.310014724731445,
-				49.97514724731445
+				49.97514343261719
 			],
 			"scl": [
 				0.6999998092651367,
@@ -4538,8 +4538,8 @@
 			],
 			"rot": [
 				-36.33148956298828,
-				-144.69161987304688,
-				49.97517395019531
+				-144.6916046142578,
+				49.97517013549805
 			],
 			"scl": [
 				0.6999997496604919,

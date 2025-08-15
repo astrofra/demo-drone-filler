@@ -19,7 +19,6 @@ SAMPLER2D(uBaseOpacityMap, 0);
 SAMPLER2D(uOcclusionRoughnessMetalnessMap, 1);
 SAMPLER2D(uNormalMap, 2);
 SAMPLER2D(uSelfMap, 4);
-SAMPLER2D(uAmbientMap, 6);
 SAMPLER2D(uReflectionMap, 7);
 
 float map(float value, float min1, float max1, float min2, float max2) {
@@ -205,16 +204,6 @@ occ_rough_metal.z = map(occ_rough_metal.z, uORMb.x, uORMb.y, 0.0, 1.0);
 occ_rough_metal.z = clamp(occ_rough_metal.z, 0.0, 1.0);
 occ_rough_metal.z = pow(occ_rough_metal.z, uORMb.z);
 
-// Optional secondary occlusion, not needing a second set of UV (UV1)
-#if USE_AMBIENT_MAP
-	float occ_2 = texture2D(uAmbientMap, offset_uv).x;
-	// Compress the range
-	occ_2 = map(occ_2, uAmbient.x, uAmbient.y, 0.0, 1.0);
-	occ_2 = clamp(occ_2, 0.0, 1.0);
-	occ_2 = pow(occ_2, uAmbient.z);
-	occ_rough_metal.x *= occ_2;
-#endif
-
 	//
 #if USE_SELF_MAP
 	vec4 self = texture2D(uSelfMap, offset_uv);
@@ -230,7 +219,7 @@ occ_rough_metal.z = pow(occ_rough_metal.z, uORMb.z);
 
 	TBN = mtxFromRows(T, B, N);
 
-	N.xy = texture2D(uNormalMap, offset_uv).xy * 2.0 - 1.0;
+	N.xy = texture2D(uNormalMap, vTexCoord0).xy * 2.0 - 1.0;
 	N.z = sqrt(1.0 - dot(N.xy, N.xy));
 	N = normalize(mul(N, TBN));
 #endif // USE_NORMAL_MAP
@@ -345,11 +334,6 @@ occ_rough_metal.z = pow(occ_rough_metal.z, uORMb.z);
 #endif // DEPTH_ONLY != 1
 
 	float opacity = base_opacity.w;
-
-#if ENABLE_ALPHA_CUT
-	if (opacity < 0.8)
-		discard;
-#endif // ENABLE_ALPHA_CUT
 
 #if DEPTH_ONLY != 1
 #if FORWARD_PIPELINE_AAA_PREPASS

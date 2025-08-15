@@ -70,6 +70,8 @@ function main()
 		end
 	end
 
+	-- hg.AddAssetsFolder("assets_compiled")
+
 	local pipeline_aaa_config = hg.ForwardPipelineAAAConfig()
 	local pipeline_aaa = hg.CreateForwardPipelineAAAFromAssets("core", pipeline_aaa_config, hg.BR_Half, hg.BR_Half)
 	pipeline_aaa_config.sample_count = 1

@@ -1,14 +1,14 @@
 {
 	"recent_files": [
+		"props/instances/tv_p13.scn",
+		"props/instances/tv_p12.scn",
+		"props/instances/tv_p07.scn",
+		"props/instances/tv_p01.scn",
 		"main.scn",
 		"static.scn",
 		"props/desert_house/house.scn",
 		"library.scn",
 		"animatable/cubic_crystal.scn",
-		"props/cubes/cubes.scn",
-		"props/instances/gate_block_0.scn",
-		"props/instances/column_block_04.scn",
-		"props/square_shadow/round_shadow.scn",
-		"props/instances/column_block_15.scn"
+		"props/cubes/cubes.scn"
 	]
 }

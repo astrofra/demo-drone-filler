@@ -149,7 +149,7 @@
 					"depth_test": "less",
 					"face_culling": "cw",
 					"flags": [],
-					"program": "core/shader/prlxpbr.hps",
+					"program": "core/shader/pbr.hps",
 					"textures": [
 						{
 							"name": "uAmbientMap",
