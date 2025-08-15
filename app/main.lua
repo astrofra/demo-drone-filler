@@ -1,6 +1,7 @@
 hg = require("harfang")
 require("utils")
 require("linear_filter")
+require("camera_motion")
 
 math.randomseed(os.time())
 
@@ -20,8 +21,7 @@ function main()
 	hg.InputInit()
 	hg.OpenALInit()
 	hg.WindowSystemInit()
-	hg.HideCursor()
-
+	
 	local res_x, res_y = 1920, 1080 -- default working monitor size
 	local monitor_rect = hg.IntRect(0, 0, res_x, res_y)
 
@@ -52,6 +52,7 @@ function main()
 	hg.RenderInit(win) --, hg.RT_OpenGL)
 	hg.RenderReset(res_x, res_y, hg.RF_MSAA4X | hg.RF_MaxAnisotropy | hg.RF_VSync)
 	local bg_color = hg.Color.Green
+	hg.HideCursor()
 
 	-- Create and configure the pipeline for rendering
 	local pipeline = hg.CreateForwardPipeline(4096, false)
@@ -79,11 +80,11 @@ function main()
     pipeline_aaa_config.gamma = 1.8
     pipeline_aaa_config.z_thickness = 0.5
     pipeline_aaa_config.motion_blur = 0.01
-	pipeline_aaa_config.bloom_bias = 0.009999999776482582
-	pipeline_aaa_config.bloom_intensity = 0.699999988079071
-	pipeline_aaa_config.bloom_threshold = 0.009999999776482582
-	pipeline_aaa_config.dof_focus_point = 5.0
-	pipeline_aaa_config.dof_focus_length = 50.0
+	pipeline_aaa_config.bloom_bias = 0.01
+	pipeline_aaa_config.bloom_intensity = 0.7
+	pipeline_aaa_config.bloom_threshold = 0.001
+	-- pipeline_aaa_config.dof_focus_length = 30.0
+	-- pipeline_aaa_config.dof_focus_point	= 5.0
 
 	-- Create an empty main_scene
 	local main_scene = hg.Scene()
@@ -91,11 +92,41 @@ function main()
 	-- main_scene.canvas.color = bg_color -- hg.Color.Red --
 	hg.LoadSceneFromAssets("main.scn", main_scene, res, hg.GetForwardPipelineInfo())
 
+	-- Collect camera path
+	local _nodes = main_scene:GetAllNodesWithComponent(hg.NCI_Camera)
+	local cam_path_nodes = {}
+	for i = 0, _nodes:size() - 1 do
+		if string.sub(_nodes:at(i):GetName(), 1, 7) == "camera_" then
+			table.insert(cam_path_nodes, _nodes:at(i))
+		end
+	end
+
+	table.sort(cam_path_nodes, function(a, b)
+		return a:GetName() < b:GetName()
+	end)
+
+	local motions = ResampleCameraMotion(cam_path_nodes)
+
+	-- music
+    demo_soundtrack_sound = hg.OpenALLoadOGGSoundAsset("audio/landslide(short).ogg")
+    demo_soundtrack_ref = nil
+
 	-- Main render loop
 	local frame = 0
 	local df_filter = LinearFilter:new(120)
 
 	local keyboard = hg.Keyboard('raw')
+
+	local start_clock = hg.GetClock()
+	local motion_duration_f = 120.0 -- in seconds
+
+	local main_cam = main_scene:GetNode("Camera")
+	main_scene:SetCurrentCamera(main_cam)
+
+	-- play music
+	if demo_soundtrack_ref == nil then
+		demo_soundtrack_ref = hg.OpenALPlayStereo(demo_soundtrack_sound, hg.OpenALStereoSourceState(1, hg.OALSR_Once))
+	end
 
 	-- main loop
 	-- Run until the user closes the window or presses the Escape key
@@ -105,8 +136,14 @@ function main()
 		-- local dts = hg.time_to_sec_f(dt)
 		-- local current_clock = hg.GetClock() -- fixed_clock -- hg.GetClock()
 		dt = hg.TickClock()
+		local frame_clock = hg.GetClock() - start_clock
+		local frame_clock_f = hg.time_to_sec_f(frame_clock)
 
 		keyboard:Update()
+
+		-- Camera motion
+		local cam_matrix = GetCameraMotionSample(motions, map(frame_clock_f, 0.0, motion_duration_f, 0.0, 1.0))
+		main_cam:GetTransform():SetWorld(cam_matrix)
 
 		-- Update main_scene
 		main_scene:Update(dt)
