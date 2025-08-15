@@ -79,7 +79,7 @@ vec4 Sharpen(vec2 uv, float strength) {
 }
 
 void main() {
-#if 1
+#if 0
 	vec4 in_sample = Sharpen(v_texcoord0, uAAAParams[2].y);
 
 	vec3 color = in_sample.xyz;
