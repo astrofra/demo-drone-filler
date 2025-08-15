@@ -143,6 +143,23 @@ function main()
 
 		keyboard:Update()
 
+		-- post fx
+		local dof_intensity = 0.0
+		dof_intensity = dof_intensity + clamp(map(frame_clock_f, 0.0, 15.0, 1.0, 0.0), 0.0, 1.0)
+		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 15.0, motion_duration_f, 0.0, 1.0), 0.0, 1.0)
+
+		if dof_intensity > 0.0 then
+			pipeline_aaa_config.dof_focus_length = hg.Lerp(1000.0, 1.0, dof_intensity) 
+			pipeline_aaa_config.dof_focus_point	= 10.0
+			pipeline_aaa_config.motion_blur = hg.Lerp(2.5, 5.0, dof_intensity * dof_intensity * dof_intensity)
+			pipeline_aaa_config.exposure = hg.Lerp(1.5, 0.0, dof_intensity * dof_intensity * dof_intensity)
+		else
+			pipeline_aaa_config.dof_focus_length = 0.0
+			pipeline_aaa_config.dof_focus_point	= 0.0
+			pipeline_aaa_config.motion_blur = 0.25
+			pipeline_aaa_config.exposure = 1.5
+		end
+
 		-- Camera motion
 		local cam_mat_table = {}
 		for i = 1, 8 do
