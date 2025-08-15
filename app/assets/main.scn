@@ -493,6 +493,60 @@
 	},
 	"instances": [
 		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/column_block_07.scn"
+		},
+		{
+			"name": "props/instances/tv_p03.scn"
+		},
+		{
+			"name": "props/instances/tv_p01.scn"
+		},
+		{
+			"name": "props/instances/tv_p04.scn"
+		},
+		{
+			"name": "props/instances/tv_p00.scn"
+		},
+		{
+			"name": "props/instances/tv_p02.scn"
+		},
+		{
+			"name": "props/instances/tv_p05.scn"
+		},
+		{
+			"name": "props/instances/tv_p06.scn"
+		},
+		{
+			"name": "props/instances/tv_p07.scn"
+		},
+		{
+			"name": "props/instances/tv_p08.scn"
+		},
+		{
+			"name": "props/instances/tv_p09.scn"
+		},
+		{
+			"name": "props/instances/tv_p10.scn"
+		},
+		{
+			"name": "props/instances/tv_p11.scn"
+		},
+		{
+			"name": "props/instances/tv_p12.scn"
+		},
+		{
+			"name": "props/instances/tv_p13.scn"
+		},
+		{
 			"anim": "Take 001",
 			"loop_mode": "loop",
 			"name": "props/raven/Raven_A.scn"
@@ -516,46 +570,19 @@
 			"name": "props/raven/Raven_A.scn"
 		},
 		{
-			"name": "props/instances/tv_p13.scn"
+			"name": "props/instances/column_block_07.scn"
 		},
 		{
-			"name": "props/instances/tv_p12.scn"
+			"name": "props/instances/column_block_07.scn"
 		},
 		{
-			"name": "props/instances/tv_p11.scn"
+			"name": "props/instances/column_block_07.scn"
 		},
 		{
-			"name": "props/instances/tv_p10.scn"
+			"name": "props/instances/column_block_07.scn"
 		},
 		{
-			"name": "props/instances/tv_p09.scn"
-		},
-		{
-			"name": "props/instances/tv_p08.scn"
-		},
-		{
-			"name": "props/instances/tv_p07.scn"
-		},
-		{
-			"name": "props/instances/tv_p06.scn"
-		},
-		{
-			"name": "props/instances/tv_p05.scn"
-		},
-		{
-			"name": "props/instances/tv_p02.scn"
-		},
-		{
-			"name": "props/instances/tv_p00.scn"
-		},
-		{
-			"name": "props/instances/tv_p04.scn"
-		},
-		{
-			"name": "props/instances/tv_p01.scn"
-		},
-		{
-			"name": "props/instances/tv_p03.scn"
+			"name": "props/instances/column_block_07.scn"
 		}
 	],
 	"key_values": null,
@@ -644,7 +671,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 1,
-			"instance": 17,
+			"instance": 5,
 			"name": "tv_p01"
 		},
 		{
@@ -684,7 +711,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 4,
-			"instance": 0,
+			"instance": 22,
 			"name": "Raven"
 		},
 		{
@@ -698,7 +725,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 5,
-			"instance": 1,
+			"instance": 21,
 			"name": "Raven_B"
 		},
 		{
@@ -712,7 +739,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 6,
-			"instance": 4,
+			"instance": 18,
 			"name": "Raven"
 		},
 		{
@@ -726,7 +753,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 7,
-			"instance": 3,
+			"instance": 19,
 			"name": "Raven_B"
 		},
 		{
@@ -740,7 +767,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 8,
-			"instance": 2,
+			"instance": 20,
 			"name": "static"
 		},
 		{
@@ -1209,7 +1236,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 44,
-			"instance": 15,
+			"instance": 7,
 			"name": "tv_p00"
 		},
 		{
@@ -1223,7 +1250,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 45,
-			"instance": 16,
+			"instance": 6,
 			"name": "tv_p04"
 		},
 		{
@@ -1237,7 +1264,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 46,
-			"instance": 18,
+			"instance": 4,
 			"name": "tv_p03"
 		},
 		{
@@ -1251,7 +1278,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 47,
-			"instance": 14,
+			"instance": 8,
 			"name": "tv_p02"
 		},
 		{
@@ -1291,7 +1318,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 50,
-			"instance": 13,
+			"instance": 9,
 			"name": "tv_p05"
 		},
 		{
@@ -1305,7 +1332,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 51,
-			"instance": 12,
+			"instance": 10,
 			"name": "tv_p06"
 		},
 		{
@@ -1333,7 +1360,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 53,
-			"instance": 10,
+			"instance": 12,
 			"name": "tv_p08"
 		},
 		{
@@ -1347,7 +1374,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 54,
-			"instance": 9,
+			"instance": 13,
 			"name": "tv_p09"
 		},
 		{
@@ -1361,7 +1388,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 55,
-			"instance": 8,
+			"instance": 14,
 			"name": "tv_p10"
 		},
 		{
@@ -1375,7 +1402,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 56,
-			"instance": 7,
+			"instance": 15,
 			"name": "tv_p11"
 		},
 		{
@@ -1389,7 +1416,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 57,
-			"instance": 6,
+			"instance": 16,
 			"name": "tv_p12"
 		},
 		{
@@ -1403,7 +1430,7 @@
 			"disabled": false,
 			"editor": false,
 			"idx": 58,
-			"instance": 5,
+			"instance": 17,
 			"name": "tv_p13"
 		},
 		{
@@ -1422,123 +1449,6 @@
 		{
 			"components": [
 				60,
-				39,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1307,
-			"name": "camera_031"
-		},
-		{
-			"components": [
-				61,
-				40,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1308,
-			"name": "camera_039"
-		},
-		{
-			"components": [
-				62,
-				41,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1309,
-			"name": "camera_081"
-		},
-		{
-			"components": [
-				63,
-				42,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1310,
-			"name": "camera_091"
-		},
-		{
-			"components": [
-				64,
-				43,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1311,
-			"name": "camera_111"
-		},
-		{
-			"components": [
-				65,
-				44,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1312,
-			"name": "camera_116"
-		},
-		{
-			"components": [
-				66,
-				45,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1313,
-			"name": "camera_121"
-		},
-		{
-			"components": [
-				67,
-				46,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1314,
-			"name": "camera_141"
-		},
-		{
-			"components": [
-				68,
-				47,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 1315,
-			"name": "camera_161"
-		},
-		{
-			"components": [
-				69,
 				48,
 				4294967295,
 				4294967295,
@@ -1546,8 +1456,251 @@
 			],
 			"disabled": false,
 			"editor": false,
-			"idx": 1316,
+			"idx": 60,
+			"name": "camera_031"
+		},
+		{
+			"components": [
+				61,
+				39,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 61,
+			"name": "camera_039"
+		},
+		{
+			"components": [
+				62,
+				40,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 62,
+			"name": "camera_081"
+		},
+		{
+			"components": [
+				63,
+				41,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 63,
+			"name": "camera_091"
+		},
+		{
+			"components": [
+				64,
+				42,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 64,
+			"name": "camera_111"
+		},
+		{
+			"components": [
+				65,
+				43,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 65,
+			"name": "camera_116"
+		},
+		{
+			"components": [
+				66,
+				44,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 66,
+			"name": "camera_121"
+		},
+		{
+			"components": [
+				67,
+				45,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 67,
+			"name": "camera_141"
+		},
+		{
+			"components": [
+				68,
+				46,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 68,
+			"name": "camera_161"
+		},
+		{
+			"components": [
+				69,
+				47,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 69,
 			"name": "camera_179"
+		},
+		{
+			"components": [
+				70,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 70,
+			"instance": 3,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				71,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 71,
+			"instance": 2,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				72,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1321,
+			"instance": 1,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				73,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1323,
+			"instance": 0,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				74,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1325,
+			"instance": 26,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				75,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1327,
+			"instance": 25,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				76,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1329,
+			"instance": 24,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				78,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1332,
+			"instance": 27,
+			"name": "column_block_07"
+		},
+		{
+			"components": [
+				77,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 1333,
+			"instance": 23,
+			"name": "column_block_07"
 		}
 	],
 	"transforms": [
@@ -2514,7 +2667,7 @@
 			],
 			"rot": [
 				0.0,
-				-101.99994659423828,
+				-110.99999237060547,
 				0.0
 			],
 			"scl": [
@@ -2809,6 +2962,168 @@
 				0.9997542500495911,
 				0.999823272228241,
 				0.9995542168617249
+			]
+		},
+		{
+			"parent": 44,
+			"pos": [
+				-2.086162567138672e-07,
+				-1.182323694229126,
+				-8.940696716308594e-08
+			],
+			"rot": [
+				-0.0,
+				-8.537737130609457e-07,
+				0.0
+			],
+			"scl": [
+				1.0,
+				0.9999998807907104,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": 47,
+			"pos": [
+				-0.11320740729570389,
+				-1.1922293901443481,
+				-0.05403870344161987
+			],
+			"rot": [
+				-6.403304837476753e-07,
+				5.1226438699814025e-06,
+				2.561320343374973e-06
+			],
+			"scl": [
+				1.0000001192092896,
+				0.9999998807907104,
+				0.9999995827674866
+			]
+		},
+		{
+			"parent": 45,
+			"pos": [
+				-0.02288365364074707,
+				-1.1843271255493164,
+				0.0033058524131774902
+			],
+			"rot": [
+				-7.470523541996954e-07,
+				8.537740541214589e-06,
+				2.561320343374973e-06
+			],
+			"scl": [
+				1.0000001192092896,
+				0.9999997615814209,
+				0.999999463558197
+			]
+		},
+		{
+			"parent": 50,
+			"pos": [
+				-0.05000114440917969,
+				-1.4490981101989746,
+				-0.0020375847816467285
+			],
+			"rot": [
+				-6.403307111213508e-07,
+				8.537743269698694e-06,
+				4.69575252282084e-06
+			],
+			"scl": [
+				1.0000004768371582,
+				1.2000000476837158,
+				0.9999992251396179
+			]
+		},
+		{
+			"parent": 51,
+			"pos": [
+				-0.020057156682014465,
+				-1.1961952447891235,
+				0.003300905227661133
+			],
+			"rot": [
+				-8.5377399727804e-07,
+				3.41509598911216e-06,
+				5.976414286124054e-06
+			],
+			"scl": [
+				1.0000001192092896,
+				0.9999998211860657,
+				0.9999995827674866
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				-0.020045042037963867,
+				-2.946686029434204,
+				0.0033009350299835205
+			],
+			"rot": [
+				-1.4229561884349096e-06,
+				8.537736903235782e-06,
+				3.415094397496432e-06
+			],
+			"scl": [
+				1.5,
+				1.4999998807907104,
+				1.4999998807907104
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				-0.02005225419998169,
+				-1.2166987657546997,
+				0.0033040642738342285
+			],
+			"rot": [
+				-8.5377399727804e-07,
+				8.537739631719887e-06,
+				3.415093942749081e-06
+			],
+			"scl": [
+				1.0000001192092896,
+				0.9999997615814209,
+				0.9999995231628418
+			]
+		},
+		{
+			"parent": 56,
+			"pos": [
+				-0.07280007004737854,
+				-1.2166986465454102,
+				0.003315150737762451
+			],
+			"rot": [
+				-8.537742246517155e-07,
+				1.0245287739962805e-05,
+				3.415088258407195e-06
+			],
+			"scl": [
+				1.0000001192092896,
+				0.9999997019767761,
+				0.9999995231628418
+			]
+		},
+		{
+			"parent": 58,
+			"pos": [
+				-0.02004528045654297,
+				-1.4380931854248047,
+				0.003300786018371582
+			],
+			"rot": [
+				-8.537742246517155e-07,
+				9.391513231093995e-06,
+				3.4150818919442827e-06
+			],
+			"scl": [
+				1.000000238418579,
+				1.1999999284744263,
+				0.9999996423721313
 			]
 		}
 	]
