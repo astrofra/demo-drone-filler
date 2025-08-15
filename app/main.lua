@@ -144,7 +144,18 @@ function main()
 		keyboard:Update()
 
 		-- Camera motion
-		local cam_matrix = GetCameraMotionSample(motions, map(frame_clock_f, 0.0, motion_duration_f, 0.0, 1.0))
+		local cam_mat_table = {}
+		for i = 1, 8 do
+			table.insert(cam_mat_table, GetCameraMotionSample(motions, map(clamp(frame_clock_f + (i - 4) * 0.25, 0.0, motion_duration_f), 0.0, motion_duration_f, 0.0, 1.0)))
+		end
+		local cam_matrix_0 = hg.LerpAsOrthonormalBase(cam_mat_table[1], cam_mat_table[2], 0.5)
+		local cam_matrix_1 = hg.LerpAsOrthonormalBase(cam_mat_table[3], cam_mat_table[4], 0.5)
+		local cam_matrix_2 = hg.LerpAsOrthonormalBase(cam_mat_table[5], cam_mat_table[6], 0.5)
+		local cam_matrix_3 = hg.LerpAsOrthonormalBase(cam_mat_table[7], cam_mat_table[8], 0.5)
+		local cam_matrix_00 = hg.LerpAsOrthonormalBase(cam_matrix_0, cam_matrix_1, 0.5)
+		local cam_matrix_01 = hg.LerpAsOrthonormalBase(cam_matrix_2, cam_matrix_3, 0.5)
+		local cam_matrix = hg.LerpAsOrthonormalBase(cam_matrix_00, cam_matrix_01, 0.5)
+		-- local cam_matrix = GetCameraMotionSample(motions, map(frame_clock_f, 0.0, motion_duration_f, 0.0, 1.0))
 		main_cam:GetTransform():SetWorld(cam_matrix)
 
 		-- Update main_scene
