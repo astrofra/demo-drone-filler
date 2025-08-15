@@ -1,4 +1,14 @@
 {
+	"audio_sources": [
+		{
+			"gain": 1.0,
+			"is_stream": true,
+			"loop": true,
+			"max_dist": 10.0,
+			"path": "audio/sfx/p07.ogg",
+			"ref_dist": 5.0
+		}
+	],
 	"canvas": {
 		"clear_color": true,
 		"clear_z": true,
@@ -59,7 +69,8 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 2,
+			"editor": false,
+			"idx": 0,
 			"name": "SM_CCTV_Monitor_02"
 		},
 		{
@@ -71,13 +82,29 @@
 				4294967295
 			],
 			"disabled": false,
-			"idx": 3,
+			"editor": false,
+			"idx": 1,
 			"name": "root"
+		},
+		{
+			"audio_source": 0,
+			"components": [
+				2,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"editor": false,
+			"idx": 2,
+			"name": "sfx"
 		}
 	],
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "SM_CCTV_Monitor_box"
@@ -240,7 +267,8 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor_cctv_photo/SM_CCTV_Monitor_02_47.geo"
+			"name": "props/monitor_cctv_photo/SM_CCTV_Monitor_02_47.geo",
+			"shadow": ""
 		}
 	],
 	"scene_anims": [
@@ -255,7 +283,7 @@
 	],
 	"transforms": [
 		{
-			"parent": 3,
+			"parent": 1,
 			"pos": [
 				0.0,
 				0.0,
@@ -288,6 +316,24 @@
 				1.4500000476837158,
 				1.4500000476837158,
 				1.4500000476837158
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-0.10940776765346527,
+				0.21633261442184448,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.9999999403953552,
+				0.9999999403953552,
+				0.9999998807907104
 			]
 		}
 	]

@@ -5,8 +5,8 @@
 			"is_stream": true,
 			"loop": true,
 			"max_dist": 10.0,
-			"path": "audio/sfx/p01.ogg",
-			"ref_dist": 2.0
+			"path": "audio/sfx/p00.ogg",
+			"ref_dist": 5.0
 		}
 	],
 	"canvas": {
@@ -184,7 +184,7 @@
 					"textures": [
 						{
 							"name": "uBaseOpacityMap",
-							"path": "photos/p01.png",
+							"path": "photos/p00.png",
 							"stage": 0
 						},
 						{
@@ -199,12 +199,12 @@
 						},
 						{
 							"name": "uReflectionMap",
-							"path": "photos/p01z.png",
+							"path": "photos/p00z.png",
 							"stage": 7
 						},
 						{
 							"name": "uSelfMap",
-							"path": "photos/p01.png",
+							"path": "photos/p00.png",
 							"stage": 4
 						}
 					],
@@ -321,19 +321,19 @@
 		{
 			"parent": null,
 			"pos": [
-				0.0,
-				0.0,
+				-0.10940776765346527,
+				0.21633261442184448,
 				0.0
 			],
 			"rot": [
-				0.0,
+				-0.0,
 				0.0,
 				0.0
 			],
 			"scl": [
-				1.0,
-				1.0,
-				1.0
+				0.9999999403953552,
+				0.9999999403953552,
+				0.9999998807907104
 			]
 		}
 	]
