@@ -80,8 +80,8 @@ function main()
     pipeline_aaa_config.gamma = 1.8
     pipeline_aaa_config.z_thickness = 0.5
     pipeline_aaa_config.motion_blur = 0.01
-	pipeline_aaa_config.bloom_bias = 0.01
-	pipeline_aaa_config.bloom_intensity = 0.7
+	pipeline_aaa_config.bloom_bias = 1.0
+	pipeline_aaa_config.bloom_intensity = 0.55
 	pipeline_aaa_config.bloom_threshold = 0.001
 	-- pipeline_aaa_config.dof_focus_length = 30.0
 	-- pipeline_aaa_config.dof_focus_point	= 5.0
