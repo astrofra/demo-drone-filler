@@ -1762,7 +1762,7 @@
 			"editor": false,
 			"idx": 79,
 			"instance": 28,
-			"name": "greets_monitor"
+			"name": "greets_monitor_LNX"
 		},
 		{
 			"components": [
@@ -1776,7 +1776,7 @@
 			"editor": false,
 			"idx": 1341,
 			"instance": 31,
-			"name": "greets_monitor"
+			"name": "greets_monitor_DESIRE"
 		},
 		{
 			"components": [
@@ -1790,7 +1790,7 @@
 			"editor": false,
 			"idx": 1342,
 			"instance": 30,
-			"name": "greets_monitor"
+			"name": "greets_monitor_COOKIE"
 		},
 		{
 			"components": [
@@ -1804,7 +1804,7 @@
 			"editor": false,
 			"idx": 1348,
 			"instance": 29,
-			"name": "greets_monitor"
+			"name": "greets_monitor_MANKIND"
 		},
 		{
 			"components": [

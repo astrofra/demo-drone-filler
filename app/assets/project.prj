@@ -1,14 +1,14 @@
 {
 	"recent_files": [
+		"props/monitor_cctv/monitor_cctv.scn",
+		"props/monitor/monitor.scn",
 		"main.scn",
+		"static.scn",
+		"library.scn",
 		"props/instances/tv_p13.scn",
 		"props/instances/tv_p12.scn",
 		"props/instances/tv_p11.scn",
 		"props/instances/tv_p10.scn",
-		"props/instances/tv_p09.scn",
-		"props/instances/tv_p08.scn",
-		"props/instances/tv_p03.scn",
-		"props/instances/tv_p07.scn",
-		"props/instances/tv_p06.scn"
+		"props/instances/tv_p09.scn"
 	]
 }

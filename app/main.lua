@@ -117,9 +117,6 @@ function main()
 
 	local keyboard = hg.Keyboard('raw')
 
-	local start_clock = hg.GetClock()
-	local motion_duration_f = 2.0 * 60.0 + 26.0 -- in seconds
-
 	local main_cam = main_scene:GetNode("Camera")
 	main_scene:SetCurrentCamera(main_cam)
 
@@ -129,6 +126,9 @@ function main()
 			demo_soundtrack_ref = hg.OpenALPlayStereo(demo_soundtrack_sound, hg.OpenALStereoSourceState(1, hg.OALSR_Once))
 		end
 	end
+
+	local start_clock = hg.GetClock()
+	local motion_duration_f = 2.0 * 60.0 + 26.0 -- in seconds
 
 	-- main loop
 	-- Run until the user closes the window or presses the Escape key
@@ -145,9 +145,18 @@ function main()
 
 		-- post fx
 		local dof_intensity = 0.0
-		local end_offset = -3.0
+		local end_offset = -2.5
+		local drop_0_in, drop_0_out = 140.381, 140.780
+		local drop_1_in, drop_1_out = 141.690, 141.975
+
 		dof_intensity = dof_intensity + clamp(map(frame_clock_f, 0.0, 15.0, 1.0, 0.0), 0.0, 1.0)
 		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 25.0 + end_offset, motion_duration_f + end_offset, 0.0, 1.0), 0.0, 1.0)
+
+		if frame_clock_f >= drop_0_in and frame_clock_f <= drop_0_out then
+			dof_intensity = math.max(dof_intensity, 0.8)
+		elseif frame_clock_f >= drop_1_in and frame_clock_f <= drop_1_out then
+			dof_intensity = 1.0
+		end
 
 		if dof_intensity > 0.0 then
 			pipeline_aaa_config.dof_focus_length = hg.Lerp(1000.0, 1.0, dof_intensity) 
