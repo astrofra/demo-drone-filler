@@ -59,6 +59,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "monitor"
 		},
@@ -71,6 +72,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 1,
 			"name": "monitor_screen"
 		},
@@ -83,6 +85,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 2,
 			"name": "monitor_frame"
 		},
@@ -95,6 +98,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 3,
 			"name": "monitor_occluder"
 		},
@@ -107,6 +111,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 4,
 			"name": "root"
 		}
@@ -114,6 +119,7 @@
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "monitor_plastic_white.001"
@@ -155,6 +161,16 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.4725738763809204,
+								0.44528913497924805,
+								0.37885668873786926,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
@@ -182,10 +198,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor/monitor_49.geo"
+			"name": "props/monitor/monitor_49.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "monitor_screen"
@@ -254,10 +272,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor/monitor.001_47.geo"
+			"name": "props/monitor/monitor.001_47.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "monitor_plastic_grey"
@@ -326,10 +346,12 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor/monitor.002_48.geo"
+			"name": "props/monitor/monitor.002_48.geo",
+			"shadow": ""
 		},
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "occluder"
@@ -381,7 +403,8 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor/monitor_occluder_50.geo"
+			"name": "props/monitor/monitor_occluder_50.geo",
+			"shadow": ""
 		}
 	],
 	"transforms": [
@@ -393,7 +416,7 @@
 				0.0
 			],
 			"rot": [
-				-89.99999237060547,
+				-89.99998474121094,
 				0.0,
 				1.0017911336035468e-05
 			],
@@ -447,7 +470,7 @@
 				0.0
 			],
 			"rot": [
-				-89.99999237060547,
+				-89.99998474121094,
 				0.0,
 				1.0017911336035468e-05
 			],

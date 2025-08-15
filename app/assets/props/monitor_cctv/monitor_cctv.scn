@@ -59,6 +59,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 0,
 			"name": "SM_CCTV_Monitor_02"
 		},
@@ -71,6 +72,7 @@
 				4294967295
 			],
 			"disabled": false,
+			"editor": false,
 			"idx": 1,
 			"name": "root"
 		}
@@ -78,6 +80,7 @@
 	"objects": [
 		{
 			"bones": [],
+			"flags": [],
 			"material_infos": [
 				{
 					"name": "M_CCTV_Monitor_02"
@@ -119,6 +122,16 @@
 							]
 						},
 						{
+							"name": "uColorMul",
+							"type": "vec4",
+							"value": [
+								0.6582278609275818,
+								0.6110132336616516,
+								0.6110132336616516,
+								1.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
@@ -146,7 +159,8 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor_cctv/SM_CCTV_Monitor_02_41.geo"
+			"name": "props/monitor_cctv/SM_CCTV_Monitor_02_41.geo",
+			"shadow": ""
 		}
 	],
 	"scene_anims": [
@@ -168,7 +182,7 @@
 				0.0
 			],
 			"rot": [
-				89.99999237060547,
+				89.99998474121094,
 				0.0,
 				90.0
 			],
