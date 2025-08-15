@@ -22,7 +22,7 @@ function main()
 	hg.OpenALInit()
 	hg.WindowSystemInit()
 	
-	local res_x, res_y = math.floor(1920 / 2), math.floor(1080 / 2) -- default working monitor size
+	local res_x, res_y = math.floor(1920), math.floor(1080) -- default working monitor size
 	-- local monitor_rect = hg.IntRect(0, 0, res_x, res_y)
 
 	-- -- get the actual monitor size from the window system
@@ -48,7 +48,7 @@ function main()
 	local mode_list = {hg.WV_Windowed, hg.WV_Fullscreen, hg.WV_Undecorated, hg.WV_FullscreenMonitor1, hg.WV_FullscreenMonitor2, hg.WV_FullscreenMonitor3}
 
 	-- main screen
-	local win = hg.NewWindow("Drone Filler", res_x, res_y, 32, mode_list[1]) --, hg.WV_Fullscreen)
+	local win = hg.NewWindow("Drone Filler", res_x, res_y, 32, mode_list[3]) --, hg.WV_Fullscreen)
 	hg.RenderInit(win) --, hg.RT_OpenGL)
 	hg.RenderReset(res_x, res_y, hg.RF_MSAA4X | hg.RF_MaxAnisotropy | hg.RF_VSync)
 	local bg_color = hg.Color.Green
