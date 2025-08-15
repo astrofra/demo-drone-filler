@@ -145,8 +145,9 @@ function main()
 
 		-- post fx
 		local dof_intensity = 0.0
+		local end_offset = - 1.5
 		dof_intensity = dof_intensity + clamp(map(frame_clock_f, 0.0, 15.0, 1.0, 0.0), 0.0, 1.0)
-		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 15.0, motion_duration_f, 0.0, 1.0), 0.0, 1.0)
+		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 25.0 + end_offset, motion_duration_f + end_offset, 0.0, 1.0), 0.0, 1.0)
 
 		if dof_intensity > 0.0 then
 			pipeline_aaa_config.dof_focus_length = hg.Lerp(1000.0, 1.0, dof_intensity) 
