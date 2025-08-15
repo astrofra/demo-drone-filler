@@ -201,9 +201,10 @@ occ_rough_metal.y = clamp(occ_rough_metal.y, 0.0, 1.0);
 occ_rough_metal.y = pow(occ_rough_metal.y, uORMg.z);
 
 // - Metalness
-occ_rough_metal.z = map(occ_rough_metal.z, uORMb.x, uORMb.y, 0.0, 1.0);
-occ_rough_metal.z = clamp(occ_rough_metal.z, 0.0, 1.0);
-occ_rough_metal.z = pow(occ_rough_metal.z, uORMb.z);
+// occ_rough_metal.z = map(occ_rough_metal.z, uORMb.x, uORMb.y, 0.0, 1.0);
+// occ_rough_metal.z = clamp(occ_rough_metal.z, 0.0, 1.0);
+// occ_rough_metal.z = pow(occ_rough_metal.z, uORMb.z);
+occ_rough_metal.z = uORMb.w;
 
 	//
 #if USE_SELF_MAP

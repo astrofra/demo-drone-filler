@@ -1,14 +1,4 @@
 {
-	"audio_sources": [
-		{
-			"gain": 1.0,
-			"is_stream": true,
-			"loop": true,
-			"max_dist": 10.0,
-			"path": "audio/sfx/p07.ogg",
-			"ref_dist": 5.0
-		}
-	],
 	"canvas": {
 		"clear_color": true,
 		"clear_z": true,
@@ -85,20 +75,6 @@
 			"editor": false,
 			"idx": 1,
 			"name": "root"
-		},
-		{
-			"audio_source": 0,
-			"components": [
-				2,
-				4294967295,
-				4294967295,
-				4294967295,
-				4294967295
-			],
-			"disabled": false,
-			"editor": false,
-			"idx": 2,
-			"name": "sfx"
 		}
 	],
 	"objects": [
@@ -220,6 +196,36 @@
 							]
 						},
 						{
+							"name": "uORMb",
+							"type": "vec4",
+							"value": [
+								0.0,
+								1.0,
+								1.0,
+								0.75
+							]
+						},
+						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								1.0,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.925000011920929,
+								1.0,
+								1.0,
+								0.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
@@ -230,21 +236,11 @@
 							]
 						},
 						{
-							"name": "uParallax",
-							"type": "vec4",
-							"value": [
-								0.10000000149011612,
-								0.5,
-								0.0,
-								0.0
-							]
-						},
-						{
 							"name": "uSelf",
 							"type": "vec4",
 							"value": [
-								1.600000023841858,
-								3.0,
+								1.0,
+								2.200000047683716,
 								0.0,
 								0.0
 							]
@@ -316,24 +312,6 @@
 				1.4500000476837158,
 				1.4500000476837158,
 				1.4500000476837158
-			]
-		},
-		{
-			"parent": null,
-			"pos": [
-				-0.10940776765346527,
-				0.21633261442184448,
-				0.0
-			],
-			"rot": [
-				-0.0,
-				0.0,
-				0.0
-			],
-			"scl": [
-				0.9999999403953552,
-				0.9999999403953552,
-				0.9999998807907104
 			]
 		}
 	]

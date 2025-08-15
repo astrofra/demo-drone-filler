@@ -1,14 +1,4 @@
 {
-	"audio_sources": [
-		{
-			"gain": 1.0,
-			"is_stream": true,
-			"loop": true,
-			"max_dist": 10.0,
-			"path": "audio/sfx/p00.ogg",
-			"ref_dist": 5.0
-		}
-	],
 	"canvas": {
 		"clear_color": true,
 		"clear_z": true,
@@ -59,6 +49,37 @@
 		}
 	},
 	"key_values": null,
+	"lights": [
+		{
+			"diffuse": [
+				0,
+				154,
+				255,
+				255
+			],
+			"diffuse_intensity": 19900.0,
+			"inner_angle": 0.5235987901687622,
+			"outer_angle": 0.7853981852531433,
+			"priority": 0.0,
+			"pssm_split": [
+				10.0,
+				50.0,
+				100.0,
+				200.0
+			],
+			"radius": 0.0,
+			"shadow_bias": 9.999999747378752e-05,
+			"shadow_type": "none",
+			"specular": [
+				0,
+				0,
+				0,
+				255
+			],
+			"specular_intensity": 1.0,
+			"type": "point"
+		}
+	],
 	"nodes": [
 		{
 			"components": [
@@ -87,18 +108,17 @@
 			"name": "root"
 		},
 		{
-			"audio_source": 0,
 			"components": [
 				2,
 				4294967295,
 				4294967295,
-				4294967295,
+				0,
 				4294967295
 			],
-			"disabled": false,
+			"disabled": true,
 			"editor": false,
 			"idx": 2,
-			"name": "sfx"
+			"name": "Light"
 		}
 	],
 	"objects": [
@@ -220,6 +240,36 @@
 							]
 						},
 						{
+							"name": "uORMb",
+							"type": "vec4",
+							"value": [
+								0.0,
+								1.0,
+								1.0,
+								0.75
+							]
+						},
+						{
+							"name": "uORMg",
+							"type": "vec4",
+							"value": [
+								0.0,
+								1.0,
+								0.25,
+								0.0
+							]
+						},
+						{
+							"name": "uORMr",
+							"type": "vec4",
+							"value": [
+								0.925000011920929,
+								1.0,
+								1.0,
+								0.0
+							]
+						},
+						{
 							"name": "uOcclusionRoughnessMetalnessColor",
 							"type": "vec4",
 							"value": [
@@ -230,21 +280,11 @@
 							]
 						},
 						{
-							"name": "uParallax",
-							"type": "vec4",
-							"value": [
-								0.10000000149011612,
-								0.5,
-								0.0,
-								0.0
-							]
-						},
-						{
 							"name": "uSelf",
 							"type": "vec4",
 							"value": [
-								1.600000023841858,
-								3.0,
+								1.0,
+								2.200000047683716,
 								0.0,
 								0.0
 							]
@@ -321,8 +361,8 @@
 		{
 			"parent": null,
 			"pos": [
-				-0.10940776765346527,
-				0.21633261442184448,
+				-0.5396496057510376,
+				0.26915672421455383,
 				0.0
 			],
 			"rot": [
