@@ -165,11 +165,12 @@ void main() {
 #endif
 
 	// Height is inverted for parallax mapping (0 = high, 1 = low)
-	float height_scale = uParallax.x; // New param: parallax scale, typically ~0.04
+	float height_scale = uParallax.x; // parallax scale, typically 0.05
 	float parallax_offset = (height - uParallax.y) * height_scale;
 
 // Offset UVs in tangent space, ignore vertical component
-	vec2 offset_uv = vTexCoord0 + parallax_offset * V_tangent.xy;
+	vec2 offset_dir = mix(V_tangent.xy, V_tangent.yx, uParallax.z);
+	vec2 offset_uv = vTexCoord0 + parallax_offset * V_tangent.yx;
 #else
 	vec2 offset_uv = vTexCoord0;
 #endif
