@@ -76,13 +76,18 @@ function main()
 	local pipeline_aaa_config = hg.ForwardPipelineAAAConfig()
 	local pipeline_aaa = hg.CreateForwardPipelineAAAFromAssets("core", pipeline_aaa_config, hg.BR_Half, hg.BR_Half)
 	pipeline_aaa_config.sample_count = 1
-    pipeline_aaa_config.exposure = 1.5
-    pipeline_aaa_config.gamma = 2.5
-    pipeline_aaa_config.z_thickness = 5.0
-    pipeline_aaa_config.motion_blur = 0.25
-	pipeline_aaa_config.bloom_bias = 1.0
-	pipeline_aaa_config.bloom_intensity = 0.25
-	pipeline_aaa_config.bloom_threshold = 0.01
+    -- pipeline_aaa_config.exposure = 1.5
+    -- pipeline_aaa_config.gamma = 2.5
+    -- pipeline_aaa_config.z_thickness = 5.0
+    -- pipeline_aaa_config.motion_blur = 0.25
+	-- pipeline_aaa_config.bloom_bias = 1.0
+	-- pipeline_aaa_config.bloom_intensity = 0.25
+	-- pipeline_aaa_config.bloom_threshold = 0.01
+
+	hg.SetViewClear(0, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
+	hg.SetViewRect(0, 0, 0, res_x, res_y)
+	hg.Frame()
+	hg.UpdateWindow(win)
 
 	-- Intro scene
 	local intro_scene = hg.Scene()
@@ -120,8 +125,16 @@ function main()
 	local intro_cam = intro_scene:GetNode("Camera")
 	intro_scene:SetCurrentCamera(intro_cam)
 
+	pipeline_aaa_config.exposure = 1.8
+    pipeline_aaa_config.gamma = 1.36
+    pipeline_aaa_config.z_thickness = 5.0
+    pipeline_aaa_config.motion_blur = 0.25
+	pipeline_aaa_config.bloom_threshold = 0.4
+	pipeline_aaa_config.bloom_bias = 1.0
+	pipeline_aaa_config.bloom_intensity = 2.65
+
 	local start_clock = hg.GetClock()
-	local intro_duration_f = 12.0 -- in seconds
+	local intro_duration_f = 15.0 -- in seconds
 
 	while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(intro_duration_f)) do
 		dt = hg.TickClock()
@@ -134,12 +147,12 @@ function main()
 		local view_id = 0
 		local passId
 
-		-- bg clear
-		hg.SetViewClear(view_id, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
-		hg.SetViewRect(view_id, 0, 0, res_x, res_y)
+		-- -- bg clear
+		-- hg.SetViewClear(view_id, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
+		-- hg.SetViewRect(view_id, 0, 0, res_x, res_y)
 
-		-- hg.Touch(view_id)
-		view_id = view_id + 1
+		-- -- hg.Touch(view_id)
+		-- view_id = view_id + 1
 
 		-- main scene render
 		view_id, passId = hg.SubmitSceneToPipeline(view_id, intro_scene, hg.IntRect(0, 0, res_x, res_y), true, pipeline, res, pipeline_aaa, pipeline_aaa_config, frame)
@@ -151,6 +164,14 @@ function main()
 
 	local main_cam = main_scene:GetNode("Camera")
 	main_scene:SetCurrentCamera(main_cam)
+
+	pipeline_aaa_config.exposure = 1.5
+    pipeline_aaa_config.gamma = 2.5
+    pipeline_aaa_config.z_thickness = 5.0
+    pipeline_aaa_config.motion_blur = 0.25
+	pipeline_aaa_config.bloom_bias = 1.0
+	pipeline_aaa_config.bloom_intensity = 0.25
+	pipeline_aaa_config.bloom_threshold = 0.01
 
 	-- play music
 	if demo_soundtrack_sound then
