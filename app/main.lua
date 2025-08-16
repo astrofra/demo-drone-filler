@@ -51,7 +51,7 @@ function main()
 	local win = hg.NewWindow("Drone Filler", res_x, res_y, 32, mode_list[3]) --, hg.WV_Fullscreen)
 	hg.RenderInit(win) --, hg.RT_OpenGL)
 	hg.RenderReset(res_x, res_y, hg.RF_MSAA4X | hg.RF_MaxAnisotropy | hg.RF_VSync)
-	local bg_color = hg.Color.Green
+	local bg_color = hg.Color.Black
 	hg.HideCursor()
 
 	-- Create and configure the pipeline for rendering
@@ -83,13 +83,13 @@ function main()
 	pipeline_aaa_config.bloom_bias = 1.0
 	pipeline_aaa_config.bloom_intensity = 0.25
 	pipeline_aaa_config.bloom_threshold = 0.01
-	-- pipeline_aaa_config.dof_focus_length = 50.0
-	-- pipeline_aaa_config.dof_focus_point	= 10.0
 
-	-- Create an empty main_scene
+	-- Intro scene
+	local intro_scene = hg.Scene()
+	hg.LoadSceneFromAssets("intro.scn", intro_scene, res, hg.GetForwardPipelineInfo())
+
+	-- Demo scene
 	local main_scene = hg.Scene()
-	-- main_scene.canvas.clear_color = false
-	-- main_scene.canvas.color = bg_color -- hg.Color.Red --
 	hg.LoadSceneFromAssets("main.scn", main_scene, res, hg.GetForwardPipelineInfo())
 
 	-- Collect camera path
@@ -111,11 +111,43 @@ function main()
     demo_soundtrack_sound = hg.OpenALLoadOGGSoundAsset("audio/landslide(short).ogg")
     demo_soundtrack_ref = nil
 
-	-- Main render loop
 	local frame = 0
+	local dt
 	local df_filter = LinearFilter:new(120)
-
 	local keyboard = hg.Keyboard('raw')
+
+	-- Intro
+	local intro_cam = intro_scene:GetNode("Camera")
+	intro_scene:SetCurrentCamera(intro_cam)
+
+	local start_clock = hg.GetClock()
+	local intro_duration_f = 12.0 -- in seconds
+
+	while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(intro_duration_f)) do
+		dt = hg.TickClock()
+		keyboard:Update()
+		-- Update main_scene
+		intro_scene:Update(dt)
+
+		-- and submit for rendering
+		local views = hg.SceneForwardPipelinePassViewId()
+		local view_id = 0
+		local passId
+
+		-- bg clear
+		hg.SetViewClear(view_id, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
+		hg.SetViewRect(view_id, 0, 0, res_x, res_y)
+
+		-- hg.Touch(view_id)
+		view_id = view_id + 1
+
+		-- main scene render
+		view_id, passId = hg.SubmitSceneToPipeline(view_id, intro_scene, hg.IntRect(0, 0, res_x, res_y), true, pipeline, res, pipeline_aaa, pipeline_aaa_config, frame)
+		view_id = view_id + 1
+
+		frame = hg.Frame()
+		hg.UpdateWindow(win)
+	end
 
 	local main_cam = main_scene:GetNode("Camera")
 	main_scene:SetCurrentCamera(main_cam)
@@ -130,9 +162,9 @@ function main()
 	local start_clock = hg.GetClock()
 	local motion_duration_f = 2.0 * 60.0 + 26.0 -- in seconds
 
-	-- main loop
+	-- Main render loop
 	-- Run until the user closes the window or presses the Escape key
-	while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) do
+	while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(motion_duration_f + 2.0)) do
 		-- df_filter:SetNewValue(hg.time_to_us_f(hg.TickClock()))
 		-- local dt = hg.time_from_us_f(df_filter:GetMedianValue())
 		-- local dts = hg.time_to_sec_f(dt)
@@ -146,8 +178,9 @@ function main()
 		-- post fx
 		local dof_intensity = 0.0
 		local end_offset = -2.5
-		local drop_0_in, drop_0_out = 140.381, 140.780
-		local drop_1_in, drop_1_out = 141.690, 141.975
+		local drop_offset = -1.0
+		local drop_0_in, drop_0_out = 140.381 + drop_offset, 140.780 + drop_offset
+		local drop_1_in, drop_1_out = 141.690 + drop_offset, 141.975 + drop_offset
 
 		dof_intensity = dof_intensity + clamp(map(frame_clock_f, 0.0, 15.0, 1.0, 0.0), 0.0, 1.0)
 		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 25.0 + end_offset, motion_duration_f + end_offset, 0.0, 1.0), 0.0, 1.0)
