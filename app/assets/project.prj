@@ -1,14 +1,14 @@
 {
 	"recent_files": [
+		"main.scn",
 		"common/primitives/primitives.scn",
 		"intro.scn",
+		"intro_animation.scn",
 		"library.scn",
-		"main.scn",
 		"props/monitor_cctv/monitor_cctv.scn",
 		"props/monitor/monitor.scn",
 		"static.scn",
 		"props/instances/tv_p13.scn",
-		"props/instances/tv_p12.scn",
-		"props/instances/tv_p11.scn"
+		"props/instances/tv_p12.scn"
 	]
 }
