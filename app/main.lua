@@ -129,9 +129,9 @@ function main()
     pipeline_aaa_config.gamma = 1.36
     pipeline_aaa_config.z_thickness = 5.0
     pipeline_aaa_config.motion_blur = 0.25
-	pipeline_aaa_config.bloom_threshold = 0.4
-	pipeline_aaa_config.bloom_bias = 1.0
-	pipeline_aaa_config.bloom_intensity = 2.65
+	pipeline_aaa_config.bloom_threshold = 0.01
+	pipeline_aaa_config.bloom_bias = 0.5
+	pipeline_aaa_config.bloom_intensity = 0.7
 
 	local start_clock = hg.GetClock()
 	local intro_duration_f = 15.0 -- in seconds
@@ -169,9 +169,9 @@ function main()
     pipeline_aaa_config.gamma = 2.5
     pipeline_aaa_config.z_thickness = 5.0
     pipeline_aaa_config.motion_blur = 0.25
-	pipeline_aaa_config.bloom_bias = 1.0
-	pipeline_aaa_config.bloom_intensity = 0.25
 	pipeline_aaa_config.bloom_threshold = 0.01
+	pipeline_aaa_config.bloom_bias = 0.5
+	pipeline_aaa_config.bloom_intensity = 0.55
 
 	-- play music
 	if demo_soundtrack_sound then
