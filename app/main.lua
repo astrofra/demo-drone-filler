@@ -19,7 +19,7 @@ end
 function main()
 	-- Initialize input, audio, and window systems
 	hg.InputInit()
-	hg.OpenALInit()
+	hg.AudioInit()
 	hg.WindowSystemInit()
 	
 	local res_x, res_y = math.floor(1920), math.floor(1080) -- default working monitor size
@@ -113,7 +113,7 @@ function main()
 	local motions = ResampleCameraMotion(cam_path_nodes)
 
 	-- music
-    demo_soundtrack_sound = hg.OpenALLoadOGGSoundAsset("audio/landslide(short).ogg")
+    demo_soundtrack_sound = hg.LoadOGGSoundAsset("audio/landslide(short).ogg")
     demo_soundtrack_ref = nil
 
 	local frame = 0
@@ -176,7 +176,7 @@ function main()
 	-- play music
 	if demo_soundtrack_sound then
 		if demo_soundtrack_ref == nil then
-			demo_soundtrack_ref = hg.OpenALPlayStereo(demo_soundtrack_sound, hg.OpenALStereoSourceState(1, hg.OALSR_Once))
+			demo_soundtrack_ref = hg.PlayStereo(demo_soundtrack_sound, hg.StereoSourceState(1, hg.SR_Once))
 		end
 	end
 
