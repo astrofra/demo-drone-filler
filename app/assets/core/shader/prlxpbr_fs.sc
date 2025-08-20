@@ -145,15 +145,21 @@ void main() {
 	mat3 TBN;
 
 #if USE_NORMAL_MAP
-	// Compute tangent space view vector
+	// // Compute tangent space view vector
+	// T = normalize(vTangent);
+	// B = normalize(vBinormal);
+	// TBN = mat3(T, B, N);
+	// vec3 V_tangent = normalize(mul(V, TBN));
+
+	// Correct projection: World View vector to Tangent Space
 	T = normalize(vTangent);
 	B = normalize(vBinormal);
-	// TBN = mtxFromRows(T, B, normalize(vNormal));
-	// vec3 V_tangent = normalize(mul(V, TBN));
-	// TBN = transpose(mat3(T, B, N));
+	// vec3 N = normalize(vNormal); // or from normal map later
 	TBN = mat3(T, B, N);
-	// vec3 V_tangent = normalize(mul(TBN, V));
-	vec3 V_tangent = normalize(mul(V, TBN));
+
+	vec3 V_world = normalize(GetT(u_invView) - vWorldPos);
+	vec3 V_tangent = normalize(mul(transpose(TBN), V_world).xyz);
+
 
 	// Sample height from normal map alpha channel
 	float height = 0.0;
@@ -170,7 +176,7 @@ void main() {
 
 // Offset UVs in tangent space, ignore vertical component
 	vec2 offset_dir = mix(V_tangent.xy, V_tangent.yx, uParallax.z);
-	vec2 offset_uv = vTexCoord0 + parallax_offset * V_tangent.yx;
+	vec2 offset_uv = vTexCoord0 + parallax_offset * offset_dir;
 #else
 	vec2 offset_uv = vTexCoord0;
 #endif
