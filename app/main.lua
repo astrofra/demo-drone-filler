@@ -131,7 +131,7 @@ function main()
     pipeline_aaa_config.motion_blur = 0.25
 	pipeline_aaa_config.bloom_threshold = 0.01
 	pipeline_aaa_config.bloom_bias = 0.5
-	pipeline_aaa_config.bloom_intensity = 0.7
+	pipeline_aaa_config.bloom_intensity = 0.75
 
 	local start_clock = hg.GetClock()
 	local intro_duration_f = 15.0 -- in seconds
