@@ -1,1 +1,2 @@
 python 3-package-win.py
+pause

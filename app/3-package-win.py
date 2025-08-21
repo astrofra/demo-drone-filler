@@ -32,7 +32,7 @@ except:
     print("nothing to cleanup")
 shutil.copytree(os.path.join(input_bin_path, input_lua_path), os.path.join(output_path, output_lua_path))
 
-for _to_del in ["assimp_converter", "fbx_converter", "gltf_exporter", "gltf_importer", "assetc"]:
+for _to_del in ["assetc"]:
     shutil.rmtree(os.path.join(output_path, output_lua_path, "harfang", _to_del), ignore_errors=False, onerror=None)
 
 # copy lua files
