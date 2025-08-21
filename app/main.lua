@@ -131,36 +131,36 @@ function main()
     pipeline_aaa_config.motion_blur = 0.25
 	pipeline_aaa_config.bloom_threshold = 0.01
 	pipeline_aaa_config.bloom_bias = 0.5
-	pipeline_aaa_config.bloom_intensity = 0.75
+	pipeline_aaa_config.bloom_intensity = 0.95
 
 	local start_clock = hg.GetClock()
 	local intro_duration_f = 15.0 -- in seconds
 
-	while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(intro_duration_f)) do
-		dt = hg.TickClock()
-		keyboard:Update()
-		-- Update main_scene
-		intro_scene:Update(dt)
+	-- while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(intro_duration_f)) do
+	-- 	dt = hg.TickClock()
+	-- 	keyboard:Update()
+	-- 	-- Update main_scene
+	-- 	intro_scene:Update(dt)
 
-		-- and submit for rendering
-		local views = hg.SceneForwardPipelinePassViewId()
-		local view_id = 0
-		local passId
+	-- 	-- and submit for rendering
+	-- 	local views = hg.SceneForwardPipelinePassViewId()
+	-- 	local view_id = 0
+	-- 	local passId
 
-		-- -- bg clear
-		-- hg.SetViewClear(view_id, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
-		-- hg.SetViewRect(view_id, 0, 0, res_x, res_y)
+	-- 	-- -- bg clear
+	-- 	-- hg.SetViewClear(view_id, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
+	-- 	-- hg.SetViewRect(view_id, 0, 0, res_x, res_y)
 
-		-- -- hg.Touch(view_id)
-		-- view_id = view_id + 1
+	-- 	-- -- hg.Touch(view_id)
+	-- 	-- view_id = view_id + 1
 
-		-- main scene render
-		view_id, passId = hg.SubmitSceneToPipeline(view_id, intro_scene, hg.IntRect(0, 0, res_x, res_y), true, pipeline, res, pipeline_aaa, pipeline_aaa_config, frame)
-		view_id = view_id + 1
+	-- 	-- main scene render
+	-- 	view_id, passId = hg.SubmitSceneToPipeline(view_id, intro_scene, hg.IntRect(0, 0, res_x, res_y), true, pipeline, res, pipeline_aaa, pipeline_aaa_config, frame)
+	-- 	view_id = view_id + 1
 
-		frame = hg.Frame()
-		hg.UpdateWindow(win)
-	end
+	-- 	frame = hg.Frame()
+	-- 	hg.UpdateWindow(win)
+	-- end
 
 	local main_cam = main_scene:GetNode("Camera")
 	main_scene:SetCurrentCamera(main_cam)
@@ -171,7 +171,7 @@ function main()
     pipeline_aaa_config.motion_blur = 0.25
 	pipeline_aaa_config.bloom_threshold = 0.01
 	pipeline_aaa_config.bloom_bias = 0.5
-	pipeline_aaa_config.bloom_intensity = 0.55
+	pipeline_aaa_config.bloom_intensity = 0.75
 
 	-- play music
 	if demo_soundtrack_sound then
@@ -203,8 +203,8 @@ function main()
 		local drop_0_in, drop_0_out = 140.381 + drop_offset, 140.780 + drop_offset
 		local drop_1_in, drop_1_out = 141.690 + drop_offset, 141.975 + drop_offset
 
-		dof_intensity = dof_intensity + clamp(map(frame_clock_f, 0.0, 15.0, 1.0, 0.0), 0.0, 1.0)
-		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 25.0 + end_offset, motion_duration_f + end_offset, 0.0, 1.0), 0.0, 1.0)
+		dof_intensity = dof_intensity + clamp(map(frame_clock_f, 0.0, 6.65, 1.0, 0.0), 0.0, 1.0)
+		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 15.0 + end_offset, motion_duration_f + end_offset, 0.0, 1.0), 0.0, 1.0)
 
 		if frame_clock_f >= drop_0_in and frame_clock_f <= drop_0_out then
 			dof_intensity = math.max(dof_intensity, 0.8)
@@ -213,16 +213,21 @@ function main()
 		end
 
 		if dof_intensity > 0.0 then
-			pipeline_aaa_config.dof_focus_length = hg.Lerp(1000.0, 1.0, dof_intensity) 
+			pipeline_aaa_config.dof_focus_length = hg.Lerp(250.0, 1.0, dof_intensity^0.15)
 			pipeline_aaa_config.dof_focus_point	= 10.0
 			pipeline_aaa_config.motion_blur = hg.Lerp(2.5, 5.0, dof_intensity * dof_intensity * dof_intensity)
 			pipeline_aaa_config.exposure = hg.Lerp(1.5, 0.0, dof_intensity * dof_intensity * dof_intensity)
+			pipeline_aaa_config.bloom_intensity = 0.55
 		else
 			pipeline_aaa_config.dof_focus_length = 0.0
 			pipeline_aaa_config.dof_focus_point	= 0.0
 			pipeline_aaa_config.motion_blur = 0.25
 			pipeline_aaa_config.exposure = 1.5
+			pipeline_aaa_config.bloom_intensity = 0.75
 		end
+
+		-- pipeline_aaa_config.dof_focus_length = 10.0
+		-- pipeline_aaa_config.dof_focus_point	= 10.0
 
 		-- Camera motion
 		local cam_mat_table = {}

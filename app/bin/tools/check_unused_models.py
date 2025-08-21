@@ -13,11 +13,11 @@ def find_referenced_images_in_scn(scn_file):
     return referenced_images
 
 def find_paths(data_structure):
-    """Recursively search for "path" keys in JSON data structure."""
+    """Recursively search for "name" keys in JSON data structure."""
     paths = set()
     if isinstance(data_structure, dict):
         for key, value in data_structure.items():
-            if key == "path" and isinstance(value, str):
+            if key == "name" and isinstance(value, str):
                 paths.add(value)
             else:
                 paths.update(find_paths(value))
@@ -29,7 +29,7 @@ def find_paths(data_structure):
 def find_unreferenced_images(folder_path):
     """Find image files that are not referenced in any .scn file, excluding specific folders."""
     # Extensions to search for
-    image_extensions = ['.png', '.jpg', '.jpeg']
+    image_extensions = ['.geo']
     # Collect all referenced images from .scn files
     all_referenced_images = set()
     # Collect all image files
@@ -60,6 +60,6 @@ if __name__ == "__main__":
     if unreferenced_images:
         print("Unreferenced image files:")
         for image in unreferenced_images:
-            print("del " + image.replace("/", "\\"))
+            print("del " + image.replace('/', '\\'))
     else:
         print("No unreferenced image files found.")
