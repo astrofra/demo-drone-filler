@@ -90,7 +90,6 @@
 				4294967295
 			],
 			"disabled": false,
-			"editor": false,
 			"idx": 0,
 			"name": "SM_CCTV_Monitor_02"
 		},
@@ -103,7 +102,6 @@
 				4294967295
 			],
 			"disabled": false,
-			"editor": false,
 			"idx": 1,
 			"name": "root"
 		},
@@ -116,7 +114,6 @@
 				4294967295
 			],
 			"disabled": true,
-			"editor": false,
 			"idx": 2,
 			"name": "Light"
 		}
@@ -124,7 +121,6 @@
 	"objects": [
 		{
 			"bones": [],
-			"flags": [],
 			"material_infos": [
 				{
 					"name": "SM_CCTV_Monitor_box"
@@ -280,6 +276,16 @@
 							]
 						},
 						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.05000000074505806,
+								2.0,
+								0.0,
+								0.0
+							]
+						},
+						{
 							"name": "uSelf",
 							"type": "vec4",
 							"value": [
@@ -307,8 +313,7 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor_cctv_photo/SM_CCTV_Monitor_02_47.geo",
-			"shadow": ""
+			"name": "props/monitor_cctv_photo/SM_CCTV_Monitor_02_47.geo"
 		}
 	],
 	"scene_anims": [

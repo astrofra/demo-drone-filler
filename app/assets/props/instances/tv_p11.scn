@@ -59,7 +59,6 @@
 				4294967295
 			],
 			"disabled": false,
-			"editor": false,
 			"idx": 0,
 			"name": "SM_CCTV_Monitor_02"
 		},
@@ -72,15 +71,25 @@
 				4294967295
 			],
 			"disabled": false,
-			"editor": false,
 			"idx": 1,
 			"name": "root"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 2,
+			"name": "super_root"
 		}
 	],
 	"objects": [
 		{
 			"bones": [],
-			"flags": [],
 			"material_infos": [
 				{
 					"name": "SM_CCTV_Monitor_box"
@@ -236,6 +245,16 @@
 							]
 						},
 						{
+							"name": "uParallax",
+							"type": "vec4",
+							"value": [
+								0.05000000074505806,
+								1.0,
+								0.0,
+								0.0
+							]
+						},
+						{
 							"name": "uSelf",
 							"type": "vec4",
 							"value": [
@@ -263,8 +282,7 @@
 					"write_z": true
 				}
 			],
-			"name": "props/monitor_cctv_photo/SM_CCTV_Monitor_02_47.geo",
-			"shadow": ""
+			"name": "props/monitor_cctv_photo/SM_CCTV_Monitor_02_47.geo"
 		}
 	],
 	"scene_anims": [
@@ -286,7 +304,7 @@
 				-0.14455898106098175
 			],
 			"rot": [
-				89.99996948242188,
+				89.99996185302734,
 				0.0,
 				0.0
 			],
@@ -294,6 +312,24 @@
 				1.0,
 				1.0,
 				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.4500000476837158,
+				1.4500000476837158,
+				1.4500000476837158
 			]
 		},
 		{
@@ -309,9 +345,9 @@
 				0.0
 			],
 			"scl": [
-				1.4500000476837158,
-				1.4500000476837158,
-				1.4500000476837158
+				1.0750000476837158,
+				1.0750000476837158,
+				1.0750000476837158
 			]
 		}
 	]
