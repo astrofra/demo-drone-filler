@@ -63,7 +63,73 @@
 							},
 							{
 								"bias": 0.0,
+								"t": 3100000000,
+								"tension": 0.0,
+								"v": [
+									1.0,
+									0.3216000199317932,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"bias": 0.0,
+								"t": 3200000000,
+								"tension": 0.0,
+								"v": [
+									1.0,
+									1.0,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"bias": 0.0,
 								"t": 3500000000,
+								"tension": 0.0,
+								"v": [
+									1.0,
+									1.0,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"bias": 0.0,
+								"t": 5000000000,
+								"tension": 0.0,
+								"v": [
+									1.0,
+									1.0,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"bias": 0.0,
+								"t": 10000000000,
+								"tension": 0.0,
+								"v": [
+									1.0,
+									1.0,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"bias": 0.0,
+								"t": 12500000000,
+								"tension": 0.0,
+								"v": [
+									1.0,
+									1.0,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"bias": 0.0,
+								"t": 13000000000,
 								"tension": 0.0,
 								"v": [
 									1.0,
@@ -173,7 +239,6 @@
 				4294967295
 			],
 			"disabled": true,
-			"editor": false,
 			"idx": 0,
 			"name": "screen"
 		},
@@ -186,7 +251,6 @@
 				4294967295
 			],
 			"disabled": false,
-			"editor": false,
 			"idx": 1,
 			"name": "TestCamera"
 		}
@@ -194,7 +258,6 @@
 	"objects": [
 		{
 			"bones": [],
-			"flags": [],
 			"material_infos": [
 				{
 					"name": "default"
@@ -253,8 +316,7 @@
 					"write_z": true
 				}
 			],
-			"name": "common/primitives/plane.geo",
-			"shadow": ""
+			"name": "common/primitives/plane.geo"
 		}
 	],
 	"scene_anims": [
