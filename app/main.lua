@@ -144,31 +144,31 @@ function main()
 	local start_clock = hg.GetClock()
 	local intro_duration_f = 15.0 -- in seconds
 
-	-- while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(intro_duration_f)) do
-	-- 	dt = hg.TickClock()
-	-- 	keyboard:Update()
-	-- 	-- Update main_scene
-	-- 	intro_scene:Update(dt)
+	while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(intro_duration_f)) do
+		dt = hg.TickClock()
+		keyboard:Update()
+		-- Update main_scene
+		intro_scene:Update(dt)
 
-	-- 	-- and submit for rendering
-	-- 	local views = hg.SceneForwardPipelinePassViewId()
-	-- 	local view_id = 0
-	-- 	local passId
+		-- and submit for rendering
+		local views = hg.SceneForwardPipelinePassViewId()
+		local view_id = 0
+		local passId
 
-	-- 	-- -- bg clear
-	-- 	-- hg.SetViewClear(view_id, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
-	-- 	-- hg.SetViewRect(view_id, 0, 0, res_x, res_y)
+		-- -- bg clear
+		-- hg.SetViewClear(view_id, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
+		-- hg.SetViewRect(view_id, 0, 0, res_x, res_y)
 
-	-- 	-- -- hg.Touch(view_id)
-	-- 	-- view_id = view_id + 1
+		-- -- hg.Touch(view_id)
+		-- view_id = view_id + 1
 
-	-- 	-- main scene render
-	-- 	view_id, passId = hg.SubmitSceneToPipeline(view_id, intro_scene, hg.IntRect(0, 0, res_x, res_y), true, pipeline, res, pipeline_aaa, pipeline_aaa_config, frame)
-	-- 	view_id = view_id + 1
+		-- main scene render
+		view_id, passId = hg.SubmitSceneToPipeline(view_id, intro_scene, hg.IntRect(0, 0, res_x, res_y), true, pipeline, res, pipeline_aaa, pipeline_aaa_config, frame)
+		view_id = view_id + 1
 
-	-- 	frame = hg.Frame()
-	-- 	hg.UpdateWindow(win)
-	-- end
+		frame = hg.Frame()
+		hg.UpdateWindow(win)
+	end
 
 	local main_cam = main_scene:GetNode("Camera")
 	main_scene:SetCurrentCamera(main_cam)
