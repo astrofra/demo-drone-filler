@@ -2,8 +2,16 @@ hg = require("harfang")
 require("utils")
 require("linear_filter")
 require("camera_motion")
+require("audio_data")
+require("sfx_dynamics")
 
 math.randomseed(os.time())
+
+function GetAudioDynamics(dynamics_table, clock, total_duration)
+    local idx = math.floor((clock * #dynamics_table) / total_duration) + 1
+    idx = math.min(idx, #dynamics_table)
+    return clamp(dynamics_table[idx], 0.0, 1.0) -- 0.975)
+end
 
 function RefreshLoadingWindow(window, display_res_x, display_res_y, progress_value, bg_color)
 	bg_color = bg_color or hg.Color.Blue
@@ -183,6 +191,8 @@ function main()
 	local start_clock = hg.GetClock()
 	local motion_duration_f = 2.0 * 60.0 + 26.0 -- in seconds
 
+	local target_bloom_intensity = 0.55
+
 	-- Main render loop
 	-- Run until the user closes the window or presses the Escape key
 	while not keyboard:Pressed(hg.K_Escape) and hg.IsWindowOpen(win) and (hg.GetClock() - start_clock < hg.time_from_sec_f(motion_duration_f + 2.0)) do
@@ -199,32 +209,36 @@ function main()
 		-- post fx
 		local dof_intensity = 0.0
 		local end_offset = -2.5
-		local drop_offset = -1.0
-		local drop_0_in, drop_0_out = 140.381 + drop_offset, 140.780 + drop_offset
-		local drop_1_in, drop_1_out = 141.690 + drop_offset, 141.975 + drop_offset
+		-- local drop_offset = -1.0
+		-- local drop_0_in, drop_0_out = 140.381 + drop_offset, 140.780 + drop_offset
+		-- local drop_1_in, drop_1_out = 141.690 + drop_offset, 141.975 + drop_offset
 
 		dof_intensity = dof_intensity + clamp(map(frame_clock_f, 0.0, 6.65, 1.0, 0.0), 0.0, 1.0)
 		dof_intensity = dof_intensity + clamp(map(frame_clock_f, motion_duration_f - 15.0 + end_offset, motion_duration_f + end_offset, 0.0, 1.0), 0.0, 1.0)
 
-		if frame_clock_f >= drop_0_in and frame_clock_f <= drop_0_out then
-			dof_intensity = math.max(dof_intensity, 0.8)
-		elseif frame_clock_f >= drop_1_in and frame_clock_f <= drop_1_out then
-			dof_intensity = 1.0
-		end
+		dof_intensity = math.max(dof_intensity, clamp(4.0 * GetAudioDynamics(sfx_dynamics, frame_clock_f, audio_metadata['landslide(short).ogg'].duration), 0.0, 1.0))
+
+		-- if frame_clock_f >= drop_0_in and frame_clock_f <= drop_0_out then
+		-- 	dof_intensity = math.max(dof_intensity, 0.8)
+		-- elseif frame_clock_f >= drop_1_in and frame_clock_f <= drop_1_out then
+		-- 	dof_intensity = 1.0
+		-- end
 
 		if dof_intensity > 0.0 then
-			pipeline_aaa_config.dof_focus_length = hg.Lerp(250.0, 1.0, dof_intensity^0.15)
+			pipeline_aaa_config.dof_focus_length = hg.Lerp(1000.0, 1.0, dof_intensity^0.05)
 			pipeline_aaa_config.dof_focus_point	= 10.0
 			pipeline_aaa_config.motion_blur = hg.Lerp(2.5, 5.0, dof_intensity * dof_intensity * dof_intensity)
 			pipeline_aaa_config.exposure = hg.Lerp(1.5, 0.0, dof_intensity * dof_intensity * dof_intensity)
-			pipeline_aaa_config.bloom_intensity = 0.55
+			target_bloom_intensity = 0.55
 		else
 			pipeline_aaa_config.dof_focus_length = 0.0
 			pipeline_aaa_config.dof_focus_point	= 0.0
 			pipeline_aaa_config.motion_blur = 0.25
 			pipeline_aaa_config.exposure = 1.5
-			pipeline_aaa_config.bloom_intensity = 0.75
+			target_bloom_intensity = 0.75
 		end
+
+		pipeline_aaa_config.bloom_intensity = hg.Lerp(pipeline_aaa_config.bloom_intensity, target_bloom_intensity, 0.01)
 
 		-- pipeline_aaa_config.dof_focus_length = 10.0
 		-- pipeline_aaa_config.dof_focus_point	= 10.0
