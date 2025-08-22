@@ -60,6 +60,6 @@ if __name__ == "__main__":
     if unreferenced_images:
         print("Unreferenced image files:")
         for image in unreferenced_images:
-            print(image)
+            print("del " + image.replace("/", "\\"))
     else:
         print("No unreferenced image files found.")

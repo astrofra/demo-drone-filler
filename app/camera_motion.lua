@@ -1,5 +1,4 @@
 -- Camera motion resampling & sampling
-
 require("utils")
 
 -- Compute a "metric" length between two camera transforms
@@ -54,10 +53,8 @@ local function _locate_at_metric(cum, mats, s, rot_weight)
     return i, clamp(t, 0.0, 1.0)
 end
 
--- Public API #1
 -- ResampleCameraMotion(camera_nodes, opts) -> motion
 -- camera_nodes: array of HARFANG nodes already ordered along the path.
--- opts:
 --   step:      metric step (default 0.10) where 1.0 metric = 1m + rot_weight*1rad
 --   rot_weight:meters per radian (default 1.0). Increase to "value" rotation changes more.
 --   include_ends: include exact endpoints (default true)
@@ -128,7 +125,6 @@ function ResampleCameraMotion(camera_nodes, opts)
     }
 end
 
--- Public API #2
 -- GetCameraMotionSample(motion, u) -> Mat4
 -- u in [0,1] maps uniformly across resampled frames, constant speed
 function GetCameraMotionSample(motion, u)

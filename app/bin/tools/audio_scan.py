@@ -4,7 +4,7 @@ import soundfile as sf
 # Dossier contenant les fichiers audio .ogg
 audio_folder = "../../assets/audio"
 # Fichier de sortie Lua
-output_lua_file = "../../audio/audio_data.lua"
+output_lua_file = "../../audio_data.lua"
 
 # Dictionnaire pour stocker les métadonnées
 audio_data = {}
