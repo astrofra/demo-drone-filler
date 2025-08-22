@@ -11,8 +11,8 @@
 90 FOR I=1 TO 4
 100   LOCATE 2,R:PRINT "> ";G$(I);" ...";
 110   SPINCOL=20:SPINROW=R
-120   STEPS=8        :' spinner duration (frames)
-130   GOSUB 500       :' do spinner
+120   STEPS=8 :' spinner duration (frames)
+130   GOSUB 500 :' do spinner
 140   LOCATE SPINCOL,SPINROW:PRINT "   ";
 150   LOCATE SPINCOL,SPINROW:PRINT G2$(I)
 160   R=R+1
@@ -21,14 +21,11 @@
 185 CALL &BB18
 190 END
 200 '
-210 ' -------------------- spinner subroutine --------------------
-220 ' Uses | / - \ cycling at fixed cursor position with crude delay
-230 ' S$ = sequence of glyphs built from ASCII codes
-240 '
+210 ' --- spinner subroutine
 500 S$=CHR$(124)+CHR$(47)+CHR$(45)+CHR$(92)
 510 FOR K=1 TO STEPS
 520   C=1+((K-1) MOD 4)
 530   LOCATE SPINCOL,SPINROW:PRINT MID$(S$,C,1);
-540   FOR D=1 TO 120:NEXT D      :' delay, tweak for speed
+540   FOR D=1 TO 120:NEXT D :' delay, tweak for speed
 550 NEXT K
 560 RETURN
