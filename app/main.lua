@@ -92,8 +92,10 @@ function main()
 	-- pipeline_aaa_config.bloom_intensity = 0.25
 	-- pipeline_aaa_config.bloom_threshold = 0.01
 
+	-- Force display init
 	hg.SetViewClear(0, hg.CF_Color | hg.CF_Depth, bg_color, 0.0, 0)
 	hg.SetViewRect(0, 0, 0, res_x, res_y)
+	hg.Touch(0)
 	hg.Frame()
 	hg.UpdateWindow(win)
 
@@ -120,7 +122,10 @@ function main()
 
 	local motions = ResampleCameraMotion(cam_path_nodes)
 
-	-- music
+	-- music & sfx
+    intro_soundtrack_sound = hg.LoadOGGSoundAsset("audio/intro.ogg")
+    intro_soundtrack_ref = nil
+
     demo_soundtrack_sound = hg.LoadOGGSoundAsset("audio/landslide(short).ogg")
     demo_soundtrack_ref = nil
 
@@ -140,6 +145,13 @@ function main()
 	pipeline_aaa_config.bloom_threshold = 0.01
 	pipeline_aaa_config.bloom_bias = 0.5
 	pipeline_aaa_config.bloom_intensity = 0.95
+
+	-- play intro sfx
+	if intro_soundtrack_sound then
+		if intro_soundtrack_ref == nil then
+			intro_soundtrack_ref = hg.PlayStereo(intro_soundtrack_sound, hg.StereoSourceState(1, hg.SR_Once))
+		end
+	end
 
 	local start_clock = hg.GetClock()
 	local intro_duration_f = 15.0 -- in seconds
