@@ -19,7 +19,7 @@ start-demo.bat
 ## 📎 Links
 
 - :trumpet: [Pouët release page](https://www.pouet.net/prod.php?which=104752)
-- 📽️ [Video capture](https://www.youtube.com/watch?v=veJeqzyD5VE)
+- 📽️ [Video capture](https://www.youtube.com/watch?v=ZShYipir2Eg)
 - 💾 [Download & binaries](https://github.com/astrofra/demo-drone-filler/releases)  
 
 ---
